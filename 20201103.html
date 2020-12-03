@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+  
+  <title>C++的关键字（保留字）完整介绍 - 南城北望</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="金谷年年，乱生春色谁为主。余花落处，满地和烟雨。又是离歌，一阕长亭暮。王孙去。萋萋无数。南北东西路。">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  
+
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/head/logo.png" type="image/png" />
+  <meta name="description" content="1. asm asm (指令字符串)：允许在 C++ 程序中嵌入汇编代码。 2. auto auto（自动，automatic）是存储类型标识符，表明变量”自动”具有本地范围，块范围的变量声明（如for循环体内的变量声明）默认为auto存储类型。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C++的关键字（保留字）完整介绍">
+<meta property="og:url" content="https://r9.cm/20201103.html">
+<meta property="og:site_name" content="南城北望">
+<meta property="og:description" content="1. asm asm (指令字符串)：允许在 C++ 程序中嵌入汇编代码。 2. auto auto（自动，automatic）是存储类型标识符，表明变量”自动”具有本地范围，块范围的变量声明（如for循环体内的变量声明）默认为auto存储类型。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img.shields.io/badge/R9-CM-orange">
+<meta property="og:image" content="https://img.shields.io/badge/%E5%8D%97%E5%9F%8E-%E5%8C%97%E6%9C%9B-red">
+<meta property="article:published_time" content="2020-11-03T12:00:00.000Z">
+<meta property="article:modified_time" content="2020-12-03T03:34:17.000Z">
+<meta property="article:author" content="南城北望">
+<meta property="article:tag" content="C++">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.shields.io/badge/R9-CM-orange">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css?v=233" crossorigin>
+  
+  <link rel="stylesheet" href="/css/style.css?v=1607004242085">
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body class="mdui-drawer-body-left">
+  
+  <div id="nexmoe-background">
+    <div class="nexmoe-bg" style="background-image: url(https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201129160717.jpg)"></div>
+    <div class="mdui-appbar mdui-shadow-0">
+      <div class="mdui-toolbar">
+        <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+        <div class="mdui-toolbar-spacer"></div>
+        <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+        <a href="/" title="南城北望" class="mdui-btn mdui-btn-icon"><img src="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/head/bliss.gif" alt="南城北望"></a>
+       </div>
+    </div>
+  </div>
+  <div id="nexmoe-header">
+      <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="南城北望">
+            <img src="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/head/bliss.gif" alt="南城北望" alt="南城北望">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>9</div>
+        <div><span>标签</span>10</div>
+        <div><span>分类</span>4</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/links.html" title="我的朋友">
+            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
+            <div class="mdui-list-item-content">
+                我的朋友
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/atom.xml" title="RSS订阅">
+            <i class="mdui-list-item-icon nexmoefont icon-rss"></i>
+            <div class="mdui-list-item-content">
+                RSS订阅
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+  
+  <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://qm.qq.com/cgi-bin/qm/qr?k=SH-qn2fiO6UY1718lSp69k5tZxlKlhEt&noverify=0" target="_blank" mdui-tooltip="{content: 'QQ'}" style="color: rgb(249, 174, 8);background-color: rgba(249, 174, 8, .1);">
+            <i class="nexmoefont icon-QQ"></i>
+        </a><a class="mdui-ripple" href="mailto:t3@outlook.ie?subject" target="_blank" mdui-tooltip="{content: 'E-mail'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
+            <i class="nexmoefont icon-mail-fill"></i>
+        </a><a class="mdui-ripple" href="https://yingguoxg.com/" target="_blank" mdui-tooltip="{content: 'Blog'}" style="color: rgb(249, 38, 89);background-color: rgba(249, 38, 89, .15);">
+            <i class="nexmoefont icon-tag-fill"></i>
+        </a>
+    </div>
+</div>
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/分享/">分享</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习/">学习</a>
+          <span class="category-list-count">6</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/生活/">生活</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/随笔/">随笔</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/OneDrive/" style="font-size: 10px;">OneDrive</a> <a href="/tags/Outlook/" style="font-size: 10px;">Outlook</a> <a href="/tags/PicGo/" style="font-size: 10px;">PicGo</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 20px;">前端</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">博客</a> <a href="/tags/%E5%9B%BE%E5%BA%8A/" style="font-size: 10px;">图床</a> <a href="/tags/%E6%9C%80%E5%88%9D/" style="font-size: 10px;">最初</a> <a href="/tags/%E7%94%B5%E8%84%91/" style="font-size: 10px;">电脑</a>
+    </div>
+    
+  </div>
+
+  
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2020 南城北望
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+		
+		
+			</br>
+			<center>网站已经运行了<br><span id="htmer_time" style="color: green;"></span>
+				<script>
+				function secondToDate(second) {
+				if (!second) {
+				return 0;
+				}
+				var time = new Array(0, 0, 0, 0, 0);
+				if (second >= 365 * 24 * 3600) {
+				time[0] = parseInt(second / (365 * 24 * 3600));
+				second %= 365 * 24 * 3600;
+				}
+				if (second >= 24 * 3600) {
+				time[1] = parseInt(second / (24 * 3600));
+				second %= 24 * 3600;
+				}
+				if (second >= 3600) {
+				time[2] = parseInt(second / 3600);
+				second %= 3600;
+				}
+				if (second >= 60) {
+				time[3] = parseInt(second / 60);
+				second %= 60;
+				}
+				if (second > 0) {
+				time[4] = second;
+				}
+				return time;
+				}</script><script type="text/javascript" language="javascript">
+				function setTime() {
+				var create_time = Math.round(new Date(Date.UTC(2019, 11, 17, 10, 0, 0)).getTime() / 1000);
+				var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+				currentTime = secondToDate((timestamp - create_time));
+				currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+				+ currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+				+ '秒';
+				document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+				} setInterval(setTime, 1000);</script>
+			</center>
+			
+    </div>
+</div><!-- .nexmoe-drawer -->
+  </div>
+  <div id="nexmoe-content">
+    <div class="nexmoe-primary">
+        <div class="nexmoe-post">
+  
+      <div class="nexmoe-post-cover" style="padding-bottom: 62.5%;"> 
+          <img data-src="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201130221310.jpg" data-sizes="auto" alt="C++的关键字（保留字）完整介绍" class="lazyload">
+          <h1>C++的关键字（保留字）完整介绍</h1>
+      </div>
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2020年11月03日</a>
+    <a><i class="nexmoefont icon-areachart"></i>3.6k 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 15 分钟</a>
+</div>
+
+  <div class="nexmoe-post-right">
+    
+      <div class="nexmoe-fixed">
+        <div class="nexmoe-valign">
+            <div class="nexmoe-toc">
+                
+            </div>
+        </div>
+      </div>
+    
+  </div>
+
+  <article>
+    <p><img data-fancybox="gallery" data-sizes="auto" data-src="https://img.shields.io/badge/R9-CM-orange" alt="r9.cm" class="lazyload"> <img data-fancybox="gallery" data-sizes="auto" data-src="https://img.shields.io/badge/%E5%8D%97%E5%9F%8E-%E5%8C%97%E6%9C%9B-red" alt="南城北望" class="lazyload"></p>
+<blockquote>
+<p><strong>1. asm</strong></p>
+<p>asm (指令字符串)：允许在 C++ 程序中嵌入汇编代码。</p>
+<p><strong>2. auto</strong></p>
+<p>auto（自动，automatic）是存储类型标识符，表明变量”自动”具有本地范围，块范围的变量声明（如for循环体内的变量声明）默认为auto存储类型。</p>
+</blockquote>
+<a id="more"></a>
+
+<blockquote>
+<p><strong>3. bool</strong></p>
+<p>bool（布尔）类型，C++ 中的基本数据结构，其值可选为 true（真）或者 false（假）。C++ 中的 bool 类型可以和 int 混用，具体来说就是 0 代表 false，非 0 代表 true。bool 类型常用于条件判断和函数返回值。</p>
+<p><strong>4. break</strong></p>
+<p>break（中断、跳出），用在switch语句或者循环语句中。程序遇到 break 后，即跳过该程序段，继续后面的语句执行。</p>
+<p><strong>5. case</strong></p>
+<p>用于 switch 语句中，用于判断不同的条件类型。</p>
+<p><strong>6. catch</strong></p>
+<p>catch 和 try 语句一起用于异常处理。</p>
+<p><strong>7. char</strong></p>
+<p>char（字符，character）类型，C++ 中的基本数据结构，其值一般为 0~255 的 int。这 256 个字符对应着 256 个 ASCII 码。char 类型的数据需要用单引号 <strong>‘</strong> 括起来。</p>
+<p><strong>8.class</strong></p>
+<p>class（类）是 C++ 面向对象设计的基础。使用 class 关键字声明一个类。</p>
+<p><strong>9. const</strong></p>
+<p>const（常量的，constant）所修饰的对象或变量不能被改变，修饰函数时，该函数不能改变在该函数外面声明的变量也不能调用任何非const函数。在函数的声明与定义时都要加上const，放在函数参数列表的最后一个括号后。在 C++ 中，用 const 声明一个变量，意味着该变量就是一个带类型的常量，可以代替 #define，且比 #define 多一个类型信息，且它执行内链接，可放在头文件中声明；但在 C 中，其声明则必须放在源文件（即 .C 文件）中，在 C 中 const 声明一个变量，除了不能改变其值外，它仍是一具变量。如:</p>
+<pre><code>const double pi(3.14159);
+或
+const double pi = 3.14159;</code></pre>
+<p><strong>10. const_cast用法：</strong></p>
+<pre><code>const_cast&lt;type_id&gt; (expression)</code></pre>
+<p>该运算符用来修改类型的 const 或 volatile 属性。除了 const 或 volatile 修饰之外， type_id 和 expression 的类型是一样的。常量指针被转化成非常量指针，并且仍然指向原来的对象；常量引用被转换成非常量引用，并且仍然指向原来的对象；常量对象被转换成非常量对象。</p>
+<p><strong>11. continue</strong></p>
+<p>continue（继续）关键字用于循环结构。它使程序跳过代码段后部的部分，与 break 不同的是，continue 不是进入代码段后的部分执行，而是重新开始新的循环。因而它是”继续循环”之意，不是 break（跳出）。</p>
+<p><strong>12. default</strong></p>
+<p>default（默认、缺省）用于 switch 语句。当 switch 所有的 case 都不满足时，将进入 default 执行。default 只能放在 switch 语句所有的 case 之后，并且是可选的。</p>
+<p><strong>13. delete</strong></p>
+<p>delete（删除）释放程序动态申请的内存空间。delete 后面通常是一个指针或者数组 []，并且只能 delete 通过 new 关键字申请的指针，否则会发生段错误。</p>
+<p><strong>14. do</strong></p>
+<p>do-while是一类循环结构。与while循环不同，do-while循环保证至少要进入循环体一次。</p>
+<p><strong>15. double</strong></p>
+<p>double（双精度）类型，C++ 中的基本数据结构，以双精度形式存储一个浮点数。</p>
+<p><strong>16. dynamic_cast</strong></p>
+<p>dynamic_cast（动态转换），允许在运行时刻进行类型转换，从而使程序能够在一个类层次结构安全地转换类型。dynamic_cast 提供了两种转换方式，把基类指针转换成派生类指针，或者把指向基类的左值转换成派生类的引用。</p>
+<p><strong>17. else</strong></p>
+<p>else 紧跟在 if 后面，用于对 if 不成立的情况的选择。</p>
+<p><strong>18. enum</strong></p>
+<p>enum（枚举）类型，给出一系列固定的值，只能在这里面进行选择一个。</p>
+<p><strong>19. explicit</strong></p>
+<p>explicit（显式的）的作用是”禁止单参数构造函数”被用于自动型别转换，其中比较典型的例子就是容器类型。在这种类型的构造函数中你可以将初始长度作为参数传递给构造函数。</p>
+<p><strong>20. export</strong></p>
+<p>为了访问其他编译单元（如另一代码文件）中的变量或对象，对普通类型（包括基本数据类、结构和类），可以利用关键字 extern，来使用这些变量或对象时；但是对模板类型，则必须在定义这些模板类对象和模板函数时，使用标准 C++ 新增加的关键字 export（导出）。</p>
+<p><strong>21. extern</strong></p>
+<p>extern（外部的）声明变量或函数为外部链接，即该变量或函数名在其它文件中可见。被其修饰的变量（外部变量）是静态分配空间的，即程序开始时分配，结束时释放。用其声明的变量或函数应该在别的文件或同一文件的其它地方定义（实现）。在文件内声明一个变量或函数默认为可被外部使用。在 C++ 中，还可用来指定使用另一语言进行链接，这时需要与特定的转换符一起使用。目前仅支持 <strong>C</strong> 转换标记，来支持 C 编译器链接。使用这种情况有两种形式：</p>
+<pre><code>extern &quot;C&quot; 声明语句
+
+extern &quot;C&quot; &#123; 声明语句块 &#125;</code></pre>
+<p><strong>22. false</strong></p>
+<p>false（假的），C++ 的基本数据结构 bool 类型的值之一。等同于 int 的 0 值。</p>
+<p><strong>23. float</strong></p>
+<p>float（浮点数），C++ 中的基本数据结构，精度小于 double。</p>
+<p><strong>24. for</strong></p>
+<p>for 是 C++ 中的循环结构之一。</p>
+<p><strong>25. friend</strong></p>
+<p>friend（友元）声明友元关系。友元可以访问与其有 friend 关系的类中的 private/protected 成员，通过友元直接访问类中的 private/protected 成员的主要目的是提高效率。友元包括友元函数和友元类。</p>
+<p><strong>26. goto</strong></p>
+<p>goto（转到），用于无条件跳转到某一标号处开始执行。</p>
+<p><strong>27. if</strong></p>
+<p>if（如果），C++ 中的条件语句之一，可以根据后面的 bool 类型的值选择进入一个分支执行。</p>
+<p><strong>28. inline</strong></p>
+<p>inline（内联）函数的定义将在编译时在调用处展开。inline 函数一般由短小的语句组成，可以提高程序效率。</p>
+<p><strong>29. int</strong></p>
+<p>int（整型，integer），C++ 中的基本数据结构，用于表示整数，精度小于 long。</p>
+<p><strong>30. long</strong></p>
+<p>long（长整型，long integer），C++ 中的基本数据结构，用于表示长整数。</p>
+<p><strong>31. mutable</strong></p>
+<p>mutable（易变的）是 C++ 中一个不常用的关键字。只能用于类的非静态和非常量数据成员。由于一个对象的状态由该对象的非静态数据成员决定，所以随着数据成员的改变，对像的状态也会随之发生变化。如果一个类的成员函数被声明为 const 类型，表示该函数不会改变对象的状态，也就是该函数不会修改类的非静态数据成员。但是有些时候需要在该类函数中对类的数据成员进行赋值，这个时候就需要用到 mutable 关键字。</p>
+<p><strong>32. namespace</strong></p>
+<p>namespace（命名空间）用于在逻辑上组织类，是一种比类大的结构。</p>
+<p><strong>33. new</strong></p>
+<p>new（新建）用于新建一个对象。new 运算符总是返回一个指针。由 new 创建</p>
+<p><strong>34. operator</strong></p>
+<p>operator（操作符）用于操作符重载。这是 C++ 中的一种特殊的函数。</p>
+<p><strong>35. private</strong></p>
+<p>private（私有的），C++ 中的访问控制符。被标明为 private 的字段只能在本类以及友元中访问。</p>
+<p><strong>36. protected</strong></p>
+<p>protected（受保护的），C++ 中的访问控制符。被标明为 protected 的字段只能在本类以及其继承类和友元中访问。</p>
+<p><strong>37. public</strong></p>
+<p>public（公有的），C++ 中的访问控制符。被标明为 public 的字段可以在任何类</p>
+<p><strong>38.register</strong></p>
+<p>register（寄存器）声明的变量称着寄存器变量，在可能的情况下会直接存放在机器的寄存器中；但对 32 位编译器不起作用，当 global optimizations（全局优化）开的时候，它会做出选择是否放在自己的寄存器中；不过其它与 register 关键字有关的其它符号都对32位编译器有效。</p>
+<p><strong>39. reinterpret_cast</strong></p>
+<p>用法：</p>
+<pre><code>reinpreter_cast&lt;type-id&gt; (expression)</code></pre>
+<p>type-id 必须是一个指针、引用、算术类型、函数指针或者成员指针。它可以把一个指针转换成一个整数，也可以把一个整数转换成一个指针（先把一个指针转换成一个整数，在把该整数转换成原类型的指针，还可以得到原先的指针值）。</p>
+<p><strong>40. return</strong></p>
+<p>return（返回）用于在函数中返回值。程序在执行到 return 语句后立即返回，return 后面的语句无法执行到。</p>
+<p><strong>41. short</strong></p>
+<p>short（短整型，short integer），C++ 中的基本数据结构，用于表示整数，精度小于 int。</p>
+<p><strong>42. signed</strong></p>
+<p>signed（有符号），表明该类型是有符号数，和 unsigned 相反。数字类型（整型和浮点型）都可以用 signed 修饰。但默认就是 signed，所以一般不会显式使用。</p>
+<p><strong>43. sizeof</strong></p>
+<p>由于 C++ 每种类型的大小都是由编译器自行决定的，为了增加可移植性，可以用 sizeof 运算符获得该数据类型占用的字节数。</p>
+<p><strong>44. static</strong></p>
+<p>static（静态的）静态变量作用范围在一个文件内，程序开始时分配空间，结束时释放空间，默认初始化为 0，使用时可改变其值。静态变量或静态函数，只有本文件内的代码才可访问它，它的名字（变量名或函数名）在其它文件中不可见。因此也称为”文件作用域”。在 C++ 类的成员变量被声明为 static（称为静态成员变量），意味着它被该类的所有实例所共享，也就是说当某个类的实例修改了该静态成员变量，其修改值为该类的其它所有实例所见；而类的静态成员函数也只能访问静态成员（变量或函数）。类的静态成员变量必须在声明它的文件范围内进行初始化才能使用，private 类型的也不例外。</p>
+<p><strong>45. static_cast</strong></p>
+<p>用法：</p>
+<pre><code>static_cast &lt; type-id &gt; ( expression )</code></pre>
+<p>该运算符把 expression 转换为 type-id 类型，但没有运行时类型检查来保证转换的安全性。它主要有如下几种用法：</p>
+<ul>
+<li>① 用于类层次结构中基类和子类之间指针或引用的转换。进行上行转换（把子类的指针或引用转换成基类表示）是安全的；进行下行转换（把基类指针或引用转换成子类表示）时，由于没有动态类型检查，所以是不安全的。</li>
+<li>② 用于基本数据类型之间的转换，如把 int 转换成 char，把 int 转换成 enum。这种转换的安全性也要开发人员来保证。</li>
+<li>③ 把空指针转换成目标类型的空指针。</li>
+<li>④ 把任何类型的表达式转换成void类?</li>
+</ul>
+<p><strong>注意</strong> static_cast 不能转换掉 expression 的 const、volitale、或者 __unaligned 属性。</p>
+<p><strong>46. struct</strong></p>
+<p>struct（结构）类型，类似于 class 关键字，与 C 语言兼容（class 关键字是不与 C 语言兼容的），可以实现面向对象程序设计。</p>
+<p><strong>47. switch</strong></p>
+<p>switch（转换）类似于 if-else-if 语句，是一种多分枝语句。它提供了一种简洁的书写，并且能够生成效率更好的代码。但是，switch 后面的判断只能是int（char也可以，但char本质上也是一种int类型）。switch 语句最后的 default 分支是可选的。</p>
+<p><strong>48. template</strong></p>
+<p>template（模板），C++ 中泛型机制的实现。</p>
+<p><strong>49. this</strong></p>
+<p>this 返回调用者本身的指针。</p>
+<p><strong>50. throw</strong></p>
+<p>throw（抛出）用于实现 C++ 的异常处理机制，可以通过 throw 关键字”抛出”一个异常。</p>
+<p><strong>51. true</strong></p>
+<p>true（真的），C++ 的基本数据结构 bool 类型的值之一。等同于 int 的非 0 值。</p>
+<p><strong>52. try</strong></p>
+<p>try（尝试）用于实现 C++ 的异常处理机制。可以在 try 中调用可能抛出异常的函数，然后在 try 后面的 catch 中捕获并进行处理。</p>
+<p><strong>53. typedef</strong></p>
+<p>typedef（类型定义，type define），其格式为：</p>
+<pre><code>typedef  类型 定义名;</code></pre>
+<p>类型说明定义了一个数据类型的新名字而不是定义一种新的数据类型。定义名表示这个类型的新名字。</p>
+<p><strong>54. typeid</strong></p>
+<p>指出指针或引用指向的对象的实际派生类型。</p>
+<p><strong>55. typename</strong></p>
+<p>typename（类型名字）关键字告诉编译器把一个特殊的名字解释成一个类型。在下列情况下必须对一个 name 使用 typename 关键字：</p>
+<ul>
+<li>1． 一个唯一的name（可以作为类型理解），它嵌套在另一个类型中的。</li>
+<li>2． 依赖于一个模板参数，就是说：模板参数在某种程度上包含这个name。当模板参数使编译器在指认一个类型时产生了误解。</li>
+</ul>
+<p><strong>56. union</strong></p>
+<p>union（联合），类似于 enum。不同的是 enum 实质上是 int 类型的，而 union 可以用于所有类型，并且其占用空间是随着实际类型大小变化的。</p>
+<p><strong>57. unsigned</strong></p>
+<p>unsigned（无符号），表明该类型是无符号数，和 signed 相反。</p>
+<p><strong>58. using</strong></p>
+<p>表明使用 namespace。</p>
+<p><strong>59. virtual</strong></p>
+<p>virtual（虚的），C++ 中用来实现多态机制。</p>
+<p><strong>60. void</strong></p>
+<p>void（空的），可以作为函数返回值，表明不返回任何数据；可以作为参数，表明没有参数传入（C++中不是必须的）；可以作为指针使用。</p>
+<p><strong>61. volatile</strong></p>
+<p>volatile（不稳定的）限定一个对象可被外部进程（操作系统、硬件或并发线程等）改变，声明时的语法如下：</p>
+<pre><code>int volatile nVint;</code></pre>
+<p>这样的声明是不能达到最高效的，因为它们的值随时会改变，系统在需要时会经常读写这个对象的值。因此常用于像中断处理程序之类的异步进程进行内存单元访问。</p>
+<p><strong>62. wchar_t</strong></p>
+<p>wchar_t 是宽字符类型，每个 wchar_t 类型占 2 个字节，16 位宽。汉字的表示就要用到 wchar_t。</p>
+<blockquote>
+<p>文章来源：<a target="_blank" rel="noopener" href="https://blog.csdn.net/wuxinliulei/article/details/9787901">https://blog.csdn.net/wuxinliulei/article/details/9787901</a></p>
+</blockquote>
+</blockquote>
+
+  </article>
+
+  
+    
+  <div class="nexmoe-post-copyright">
+    <strong>本文作者：</strong>南城北望<br>
+    <strong>本文链接：</strong><a href="https://r9.cm/20201103.html" title="https:&#x2F;&#x2F;r9.cm&#x2F;20201103.html" target="_blank" rel="noopener">https:&#x2F;&#x2F;r9.cm&#x2F;20201103.html</a><br>
+    
+      <strong>版权声明：</strong>本作品采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可
+    
+  </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+        <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a>
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/C/" rel="tag">C++</a>
+    
+</div>
+
+  <div class="nexmoe-post-footer">
+    <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine@1.3.9/dist/Valine.min.js'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'Mu3lydHYNfFI9UNTEl9XqlQA-gzGzoHsz',
+        appKey: 'ewF84XaNnFEeX42AqNUfO8X2'
+    })
+</script>
+</section>
+  </div>
+</div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script>
+	hljs.initHighlightingOnLoad();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
+ <script src="/js/app.js?v=1607004242086"></script>
+
+  
+    <!-- Google Analytics -->
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'G-ENR3N4H1RH', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+
+
+
+
+    <!-- baidu Analytics -->
+<script>
+    var _hmt = _hmt || [];
+    (function() {var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?48068a1dab9539c660bf02cad4192e47';
+    var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</body>
+
+</html>

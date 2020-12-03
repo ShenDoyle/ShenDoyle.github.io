@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+  
+  <title>jsDelivr的使用方法 - 南城北望</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="金谷年年，乱生春色谁为主。余花落处，满地和烟雨。又是离歌，一阕长亭暮。王孙去。萋萋无数。南北东西路。">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  
+
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/head/logo.png" type="image/png" />
+  <meta name="description" content="jsDelivr是一款免费开源的公共CDN服务，很多站长会把网站的静态文件通过jsDelivr加速来访问，这样既实现了对网站的加速，又能节约不少网站CDN的流量，可谓是神器。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="jsDelivr的使用方法">
+<meta property="og:url" content="https://r9.cm/20201127.html">
+<meta property="og:site_name" content="南城北望">
+<meta property="og:description" content="jsDelivr是一款免费开源的公共CDN服务，很多站长会把网站的静态文件通过jsDelivr加速来访问，这样既实现了对网站的加速，又能节约不少网站CDN的流量，可谓是神器。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img.shields.io/badge/R9-CM-orange">
+<meta property="og:image" content="https://img.shields.io/badge/%E5%8D%97%E5%9F%8E-%E5%8C%97%E6%9C%9B-red">
+<meta property="article:published_time" content="2020-11-27T12:00:00.000Z">
+<meta property="article:modified_time" content="2020-12-03T03:35:00.000Z">
+<meta property="article:author" content="南城北望">
+<meta property="article:tag" content="前端">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img.shields.io/badge/R9-CM-orange">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css?v=233" crossorigin>
+  
+  <link rel="stylesheet" href="/css/style.css?v=1607004242081">
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body class="mdui-drawer-body-left">
+  
+  <div id="nexmoe-background">
+    <div class="nexmoe-bg" style="background-image: url(https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201129160717.jpg)"></div>
+    <div class="mdui-appbar mdui-shadow-0">
+      <div class="mdui-toolbar">
+        <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+        <div class="mdui-toolbar-spacer"></div>
+        <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+        <a href="/" title="南城北望" class="mdui-btn mdui-btn-icon"><img src="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/head/bliss.gif" alt="南城北望"></a>
+       </div>
+    </div>
+  </div>
+  <div id="nexmoe-header">
+      <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="南城北望">
+            <img src="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/head/bliss.gif" alt="南城北望" alt="南城北望">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>9</div>
+        <div><span>标签</span>10</div>
+        <div><span>分类</span>4</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/archives.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/links.html" title="我的朋友">
+            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
+            <div class="mdui-list-item-content">
+                我的朋友
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/atom.xml" title="RSS订阅">
+            <i class="mdui-list-item-icon nexmoefont icon-rss"></i>
+            <div class="mdui-list-item-content">
+                RSS订阅
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+  
+  <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://qm.qq.com/cgi-bin/qm/qr?k=SH-qn2fiO6UY1718lSp69k5tZxlKlhEt&noverify=0" target="_blank" mdui-tooltip="{content: 'QQ'}" style="color: rgb(249, 174, 8);background-color: rgba(249, 174, 8, .1);">
+            <i class="nexmoefont icon-QQ"></i>
+        </a><a class="mdui-ripple" href="mailto:t3@outlook.ie?subject" target="_blank" mdui-tooltip="{content: 'E-mail'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
+            <i class="nexmoefont icon-mail-fill"></i>
+        </a><a class="mdui-ripple" href="https://yingguoxg.com/" target="_blank" mdui-tooltip="{content: 'Blog'}" style="color: rgb(249, 38, 89);background-color: rgba(249, 38, 89, .15);">
+            <i class="nexmoefont icon-tag-fill"></i>
+        </a>
+    </div>
+</div>
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章分类</h3>
+    <div class="nexmoe-widget">
+
+      <ul class="category-list">
+
+        
+
+
+        
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/分享/">分享</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/学习/">学习</a>
+          <span class="category-list-count">6</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/生活/">生活</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/随笔/">随笔</a>
+          <span class="category-list-count">1</span>
+        </li>
+
+        
+      </ul>
+
+    </div>
+  </div>
+
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/OneDrive/" style="font-size: 10px;">OneDrive</a> <a href="/tags/Outlook/" style="font-size: 10px;">Outlook</a> <a href="/tags/PicGo/" style="font-size: 10px;">PicGo</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 20px;">前端</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">博客</a> <a href="/tags/%E5%9B%BE%E5%BA%8A/" style="font-size: 10px;">图床</a> <a href="/tags/%E6%9C%80%E5%88%9D/" style="font-size: 10px;">最初</a> <a href="/tags/%E7%94%B5%E8%84%91/" style="font-size: 10px;">电脑</a>
+    </div>
+    
+  </div>
+
+  
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2020 南城北望
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+		
+		
+			</br>
+			<center>网站已经运行了<br><span id="htmer_time" style="color: green;"></span>
+				<script>
+				function secondToDate(second) {
+				if (!second) {
+				return 0;
+				}
+				var time = new Array(0, 0, 0, 0, 0);
+				if (second >= 365 * 24 * 3600) {
+				time[0] = parseInt(second / (365 * 24 * 3600));
+				second %= 365 * 24 * 3600;
+				}
+				if (second >= 24 * 3600) {
+				time[1] = parseInt(second / (24 * 3600));
+				second %= 24 * 3600;
+				}
+				if (second >= 3600) {
+				time[2] = parseInt(second / 3600);
+				second %= 3600;
+				}
+				if (second >= 60) {
+				time[3] = parseInt(second / 60);
+				second %= 60;
+				}
+				if (second > 0) {
+				time[4] = second;
+				}
+				return time;
+				}</script><script type="text/javascript" language="javascript">
+				function setTime() {
+				var create_time = Math.round(new Date(Date.UTC(2019, 11, 17, 10, 0, 0)).getTime() / 1000);
+				var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+				currentTime = secondToDate((timestamp - create_time));
+				currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+				+ currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+				+ '秒';
+				document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+				} setInterval(setTime, 1000);</script>
+			</center>
+			
+    </div>
+</div><!-- .nexmoe-drawer -->
+  </div>
+  <div id="nexmoe-content">
+    <div class="nexmoe-primary">
+        <div class="nexmoe-post">
+  
+      <div class="nexmoe-post-cover" style="padding-bottom: 62.5%;"> 
+          <img data-src="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201130221302.jpg" data-sizes="auto" alt="jsDelivr的使用方法" class="lazyload">
+          <h1>jsDelivr的使用方法</h1>
+      </div>
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2020年11月27日</a>
+    <a><i class="nexmoefont icon-areachart"></i>681 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 3 分钟</a>
+</div>
+
+  <div class="nexmoe-post-right">
+    
+      <div class="nexmoe-fixed">
+        <div class="nexmoe-valign">
+            <div class="nexmoe-toc">
+                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8"><span class="toc-number">1.</span> <span class="toc-text">使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#nmp"><span class="toc-number">1.1.</span> <span class="toc-text">nmp</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#github"><span class="toc-number">1.2.</span> <span class="toc-text">github</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#wordpress"><span class="toc-number"></span> <span class="toc-text">wordpress</span></a>
+            </div>
+        </div>
+      </div>
+    
+  </div>
+
+  <article>
+    <p><img data-fancybox="gallery" data-sizes="auto" data-src="https://img.shields.io/badge/R9-CM-orange" alt="r9.cm" class="lazyload"> <img data-fancybox="gallery" data-sizes="auto" data-src="https://img.shields.io/badge/%E5%8D%97%E5%9F%8E-%E5%8C%97%E6%9C%9B-red" alt="南城北望" class="lazyload"></p>
+<p>jsDelivr是一款免费开源的公共CDN服务，很多站长会把网站的静态文件通过<strong>jsDelivr</strong>加速来访问，这样既实现了对网站的加速，又能节约不少网站CDN的流量，可谓是神器。</p>
+<a id="more"></a>
+
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p><strong>jsDelivr</strong>官网：<a target="_blank" rel="noopener" href="https://www.jsdelivr.com/">jsDelivr - A free, fast, and reliable CDN for open source</a></p>
+<p>进入<strong>jsDelivr</strong>的官网，我们能看到首页有三个网站，可以使用jsDelivr加速资源访问，分别是：nmp、github、wordpress，这里我们逐一做下说明。</p>
+<h3 id="nmp"><a href="#nmp" class="headerlink" title="nmp"></a>nmp</h3><pre><code class="web-idl">// 加载npm上托管的项目
+
+https://cdn.jsdelivr.net/npm/package@version/file
+
+https://cdn.jsdelivr.net/npm/包名@版本号/目录
+
+// 例如，加载jQuery v3.2.1版本
+
+https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js
+
+// 或者加载jquery目录
+
+// 提示：目录后面的&quot;/&quot;不能省略，否则无法访问
+
+https://cdn.jsdelivr.net/npm/jquery/</code></pre>
+<h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><p>很多人的资源托管在github上，其中不乏大量通过hexo搭建的静态博客。但是国内访问github速度终究不是很理想，而国产的gitee虽然能替代大部分的使用场景，却总是在细节上不尽人意。</p>
+<p>这个时候jsDelivr的加速就十分的有用。</p>
+<pre><code class="web-idl">// 加载github上的项目分支
+
+// 提示：建议支持npm的项目使用npm
+
+https://cdn.jsdelivr.net/gh/user/repo@version/file
+
+https://cdn.jsdelivr.net/gh/用户名/仓库名称@版本号/目录
+
+// 例如，加载jQuery v3.2.1版本
+
+https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js
+
+// 或者加载jquery目录
+
+// 提示：目录后面的&quot;/&quot;不能省略，否则无法访问
+
+https://cdn.jsdelivr.net/gh/jquery/jquery/
+</code></pre>
+<h1 id="wordpress"><a href="#wordpress" class="headerlink" title="wordpress"></a>wordpress</h1><p>建站没折腾过wordpress，那绝对是当站长的一大遗憾。不过因为一直不擅长优化wordpress，后来我选择了Typecho，与其水平不够反复折腾，不如安安静静静下心来记录下自己的成长。</p>
+<pre><code class="web-idl">// 从中加载任何插件WordPress.org网站插件SVN repo
+
+https://cdn.jsdeliver.net/wp/plugins/project/tags/version/file
+
+// 加载精确版本
+
+https://cdn.jsdeliver.net/wp/plugins/wp-slimstat/tags/4.6.5/wp-slimstat.js
+
+//加载最新版本
+
+//你不应该在生产中使用这个
+
+https://cdn.jsdeliver.net/wp/plugins/wp-slimstat/trunk/wp-slimstat.js
+
+//从中加载任何主题WordPress.org网站主题SVN回购
+
+https://cdn.jsdeliver.net/wp/themes/project/version/file
+
+//加载精确版本
+
+https://cdn.jsdeliver.net/wp/themes/tight-eightteen/1.7/assets/js/html5.js
+
+//将“.min”添加到任何JS/CSS文件以获得缩小版本
+
+//如果不存在，我们将为您生成它</code></pre>
+<blockquote>
+<p>wordpress部分的汉字解释用的百度翻译，所以可能奇奇怪怪，不过配合官网的例子，熟悉的大佬应该很快能看明白。不过，都是大佬了，应该不会看到我这种小白文章吧。</p>
+</blockquote>
+
+  </article>
+
+  
+    
+  <div class="nexmoe-post-copyright">
+    <strong>本文作者：</strong>南城北望<br>
+    <strong>本文链接：</strong><a href="https://r9.cm/20201127.html" title="https:&#x2F;&#x2F;r9.cm&#x2F;20201127.html" target="_blank" rel="noopener">https:&#x2F;&#x2F;r9.cm&#x2F;20201127.html</a><br>
+    
+      <strong>版权声明：</strong>本作品采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可
+    
+  </div>
+
+
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+        <a class="nexmoefont icon-appstore-fill -link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a>
+    
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a>
+    
+</div>
+
+  <div class="nexmoe-post-footer">
+    <section class="nexmoe-comment">
+    <div class="valine"></div>
+<script src='https://cdn.jsdelivr.net/npm/valine@1.3.9/dist/Valine.min.js'></script>
+<script>
+    // 使用方法 https://valine.js.org/quickstart.html
+    new Valine({
+        el: '.valine',
+        appId: 'Mu3lydHYNfFI9UNTEl9XqlQA-gzGzoHsz',
+        appKey: 'ewF84XaNnFEeX42AqNUfO8X2'
+    })
+</script>
+</section>
+  </div>
+</div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
+<script>
+	hljs.initHighlightingOnLoad();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
+ <script src="/js/app.js?v=1607004242082"></script>
+
+  
+    <!-- Google Analytics -->
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'G-ENR3N4H1RH', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+
+
+
+
+    <!-- baidu Analytics -->
+<script>
+    var _hmt = _hmt || [];
+    (function() {var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?48068a1dab9539c660bf02cad4192e47';
+    var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</body>
+
+</html>
