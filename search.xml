@@ -624,4 +624,79 @@ https://cdn.jsdeliver.net/wp/themes/tight-eightteen/1.7/assets/js/html5.js
         <tag>Outlook</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Hexo常用的命令</title>
+    <url>/article/20210107.html</url>
+    <content><![CDATA[<p><img src="https://img.shields.io/badge/R9-CM-orange" alt="r9.cm"> <img src="https://img.shields.io/badge/%E5%8D%97%E5%9F%8E-%E5%8C%97%E6%9C%9B-red" alt="南城北望"></p>
+<p>用Hexo的时间不是很长，但是用了一段时间真的非常喜欢。不过由于Github使用不是很熟练，所以经常过一段时间不用就忘了命令和一些常需要修改的参数，所以在这篇文章里面记录下来。</p>
+<a id="more"></a>
+
+<h2 id="问题解决渠道"><a href="#问题解决渠道" class="headerlink" title="问题解决渠道"></a>问题解决渠道</h2><p><a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe">hexo 皮肤Github</a></p>
+<p><a href="https://docs.nexmoe.com/">hexo 主题使用说明</a></p>
+<p><a href="https://r9.cm/">hexo 皮肤预览</a></p>
+<p><a href="https://hexo.io/zh-cn/docs/commands.html">hexo 官网使用说明</a></p>
+<h2 id="最常用"><a href="#最常用" class="headerlink" title="最常用"></a>最常用</h2><ul>
+<li>生成网站</li>
+</ul>
+<p><code>hexo g</code> # 生成全站静态文件</p>
+<blockquote>
+<pre><code class="bash">hexo generate # 完整写法</code></pre>
+<p>生成或者更新 <code>public</code> 文件夹</p>
+</blockquote>
+<ul>
+<li>本地预览</li>
+</ul>
+<p><code>hexo s</code> # 启动本地预览服务</p>
+<blockquote>
+<pre><code class="bash">hexo server # 完整写法</code></pre>
+<p>启动服务器，访问网址： <a href="http://localhost:4000/">http://localhost:4000/</a> 进行本地预览。</p>
+</blockquote>
+<ul>
+<li>部署</li>
+</ul>
+<p><code>hexo d</code> # 部署网站到 <code>Github</code> 。</p>
+<blockquote>
+<pre><code class="bash">hexo deploy # 完整写法</code></pre>
+<p>把本地的网站推送到 <code>Github</code> ，完成推送后，需要重新到项目设置处绑定域名。</p>
+</blockquote>
+<ul>
+<li>清理缓存</li>
+</ul>
+<p><code>hexo clean</code> # 清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p>
+<blockquote>
+<p>部分情况（比如更换主题后），发现站点的更改不生效，可以试试运行该命令。</p>
+</blockquote>
+<ul>
+<li>创建文章</li>
+</ul>
+<p><code>hexo n &quot;我的博客&quot;</code> # 新建文章</p>
+<blockquote>
+<pre><code class="bash">hexo new &quot;我的博客&quot; # 完整写法</code></pre>
+<p>新建一篇名字为我的博客的文章。我一般是用 <strong>Typora</strong> 写文章，所以这个命令使用的不多。</p>
+</blockquote>
+<ul>
+<li>检查版本</li>
+</ul>
+<p><code>hexo version</code> # 显示 hexo 版本</p>
+<h2 id="文章格式"><a href="#文章格式" class="headerlink" title="文章格式"></a>文章格式</h2><h3 id="头部"><a href="#头部" class="headerlink" title="头部"></a>头部</h3><pre><code>---
+title: # 文章标题
+date: # 更新日期
+cover: # 封面图片
+coverWidth: 1200 # 封面图片宽，默认值1200
+coverHeight: 750 # 封面图片高，默认值750
+categories: # 分类
+tags:
+    - 标签 # 标签
+---
+![r9.cm](https://img.shields.io/badge/R9-CM-orange) ![南城北望](https://img.shields.io/badge/南城-北望-red)</code></pre>
+<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>下列代码前面的内容会被渲染成摘要。</p>
+<pre><code>&lt;!--more--&gt;</code></pre>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
 </search>
