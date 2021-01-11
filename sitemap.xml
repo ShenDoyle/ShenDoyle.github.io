@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://r9.cm/article/20210101.html</loc>
+    
+    <lastmod>2021-01-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://r9.cm/article/20210111.html</loc>
     
     <lastmod>2021-01-11</lastmod>
@@ -166,6 +173,13 @@
   
   <url>
     <loc>https://r9.cm/tags/%E7%94%B5%E8%84%91/</loc>
+    <lastmod>2021-01-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://r9.cm/tags/%E6%97%85%E8%A1%8C/</loc>
     <lastmod>2021-01-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
