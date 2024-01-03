@@ -1,0 +1,189 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>OneDrive 测速 | 南城北望</title><meta name="author" content="南城,a@cbm.im"><meta name="copyright" content="南城"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="速度测试方法 注册一个 Microsoft 365 账户：Microsoft 365 有账户的话，可以直接登陆 ； OneDrive 存储空间为 5gb-15gb 大小的，全部是微软官方运营的国际版，数据中心(或者说加速节点，后面会详细解释)不在国内，网页版 OneDrive 完全受到长城影响，OneDrive 客户端可以登陆使用；">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OneDrive 测速">
+<meta property="og:url" content="https://cbm.im/2020/01/17/20200117/index.html">
+<meta property="og:site_name" content="南城北望">
+<meta property="og:description" content="速度测试方法 注册一个 Microsoft 365 账户：Microsoft 365 有账户的话，可以直接登陆 ； OneDrive 存储空间为 5gb-15gb 大小的，全部是微软官方运营的国际版，数据中心(或者说加速节点，后面会详细解释)不在国内，网页版 OneDrive 完全受到长城影响，OneDrive 客户端可以登陆使用；">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201130221304.jpg">
+<meta property="article:published_time" content="2020-01-17T12:00:00.000Z">
+<meta property="article:modified_time" content="2024-01-03T09:58:40.253Z">
+<meta property="article:author" content="南城">
+<meta property="article:tag" content="OneDrive">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201130221304.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://cbm.im/2020/01/17/20200117/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":"ture","highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: true
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'OneDrive 测速',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-01-03 17:58:40'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.0.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/loading.gif" data-original="/img/20210926150723.png" onerror="onerror=null;src='/img/friend_404.png'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="南城北望"><img class="site-icon" src="/img/loading.gif" data-original="/img/20210926150723.png"/><span class="site-name">南城北望</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">OneDrive 测速</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-01-17T12:00:00.000Z" title="发表于 2020-01-17 20:00:00">2020-01-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-01-03T09:58:40.253Z" title="更新于 2024-01-03 17:58:40">2024-01-03</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">941</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="OneDrive 测速"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><p><img src="/img/loading.gif" data-original="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p>
+<h2 id="速度测试方法"><a href="#速度测试方法" class="headerlink" title="速度测试方法"></a>速度测试方法</h2><ul>
+<li>注册一个 Microsoft 365 账户：<a href="www.office.com">Microsoft 365</a> <strong>有账户的话，可以直接登陆</strong> ；</li>
+<li>OneDrive 存储空间为 5gb-15gb 大小的，全部是微软官方运营的国际版，数据中心(或者说加速节点，后面会详细解释)不在国内，网页版 OneDrive 完全受到长城影响，OneDrive 客户端可以登陆使用；<span id="more"></span></li>
+<li>登陆客户端使用账户同步功能同步文件，所能得到的速度就是你使用 Microsoft 365 的速度；</li>
+<li>微软的高级版本主要是功能上的升级，而非对网络服务进行阉割和限制，所以普通账户的速度就是你购买高级版之后的速度；</li>
+<li>影响速度的因素：个人网络问题带来的影响，各地运营上对微软服务的支持影响（同样是电信网络，全国各省的电信对该服务的支持程度不一样的，所以速度不一样；同一个省市，电信、移动、联通等网络对该服务的支持也是不一样的。因此别人测试出来的速度不能给你作为参考）。</li>
+</ul>
+<h2 id="版本区别"><a href="#版本区别" class="headerlink" title="版本区别"></a>版本区别</h2><p>目前 Microsoft 365 有<strong>商业版</strong>和<strong>个人版</strong>，从运营商区别还有 <strong>国际版</strong> 和 <strong>互联版</strong> 。</p>
+<h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><strong>商业版：</strong> 商业或者组织使用的版本，这里不仅是指一般企业购买的版本，也包括学校公益组织使用的免费资源版本；<br><strong>个人版：</strong> 个人自行注册的版本，OneDrive 存储空间默认为 5gb，可以通过完成邀请注册的任务达到 15gb，一般 OneDrive 空间为 5gb-15gb 大小的都是个人版；<br><strong>国际版：</strong> 微软官方自己运营的版本；<br><strong>互联版：</strong> 微软指定的中国服务商运营的专供国内用户使用的版本。</p>
+<h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><ul>
+<li>个人版的 OneDrive 网页端功能受长城影响，是没办法正常登陆的，客户端可以使用；商业版的 OneDrive 网页端功能没有受到限制，可以正常登录使用；</li>
+<li>国际版登录的顶级域名为 .com（部分账户贩子会用自己的域名跳转到官方的域名，所以如果感觉登录域名很奇怪，在浏览器输入域名回车一下，再看看域名是什么）；互联版登录的顶级域名为 .cn；</li>
+<li>个人注册的 Microsoft 365 账户全部是国际版，而非互联版，即便购买了官方的高级账户套餐（个人版和家庭版两个套餐），也是国际版账户，互联版 <strong>只提供商业版</strong> ；</li>
+<li>互联版的版本功能有所缺失，同时互联版是国际版的移植汉化版本，因此功能更新极其滞后，只能保证常用的功能是正常的，最新或者极少数比较冷门的功能更新都不是很理想。</li>
+</ul>
+<h3 id="网络情况"><a href="#网络情况" class="headerlink" title="网络情况"></a>网络情况</h3><ul>
+<li>国际版：微软在全球布置了多个数据中心和非常多的加速节点，大部分地区的微软服务通过加速节点连接到相应的数据中心完成。受国内相关政策影响，微软在大陆没有数据中心和加速节点，大陆用户使用是连接就近的节点：香港、新加坡等，因此访问速度收到的影响因素非常多，网络不稳定。大部分区域上传速度大于下载速度；</li>
+<li>互联版：微软和国内的世纪互联合作，推出了国内专用的 Microsoft 365 版本，数据中心位于上海、北京，通过国内的骨干网络提供服务，网络稳定，速度快（该版本最大的优点）。</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://cbm.im/">南城</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://cbm.im/2020/01/17/20200117/">https://cbm.im/2020/01/17/20200117/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://cbm.im" target="_blank">南城北望</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/OneDrive/">OneDrive</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201130221304.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.png" target="_blank"><img class="post-qr-code-img" src="/img/loading.gif" data-original="/img/wechat.png" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2020/04/16/20200416/" title="Typecho 不用插件实现文章阅读次数统计"><img class="cover" src="/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201130221303.jpg" onerror="onerror=null;src='/img/404.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Typecho 不用插件实现文章阅读次数统计</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/loading.gif" data-original="/img/20210926150723.png" onerror="this.onerror=null;this.src='/img/friend_404.png'" alt="avatar"/></div><div class="author-info__name">南城</div><div class="author-info__description">我在想你了</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:a@cbm.im" target="_blank" title="Email"><i class="fas fa-envelope-open-text"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">总是有许多悖论无法解决，简单的就是快乐的。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9F%E5%BA%A6%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95"><span class="toc-text">速度测试方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E5%8C%BA%E5%88%AB"><span class="toc-text">版本区别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8C%BA%E5%88%AB"><span class="toc-text">区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E6%83%85%E5%86%B5"><span class="toc-text">网络情况</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/11/26/20221126/" title="一个开源的 CMS 系统"><img src="/img/loading.gif" data-original="/./img/2022-11-26-1669476701481.jpg" onerror="this.onerror=null;this.src='/img/404.png'" alt="一个开源的 CMS 系统"/></a><div class="content"><a class="title" href="/2022/11/26/20221126/" title="一个开源的 CMS 系统">一个开源的 CMS 系统</a><time datetime="2022-11-26T10:36:52.000Z" title="发表于 2022-11-26 18:36:52">2022-11-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/07/26/20210726/" title="减肥的心得"><img src="/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201130221321.jpg" onerror="this.onerror=null;this.src='/img/404.png'" alt="减肥的心得"/></a><div class="content"><a class="title" href="/2021/07/26/20210726/" title="减肥的心得">减肥的心得</a><time datetime="2021-07-26T12:00:00.000Z" title="发表于 2021-07-26 20:00:00">2021-07-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/11/20210111/" title="七彩云南"><img src="/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111230720.jpeg" onerror="this.onerror=null;this.src='/img/404.png'" alt="七彩云南"/></a><div class="content"><a class="title" href="/2021/01/11/20210111/" title="七彩云南">七彩云南</a><time datetime="2021-01-11T12:00:00.000Z" title="发表于 2021-01-11 20:00:00">2021-01-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/07/20210107/" title="Hexo 常用的命令"><img src="/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/background/20201130221320.jpg" onerror="this.onerror=null;this.src='/img/404.png'" alt="Hexo 常用的命令"/></a><div class="content"><a class="title" href="/2021/01/07/20210107/" title="Hexo 常用的命令">Hexo 常用的命令</a><time datetime="2021-01-07T12:00:00.000Z" title="发表于 2021-01-07 20:00:00">2021-01-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/01/20210101/" title="大理冬泳的人"><img src="/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111231751.jpg" onerror="this.onerror=null;this.src='/img/404.png'" alt="大理冬泳的人"/></a><div class="content"><a class="title" href="/2021/01/01/20210101/" title="大理冬泳的人">大理冬泳的人</a><time datetime="2021-01-01T12:00:00.000Z" title="发表于 2021-01-01 20:00:00">2021-01-01</time></div></div></div></div></div></div></main><footer id="footer" style="background: ture"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2024 By 南城</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Power by <a href="https://cbm.im/">南城</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">簡</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="/js/tw_cn.js?v=4.12.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.12.0"></script></div></div>
+        <style>
+            [bg-lazy] {
+                background-image: none !important;
+                background-color: #eee !important;
+            }
+        </style>
+        <script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(r){r.imageLazyLoadSetting.processImages=t;var e=r.imageLazyLoadSetting.isSPA,n=r.imageLazyLoadSetting.preloadRatio||1,c=a();function a(){var t=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")),e=Array.prototype.slice.call(document.querySelectorAll("[bg-lazy]"));return t.concat(e)}function t(){e&&(c=a());for(var t,o=0;o<c.length;o++)0<=(t=(t=c[o]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(r.innerHeight*n||document.documentElement.clientHeight*n)&&function(){var t,e,n,a,i=c[o];e=function(){c=c.filter(function(t){return i!==t}),r.imageLazyLoadSetting.onImageLoaded&&r.imageLazyLoadSetting.onImageLoaded(i)},(t=i).hasAttribute("bg-lazy")?(t.removeAttribute("bg-lazy"),e&&e()):(n=new Image,a=t.getAttribute("data-original"),n.onload=function(){t.src=a,t.removeAttribute("data-original"),e&&e()},t.src!==a&&(n.src=a))}()}function i(){clearTimeout(t.tId),t.tId=setTimeout(t,500)}t(),document.addEventListener("scroll",i),r.addEventListener("resize",i),r.addEventListener("orientationchange",i)}(this);</script></body></html>

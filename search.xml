@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>一个开源的 CMS 系统</title>
+      <link href="/2022/11/26/20221126/"/>
+      <url>/2022/11/26/20221126/</url>
+      
+        <content type="html"><![CDATA[<p>   Photo by <a href="https://unsplash.com/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ilya Pavlov</a> on <a href="https://unsplash.com/s/photos/website?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  <img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><hr><p>织梦去年割羊毛的操作之后，大批的人涌离织梦，除了老牌的帝国 CMS，还有很多以前相对小众的框架系统被大家看到，今天推荐一个开源可商用的 YznCMS。</p><span id="more"></span><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>该系统后端基于 ThinkPHP5.1 框架，前端基于 Layui2.7.x，项目创立于 2017 年，完全开源。</p><p>遵循<strong>Apache2.0</strong>开源协议，开发者声明<strong>永久免费，可商用</strong>，使用时需要注意，那就是<strong>可去除前台版权</strong>，因此后台版权是不允许去除的。</p><h2 id="费用"><a href="#费用" class="headerlink" title="费用"></a>费用</h2><p>框架和自带插件完全免费，授权插件收费。</p><h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><ul><li>WEB 服务器：IIS&#x2F;Apache&#x2F;Nginx</li><li>PHP 版本：php &gt;&#x3D; 7.0（支持 8.0,推荐 7.1）</li><li>数据库：MySQL &gt;&#x3D; 5.6</li></ul><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="https://gitee.com/ken678/YZNCMS">码云开源地址</a></p><h3 id="手册"><a href="#手册" class="headerlink" title="手册"></a>手册</h3><p><a href="https://www.kancloud.cn/ken678/yzncms">yzncms1.1.X 使用手册</a></p><h3 id="开发者博客"><a href="#开发者博客" class="headerlink" title="开发者博客"></a>开发者博客</h3><p><a href="https://blog.yzncms.com/">御宅男の博客</a></p><h3 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h3><p><a href="https://www.bilibili.com/video/av417106995/">哔哩哔哩</a></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>老牌的帝国 CMS 其实是不错的系统，但原作者已经不打算支持新的 PHP 版本了，PHP7.4 已有不少报错情况，8.0 更严格的要求对于绝大多数使用者是致命的。而御宅男这个系统目前更新还比较勤快，对新版本 PHP 的支持也比较友好。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CMS </tag>
+            
+            <tag> 开源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>减肥的心得</title>
+      <link href="/2021/07/26/20210726/"/>
+      <url>/2021/07/26/20210726/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><p>鉴于很多人问我是不是吸毒了？我不得不写篇文章具体说一下，我是怎么减肥的。</p><p>这些经验只有部分是适用于大家的，属于我个人的情况，建议大家参考就好。</p><span id="more"></span><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>减肥之前，需要先认识到一点，身体状态是自己生活习惯的外在呈现。</p><p>过胖或者过瘦，无论是身体疾病还是生活习惯导致的，都说明身体的健康状况是不好的。</p><p>这样的情况，如果医生没有特别的嘱咐，那么可以开始尝试改变自己的生活习惯了。在我看来，减肥的过程就是在一个长周期里面改善自己生活习惯的过程。</p><p>很多人减肥都会担心一个问题，反弹，在我看来这个问题就是因为生活习惯没有得到改善。所以在我的理念里面，减肥的过程就是改变自己不良的生活习性，让自己更健康。</p><h2 id="概况"><a href="#概况" class="headerlink" title="概况"></a>概况</h2><p><strong>2020 年 10 月 8 日：</strong>体重 70.7kg，BMI 值 24.5，体脂 21.2%。</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/20210926/20210926182304.jpg" alt="减肥前体脂称数据"></p><p><strong>2021 年 09 月 06 号（后面体重又下降了一些，更新一下）：</strong>体重 52.85kg，BMI 值 18.3，体脂 7.5%。</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/20210926/20210926182305.jpg" alt="减肥后体脂称数据"></p><p><strong>总结：</strong>现在已经是从胖的状态调整到了瘦的状态上，本质上还是不算很健康的，我和原本的计划有一定的偏离。目前唯一可以确定的是减肥是成功的，后面需要找时间锻炼增加一些肌肉了。</p><h2 id="理论"><a href="#理论" class="headerlink" title="理论"></a>理论</h2><h2 id="减肥的原理"><a href="#减肥的原理" class="headerlink" title="减肥的原理"></a>减肥的原理</h2><p>把人比做一个气球，如果我们想把气球维持在一个合适的大小，需要定期的补气，因为气球总是因为各种原因会有漏气的情况。</p><p>人体和气球的状态是一样的。每个人每天在不运动的情况下，都有一个基础代谢在消耗着身体的能量。我们每天饮食摄入的能量，优先是在补充代谢消耗的能量，然后有盈余给人活动提供能量，再有盈余会转化成其余的状态储（比如脂肪）存在身体里，在应急的时候转化成能量给身体使用。</p><p>除了基础代谢，我们每个人会去运动、思考事情，这些活动都会消耗我们身体的能量。在身体健康的情况下，当我们的体重维持比较稳定的时候，往往是我们每天的饮食摄入和我们的综合代谢这两个值平衡的状态。</p><p>这样也不难理解人是怎么胖起来和瘦下去的。</p><p>整体就是摄入能量和综合代谢的问题。</p><p>这里我们还需要了解一些情况。</p><ul><li>如果胖的原因是病理，一定要听医嘱，不能盲目减肥。</li><li>人的基础代谢是会变的，年龄、肌肉量、日常的运动量都会有影响。</li><li>人体的表现是长期的习惯积累之后才会有表现，短时间的调整求效果对身体健康是有害的。</li><li>奥利司他是国家批准的唯一的减肥药，市面上其它的产品都是保健品。但是奥利司他的使用也要遵医嘱。</li><li>国家对保健品的标准是食品，只有药品才是有效果要求的。也就是说几块钱的 vc 药片是必须能补充 vc 的，但是几百块的 vc 补充保健品并不需要保证能补充 vc。</li><li>各种断碳、素食、</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 减肥 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>七彩云南</title>
+      <link href="/2021/01/11/20210111/"/>
+      <url>/2021/01/11/20210111/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><p>不负盛名的七彩云南。</p><span id="more"></span><div class="gallery-container" data-type="data" data-button="">      <div class="gallery-data">[{"url":"https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111230720.jpeg","alt":"1"},{"url":"https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111230813.jpeg","alt":"1"},{"url":"https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111230824.jpeg","alt":"1"},{"url":"https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111230929.jpeg","alt":"1"},{"url":"https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111230941.jpeg","alt":"1"},{"url":"https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111230740.jpeg","alt":"1"}]</div>      <div class="gallery-items">      </div>    </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 云南 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo 常用的命令</title>
+      <link href="/2021/01/07/20210107/"/>
+      <url>/2021/01/07/20210107/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/R9-CM-orange" alt="r9.cm"></p><p>用 Hexo 的时间不是很长，但是用了一段时间真的非常喜欢。不过由于 Github 使用不是很熟练，所以经常过一段时间不用就忘了命令和一些常需要修改的参数，所以在这篇文章里面记录下来。</p><span id="more"></span><h2 id="问题解决渠道"><a href="#问题解决渠道" class="headerlink" title="问题解决渠道"></a>问题解决渠道</h2><p><a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe">hexo 皮肤Github</a></p><p><a href="https://docs.nexmoe.com/">hexo 主题使用说明</a></p><p><a href="https://r9.cm/">hexo 皮肤预览</a></p><p><a href="https://hexo.io/zh-cn/docs/commands.html">hexo 官网使用说明</a></p><h2 id="最常用"><a href="#最常用" class="headerlink" title="最常用"></a>最常用</h2><ul><li>生成网站</li></ul><p><code>hexo g</code> # 生成全站静态文件</p><blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo generate <span class="comment"># 完整写法</span></span><br></pre></td></tr></table></figure><p>生成或者更新 <code>public</code> 文件夹</p></blockquote><ul><li>本地预览</li></ul><p><code>hexo s</code> # 启动本地预览服务</p><blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server <span class="comment"># 完整写法</span></span><br></pre></td></tr></table></figure><p>启动服务器，访问网址： <a href="http://localhost:4000/">http://localhost:4000/</a> 进行本地预览。</p></blockquote><ul><li>部署</li></ul><p><code>hexo d</code> # 部署网站到 <code>Github</code> 。</p><blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy <span class="comment"># 完整写法</span></span><br></pre></td></tr></table></figure><p>把本地的网站推送到 <code>Github</code> ，完成推送后，需要重新到项目设置处绑定域名。</p></blockquote><ul><li>清理缓存</li></ul><p><code>hexo clean</code> # 清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p><blockquote><p>部分情况（比如更换主题后），发现站点的更改不生效，可以试试运行该命令。</p></blockquote><ul><li>创建文章</li></ul><p><code>hexo n &quot;我的博客&quot;</code> # 新建文章</p><blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;我的博客&quot;</span> <span class="comment"># 完整写法</span></span><br></pre></td></tr></table></figure><p>新建一篇名字为我的博客的文章。我一般是用 <strong>Typora</strong> 写文章，所以这个命令使用的不多。</p></blockquote><ul><li>检查版本</li></ul><p><code>hexo version</code> # 显示 hexo 版本</p><h2 id="文章格式"><a href="#文章格式" class="headerlink" title="文章格式"></a>文章格式</h2><h3 id="头部"><a href="#头部" class="headerlink" title="头部"></a>头部</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: # 文章标题</span><br><span class="line">date: # 更新日期</span><br><span class="line">cover: # 封面图片</span><br><span class="line">coverWidth: 1200 # 封面图片宽，默认值1200</span><br><span class="line">coverHeight: 750 # 封面图片高，默认值750</span><br><span class="line">categories: # 分类</span><br><span class="line">tags:</span><br><span class="line">    - 标签 # 标签</span><br><span class="line">---</span><br><span class="line">![cbm.im](https://img.shields.io/badge/cbm-im-blue)</span><br></pre></td></tr></table></figure><h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>下列代码前面的内容会被渲染成摘要。</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>大理冬泳的人</title>
+      <link href="/2021/01/01/20210101/"/>
+      <url>/2021/01/01/20210101/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><p>天气虽然很好，但是气温还是很低，去看洱海，意外地发现很多冬泳的人。</p><span id="more"></span><div class="gallery-container" data-type="data" data-button="">      <div class="gallery-data">[{"url":"https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111231751.jpg","alt":"大理"},{"url":"https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111231838.jpg","alt":"大理"},{"url":"https://cdn.jsdelivr.net/gh/ShenDoyle/PicHexoa@main/20210111/20210111231829.jpg","alt":"大理"}]</div>      <div class="gallery-items">      </div>    </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 旅行 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>jsDelivr 的使用方法</title>
+      <link href="/2020/11/27/20201127/"/>
+      <url>/2020/11/27/20201127/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><p><strong>jsDelivr</strong> 是一款免费开源的公共 CDN 服务，很多站长会把网站的静态文件通过 <strong>jsDelivr</strong> 加速来访问，这样既实现了对网站的加速，又能节约不少网站 CDN 的流量，可谓是神器。</p><span id="more"></span><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p><strong>jsDelivr</strong> 官网：<a href="https://www.jsdelivr.com/">jsDelivr - A free, fast, and reliable CDN for open source</a></p><p>进入 <strong>jsDelivr</strong> 的官网，我们能看到首页有三个网站，可以使用 jsDelivr 加速资源访问，分别是：nmp、github、wordpress，这里我们逐一做下说明。</p><h3 id="nmp"><a href="#nmp" class="headerlink" title="nmp"></a>nmp</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 加载npm上托管的项目</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/npm/package@version/file</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/npm/包名@版本号/目录</span><br><span class="line"></span><br><span class="line">// 例如，加载jQuery v3.2.1版本</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js</span><br><span class="line"></span><br><span class="line">// 或者加载jquery目录</span><br><span class="line"></span><br><span class="line">// 提示：目录后面的&quot;/&quot;不能省略，否则无法访问</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/npm/jquery/</span><br></pre></td></tr></table></figure><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><p>很多人的资源托管在 github 上，其中不乏大量通过 hexo 搭建的静态博客。但是国内访问 github 速度终究不是很理想，而国产的 gitee 虽然能替代大部分的使用场景，却总是在细节上不尽人意。</p><p>这个时候 jsDelivr 的加速就十分的有用。</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 加载 github 上的项目分支</span><br><span class="line"></span><br><span class="line">// 提示：建议支持 npm 的项目使用npm</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/gh/user/repo@version/file</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/gh/用户名/仓库名称@版本号/目录</span><br><span class="line"></span><br><span class="line">// 例如，加载 jQuery v3.2.1 版本</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js</span><br><span class="line"></span><br><span class="line">// 或者加载 jquery 目录</span><br><span class="line"></span><br><span class="line">// 提示：目录后面的&quot;/&quot;不能省略，否则无法访问</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/gh/jquery/jquery/</span><br><span class="line"></span><br></pre></td></tr></table></figure><h1 id="wordpress"><a href="#wordpress" class="headerlink" title="wordpress"></a>wordpress</h1><p>建站没折腾过 wordpress，那绝对是当站长的一大遗憾。不过因为一直不擅长优化 wordpress，后来我选择了 Typecho，与其水平不够反复折腾，不如安安静静静下心来记录下自己的成长。</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 从中加载任何插件WordPress.org网站插件SVN repo</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/plugins/project/tags/version/file</span><br><span class="line"></span><br><span class="line">// 加载精确版本</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/plugins/wp-slimstat/tags/4.6.5/wp-slimstat.js</span><br><span class="line"></span><br><span class="line">//加载最新版本</span><br><span class="line"></span><br><span class="line">//你不应该在生产中使用这个</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/plugins/wp-slimstat/trunk/wp-slimstat.js</span><br><span class="line"></span><br><span class="line">//从中加载任何主题WordPress.org网站主题SVN回购</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/themes/project/version/file</span><br><span class="line"></span><br><span class="line">//加载精确版本</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/themes/tight-eightteen/1.7/assets/js/html5.js</span><br><span class="line"></span><br><span class="line">//将“.min”添加到任何JS/CSS文件以获得缩小版本</span><br><span class="line"></span><br><span class="line">//如果不存在，我们将为您生成它</span><br></pre></td></tr></table></figure><blockquote><p>wordpress 部分的汉字解释用的百度翻译，所以可能奇奇怪怪，不过配合官网的例子，熟悉的大佬应该很快能看明白。不过，都是大佬了，应该不会看到我这种小白文章吧。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在电脑上多开微信的方法</title>
+      <link href="/2020/11/18/20201118/"/>
+      <url>/2020/11/18/20201118/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><p>平时微信用得少，一直没有很好地把微信上的好友做分类，使用的时候也没有针对分组和标签的习惯，为了把生活和工作分开，我就有了两个同时在使用的微信。</p><p>大部分时候，在公司都是使用工作微信，但是还是避免不了同时使用两个微信的情况。但是用的时候发现微信不能像 QQ 一样，可以同时启动多个。今天给大家提供一个比较简单的解决方案。</p><span id="more"></span><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>在桌面找到微信的图标，鼠标右键选择<strong>属性</strong>，在<strong>属性-快捷方式</strong>的页面，我们可以看到微信的安装路径。这时候我们就可以开始下一步了。</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220230058.png" alt="微信安装路径"></p><h2 id="写双开文件"><a href="#写双开文件" class="headerlink" title="写双开文件"></a>写双开文件</h2><p>在桌面新建一个<strong>txt</strong>文本，打开之后，把下面这段内容复制粘贴进去：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">start /d &quot;C:\Program Files (x86)\Tencent\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;C:\Program Files (x86)\Tencent\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">exit</span><br></pre></td></tr></table></figure><p>下面我们修改上面的内容。</p><p>其中<code>&quot;C:\Program Files (x86)\Tencent\WeChat\&quot;</code>这个部分是微信的默认安装路径，如果你安装的时候做过修改，就需要把这段内容改成你现在的安装路径。</p><p>安装路径可以在准备里面的<strong>起始位置</strong>找到。</p><p>比如我的做过修改，所以内容就改成了下面的这段：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">exit</span><br></pre></td></tr></table></figure><p>上面的代码是启动两个微信，如果我们需要启动三个乃至更多的微信，我们就需要把<code>start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</code>这段代码多复制几行。</p><p>没错，有几行就是同时启动几个微信。</p><p>比如想同时启动 4 个微信，代码如下：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">exit</span><br></pre></td></tr></table></figure><p>完成上面的步骤之后，我们在 txt 编辑器的菜单找到<strong>文件</strong>，选择<strong>另存为</strong>,也可以用快捷键<code>Ctrl+Shift+s</code>组合打开另存为窗口。</p><p>文件位置选择<strong>桌面</strong>,保存类型选择<strong>所有文件</strong>，文件名改为：<code>wechat.bat</code>。</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220230103.png" alt="保存wechat.bat"></p><p>这时候桌面就出现一个名字为<code>wechat.bat</code>的可执行文件。</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220230105.png" alt="执行文件"></p><h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>现在我们直接通过鼠标双击<code>wechat.bat</code>这个文件，就可以按照我们的想法多开微信了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel 快捷键</title>
+      <link href="/2020/10/02/20201002/"/>
+      <url>/2020/10/02/20201002/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><p>很多人在学校都学习过 Excel 这个神器的基本操作，但是学完之后，由于没有什么具体的使用场景，渐渐就忘的差不多。能勉强用起来的无非是做个简单的表格，能用到求和公式就已经算是十分的优秀，其实真正的 Excel 功能远不止这么简单。</p><p>在日常工作中，用好 Excel 其实是能提升很大的工作效率的。</p><span id="more"></span><p>有些人总以为厉害的 Excel 就是使用复杂的公式和 VBA，毕竟是编程，不会也没什么问题，反正工作能用到的地方也不多。其实很多 Excel 的快捷键掌握好了，就能很大程度上提升自己的工作效率。</p><p>这里就记一些 Excel 的快捷键。</p><p><strong>注意：</strong>我自己使用的是购买的最新微软 365 套餐，所以 Excel 版本应该是 2016 或者 2019，其他版本的 Excel 大家自己尝试吧。</p><p><strong>更新记录：</strong></p><ul><li>2020 10 02 增加 9 个常用快捷键组合和一个使用场景。</li></ul><h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><blockquote><p>关于操作的快捷键。</p></blockquote><p>1、按 Ctrl+N 新建一个 excel 文件。</p><p>2、按 Ctrl+W 关闭 excel 文件。</p><p>3、按 Shift 不松点击关闭按钮，可以关闭所有打开 excel 文件。</p><p>4、插入一个工作表，每按一次 F4 键，就会插入一个新工作表。</p><p>5、按 Ctrl+PageDown 或 PageUp 可以快速查看工作表。按 Ctrl+9 隐藏行。</p><p>6、按 Ctrl+0 隐藏列。</p><p>7、按 Ctrl+-(减号) 删除行。</p><p>8、按 Ctrl+上下左右箭头，可以快速跳转到当前数据区域的边界。</p><p>9、按 ctrl+shift+end 键，可以选取非连续的区域。</p><h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><blockquote><p>涉及用的比较多的公式快捷键。</p></blockquote><p>1、下次更新。</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote><p>整理内容时，常用的操作。</p></blockquote><ul><li><strong>场景：</strong>Excel 支持丰富的格式，很多内容直接复制粘贴会把格式等所有的内容一起粘贴过来，比如我们在别处写出来的公式、注释等等。这时候如果我们只需要复制数值或者保留公式格式等等就需要用快捷键。</li></ul><p><strong>方案一：</strong>直接<code>Ctrl+v</code>粘贴所有的数据，在数据的右下角会出现一个<code>Ctrl+小三角</code>的标志，这个就是<strong>粘贴选项</strong>。</p><p>通过粘贴选项我们可以选择多种粘贴方式，值、公式、保留格式、转图片等等。</p><p><img src="https://gitee.com/kuncbm/pic-go/raw/master/20200929/1/1.png" alt="粘贴选项"></p><p><strong>方案二：</strong>使用快捷键组合<code>Ctrl+Alt+v</code>粘贴，这时候会直接跳出<strong>选择性粘贴</strong>的对话窗口：</p><p><img src="https://gitee.com/kuncbm/pic-go/raw/master/20200929/1/2.png" alt="选择性粘贴"></p><p>这里我们可以选择我们要粘贴的内容，选择我们需要的结果。</p><p><strong>方案三：</strong>通过快捷键组合<code>Alt+E</code>或者鼠标右键（右键点击需要粘贴内容的第一个单元格），然后<code>S</code>可以跳出<strong>选择性粘贴</strong>的对话窗口，这时候可以选择自己要的粘贴内容。</p><p>选择性粘贴可以通过上面括号内快捷键+回车键进行快捷操作，避免使用鼠标选取操作，提升效率。</p><p><strong>方案四：</strong>当然，如果对于一些重复度需求很大的人来说，上面的几种方式都不是很好，相对比较麻烦，这时候，自定义功能区是非常有用的方式，这个等我抽时间整理下。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>目前我自己对于 Excel 的使用也不是很深入，上面的内容是自己学习使用的记录，有高手也可以多多指导，一起学习进步。</p><p>这里主要是更新快捷键的内容，然后<strong>使用技巧</strong>等有空另外开一篇文章吧。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Excel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记录自己用 PicGo 和 Gitee 搭图床</title>
+      <link href="/2020/09/24/20200924/"/>
+      <url>/2020/09/24/20200924/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><p>如果你要在网上做自己的内容，图床是必不可少的重要工具。有一个自己的图床，可以非常方便的传播复制自己的内容。</p><span id="more"></span><p>以前微博可以支持外链，很多人用微博做了自己的图床，可是好景不长，微博开始防外链之后，就只能开始把自己的图片搬家。</p><p>尽管网上有很多优秀的开发者提供的免费图床，目前来说稳定运营了很久的也是不少，可是掌握权终究是在别人那里，而且免费使用的情况下，别人出了问题，你也不好去说些什么。</p><p>那么有一个掌握在自己手里的图床就非常的重要。</p><p>你的钱包不紧张的话，直接买一个大盘鸡，又或者使用大企业如套路云腾讯云的对象存储是非常不错的选择。可是如果你的内容目前还不多，花这个钱觉得有些没必要，免费的<strong>七牛云</strong>或者<strong>Gitee</strong>也是很不错的备用选择。</p><h2 id="存储选择参考"><a href="#存储选择参考" class="headerlink" title="存储选择参考"></a>存储选择参考</h2><ul><li><strong>七牛云</strong></li></ul><p><a href="https://portal.qiniu.com/signup?code=1h8nshmr7z3v6">七牛云官网</a></p><p>七牛云提供了免费 10GB 的存储和 10GB 的国内外流量，初期基本够用。可以且只能使用自己的域名链接，七牛云提供的二级域名会在一段时间内失效。局限于监管，也是只能使用备案好的域名了。</p><p>不过需要注意的是，现在七牛云收到监管的要求，是需要实名认证才能正常使用的。并且免费的流量是 http 的，如果需要 https，就只能使用收费的 cdn 功能，流量不大的话，还是可以的，流量大就需要慎重考虑了。</p><ul><li><strong>Gitee</strong></li></ul><p><a href="https://gitee.com/">Gitee 官网</a></p><p>提到 Gitee，必然 Github 也是包含在内的，只是 Github 由于位置在国外，访问速度还是有点慢的，所以如果在国内的话，使用 Gitee 的效果会好很多。</p><p>使用 Gitee 完全不用担心流量的问题，生成的链接也是 https 的。</p><h2 id="安装-PicGo"><a href="#安装-PicGo" class="headerlink" title="安装 PicGo"></a>安装 PicGo</h2><p><a href="https://github.com/Molunerfinn/picgo/releases">官网</a></p><p>进入官网（可能有点慢，有条件可以挂个梯子），其中带有<strong>beta</strong>的版本不是稳定版，建议直接拉到网页下面找到 2.2.2 的稳定版本。</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225531.png" alt="PicGo下载页面"></p><p>点击<strong>2.2.2</strong>进入下载页面</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225535.png" alt="PicGo2.2.2版本下载页面"></p><p>我们可以看到开发者提供了非常多的 PicGo 版本，目前主流的设备对应的版本如下：</p><p><strong>macOS</strong></p><p><code>.dmg</code>后缀的文件</p><p><strong>Linux</strong></p><p><code>.Applmage</code>后缀的文件</p><p><strong>Windows</strong></p><p><code>.exe</code>后缀的文件</p><p>相信大部分人使用的都是<code>Windows</code>的系统，所以这里直接提供下载链接：<a href="https://github.com/Molunerfinn/PicGo/releases/download/v2.2.https://gitee.com/kuncbm/pic-go/raw/master/20200924/2/PicGo-Setup-2.2.2.exe">点击下载</a></p><p>下载之后安装即可。</p><h2 id="配置-PicGo"><a href="#配置-PicGo" class="headerlink" title="配置 PicGo"></a>配置 PicGo</h2><p>安装好 PicGo 之后，我们发现 PicGo 是不能直接支持 Gitee 图床的，这时候我们需要安装相应的插件实现这一功能。</p><blockquote><p>使用 PicGo 的插件功能需要安装<a href="https://nodejs.org/zh-cn/">Node.js</a>，这时候需要到<a href="https://nodejs.org/zh-cn/">Node.js</a>官网下载安装，这里推荐下载最新的<strong>长期支持版</strong>。</p></blockquote><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225539.png" alt="Node.js下载界面"></p><p>安装好之后需要重启电脑。</p><p>这时候打开 PicGo,点击左侧的插件设置，搜索<strong>github-plus</strong>，安装插件，等待安装完成：</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225542.png" alt="PicGo安装插件"></p><p>然后我们点击<strong>图床设置</strong>，点击<strong>githubPlus</strong>即可。</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225545.png" alt="PicGo图床设置"></p><h2 id="注册生成-Gitee-图床"><a href="#注册生成-Gitee-图床" class="headerlink" title="注册生成 Gitee 图床"></a>注册生成 Gitee 图床</h2><p><a href="https://gitee.com/">Gitee（码云）官网</a></p><p>注册一个账户，然后进入个人中心新建一个仓库：</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225548.png" alt="新建仓库"></p><p>仓库名称填一个自己比较好记的，我这里是 PicGo，是否开源这里选择很重要，<strong>一定要选择公开</strong>。</p><p>然后点击<strong>创建</strong>。</p><p>创建完成之后，点击右上角头像，进入设置，找到私人令牌：</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225550.png" alt="私人令牌"></p><p>然后生成新令牌，提交：</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225553.png" alt="新令牌"></p><p>输入账户密码验证：</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225556.png" alt="密码验证"></p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225558.png" alt="得到密令"></p><blockquote><p>注意：这里的私人令牌一定要复制并记录下来，因为后面不会再显示，忘记了就需要重新生成。</p></blockquote><h2 id="最终设置"><a href="#最终设置" class="headerlink" title="最终设置"></a>最终设置</h2><p>现在我们回到电脑上的 PicGo 的图床设置，进入 githubPlus：</p><p><img src="https://imagesvcc.oss-cn-chengdu.aliyuncs.com/img/201220/20201220225602.png" alt="PicGo图床设置"></p><p><code>repo</code>就是仓库的地址，我们按照<strong>用户名&#x2F;仓库名</strong>设置，比如我的就是<code>kuncbm/PicGo</code>。</p><p><code>branch</code>默认即可。</p><p><code>token</code>就是上面 Gitee 获取到的个人令牌。</p><p><code>path</code>为图片路径，方便管理，可不填。</p><p><code>customUrl</code>默认即可。</p><p><code>origin</code>有<code>github</code>和<code>gitee</code>两个选项，这里我们用的是<code>gitee</code>，选择<code>gitee</code>即可。</p><p>确定，大功告成。</p><p>这时候我们就可以通过上传区上传我们的图片了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 图床 </tag>
+            
+            <tag> PicGo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Typecho 不用插件实现文章阅读次数统计</title>
+      <link href="/2020/04/16/20200416/"/>
+      <url>/2020/04/16/20200416/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><p>Typecho 是国人开发的一款轻量的 Blog 系统，非常的受技术党的欢迎，我自己也用 Typecho 搭建了一个自认为不错的基于 Typecho 的 Blog。<br>在 Typecho 中，很多功能可以用过插件实现，不过有些功能依赖插件总会导致 Blog 逐渐臃肿，所以简单的改改代码是不错的选择，比如实现文章阅读次数统计的功能。</p><span id="more"></span><h2 id="方案说明"><a href="#方案说明" class="headerlink" title="方案说明"></a>方案说明</h2><p>目前代码有两种类型，分为不包含 cookie 验证和包含 cookie 验证的两段。</p><h2 id="不包含-cookie-验证"><a href="#不包含-cookie-验证" class="headerlink" title="不包含 cookie 验证"></a>不包含 cookie 验证</h2><p>一般修改这种代码，我们选择修改 Typecho 的主题文件中的<code>function.php</code>文件，而实现这一功能，我们需要在<code>function.php</code>文件中加入下面这段代码：</p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">//get_post_view($this)</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">get_post_view</span>(<span class="params"><span class="variable">$archive</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="variable">$cid</span>    = <span class="variable">$archive</span>-&gt;cid;</span><br><span class="line">    <span class="variable">$db</span>     = <span class="title class_">Typecho_Db</span>::<span class="title function_ invoke__">get</span>();</span><br><span class="line">    <span class="variable">$prefix</span> = <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">getPrefix</span>();</span><br><span class="line">    <span class="keyword">if</span> (!<span class="title function_ invoke__">array_key_exists</span>(<span class="string">&#x27;views&#x27;</span>, <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>()-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)))) &#123;</span><br><span class="line">        <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="string">&#x27;ALTER TABLE `&#x27;</span> . <span class="variable">$prefix</span> . <span class="string">&#x27;contents` ADD `views` INT(10) DEFAULT 0;&#x27;</span>);</span><br><span class="line">        <span class="keyword">echo</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable">$row</span> = <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>(<span class="string">&#x27;views&#x27;</span>)-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)-&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>));</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable">$archive</span>-&gt;<span class="title function_ invoke__">is</span>(<span class="string">&#x27;single&#x27;</span>)) &#123;</span><br><span class="line">       <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">update</span>(<span class="string">&#x27;table.contents&#x27;</span>)-&gt;<span class="title function_ invoke__">rows</span>(<span class="keyword">array</span>(<span class="string">&#x27;views&#x27;</span> =&gt; (<span class="keyword">int</span>) <span class="variable">$row</span>[<span class="string">&#x27;views&#x27;</span>] + <span class="number">1</span>))-&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">echo</span> <span class="variable">$row</span>[<span class="string">&#x27;views&#x27;</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>加入上述的代码文件之后，我们再在想要显示浏览次数的位置加入下面这段代码即可：</p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> <span class="title function_ invoke__">get_post_view</span>(<span class="variable">$this</span>) <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure><h2 id="包含-cookie-验证"><a href="#包含-cookie-验证" class="headerlink" title="包含 cookie 验证"></a>包含 cookie 验证</h2><p>上面的统计代码只是机械的统计点击次数，如果一个人反复点击多次都会被算上，队友有些要求比较高的博主体验不会很好，所以下面给一段加了 cookie 验证的代码，同样是放在<code>function.php</code>文件就可以了：</p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">get_post_view</span>(<span class="params"><span class="variable">$archive</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="variable">$cid</span>    = <span class="variable">$archive</span>-&gt;cid;</span><br><span class="line">    <span class="variable">$db</span>     = <span class="title class_">Typecho_Db</span>::<span class="title function_ invoke__">get</span>();</span><br><span class="line">    <span class="variable">$prefix</span> = <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">getPrefix</span>();</span><br><span class="line">    <span class="keyword">if</span> (!<span class="title function_ invoke__">array_key_exists</span>(<span class="string">&#x27;views&#x27;</span>, <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>()-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)))) &#123;</span><br><span class="line">        <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="string">&#x27;ALTER TABLE `&#x27;</span> . <span class="variable">$prefix</span> . <span class="string">&#x27;contents` ADD `views` INT(10) DEFAULT 0;&#x27;</span>);</span><br><span class="line">        <span class="keyword">echo</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable">$row</span> = <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>(<span class="string">&#x27;views&#x27;</span>)-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)-&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>));</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable">$archive</span>-&gt;<span class="title function_ invoke__">is</span>(<span class="string">&#x27;single&#x27;</span>)) &#123;</span><br><span class="line"> <span class="variable">$views</span> = <span class="title class_">Typecho_Cookie</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;extend_contents_views&#x27;</span>);</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">empty</span>(<span class="variable">$views</span>))&#123;</span><br><span class="line">            <span class="variable">$views</span> = <span class="keyword">array</span>();</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="variable">$views</span> = <span class="title function_ invoke__">explode</span>(<span class="string">&#x27;,&#x27;</span>, <span class="variable">$views</span>);</span><br><span class="line">        &#125;</span><br><span class="line"><span class="keyword">if</span>(!<span class="title function_ invoke__">in_array</span>(<span class="variable">$cid</span>,<span class="variable">$views</span>))&#123;</span><br><span class="line">       <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">update</span>(<span class="string">&#x27;table.contents&#x27;</span>)-&gt;<span class="title function_ invoke__">rows</span>(<span class="keyword">array</span>(<span class="string">&#x27;views&#x27;</span> =&gt; (<span class="keyword">int</span>) <span class="variable">$row</span>[<span class="string">&#x27;views&#x27;</span>] + <span class="number">1</span>))-&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>));</span><br><span class="line"><span class="title function_ invoke__">array_push</span>(<span class="variable">$views</span>, <span class="variable">$cid</span>);</span><br><span class="line">            <span class="variable">$views</span> = <span class="title function_ invoke__">implode</span>(<span class="string">&#x27;,&#x27;</span>, <span class="variable">$views</span>);</span><br><span class="line">            <span class="title class_">Typecho_Cookie</span>::<span class="title function_ invoke__">set</span>(<span class="string">&#x27;extend_contents_views&#x27;</span>, <span class="variable">$views</span>); <span class="comment">//记录查看cookie</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">echo</span> <span class="variable">$row</span>[<span class="string">&#x27;views&#x27;</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>展示同样只用把下面的代码放在你想要在 Blog 展示的位置即可：</p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> <span class="title function_ invoke__">get_post_view</span>(<span class="variable">$this</span>) <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure><p><strong>注：</strong><br>本文代码来自<a href="https://qqdie.com/archives/typecho-read-statistics.html">Typecho 爱好者博客</a>，本博客重新整理排版发布。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>OneDrive 测速</title>
+      <link href="/2020/01/17/20200117/"/>
+      <url>/2020/01/17/20200117/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://img.shields.io/badge/cbm-im-blue" alt="cbm.im"></p><h2 id="速度测试方法"><a href="#速度测试方法" class="headerlink" title="速度测试方法"></a>速度测试方法</h2><ul><li>注册一个 Microsoft 365 账户：<a href="www.office.com">Microsoft 365</a> <strong>有账户的话，可以直接登陆</strong> ；</li><li>OneDrive 存储空间为 5gb-15gb 大小的，全部是微软官方运营的国际版，数据中心(或者说加速节点，后面会详细解释)不在国内，网页版 OneDrive 完全受到长城影响，OneDrive 客户端可以登陆使用；<span id="more"></span></li><li>登陆客户端使用账户同步功能同步文件，所能得到的速度就是你使用 Microsoft 365 的速度；</li><li>微软的高级版本主要是功能上的升级，而非对网络服务进行阉割和限制，所以普通账户的速度就是你购买高级版之后的速度；</li><li>影响速度的因素：个人网络问题带来的影响，各地运营上对微软服务的支持影响（同样是电信网络，全国各省的电信对该服务的支持程度不一样的，所以速度不一样；同一个省市，电信、移动、联通等网络对该服务的支持也是不一样的。因此别人测试出来的速度不能给你作为参考）。</li></ul><h2 id="版本区别"><a href="#版本区别" class="headerlink" title="版本区别"></a>版本区别</h2><p>目前 Microsoft 365 有<strong>商业版</strong>和<strong>个人版</strong>，从运营商区别还有 <strong>国际版</strong> 和 <strong>互联版</strong> 。</p><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><strong>商业版：</strong> 商业或者组织使用的版本，这里不仅是指一般企业购买的版本，也包括学校公益组织使用的免费资源版本；<br><strong>个人版：</strong> 个人自行注册的版本，OneDrive 存储空间默认为 5gb，可以通过完成邀请注册的任务达到 15gb，一般 OneDrive 空间为 5gb-15gb 大小的都是个人版；<br><strong>国际版：</strong> 微软官方自己运营的版本；<br><strong>互联版：</strong> 微软指定的中国服务商运营的专供国内用户使用的版本。</p><h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><ul><li>个人版的 OneDrive 网页端功能受长城影响，是没办法正常登陆的，客户端可以使用；商业版的 OneDrive 网页端功能没有受到限制，可以正常登录使用；</li><li>国际版登录的顶级域名为 .com（部分账户贩子会用自己的域名跳转到官方的域名，所以如果感觉登录域名很奇怪，在浏览器输入域名回车一下，再看看域名是什么）；互联版登录的顶级域名为 .cn；</li><li>个人注册的 Microsoft 365 账户全部是国际版，而非互联版，即便购买了官方的高级账户套餐（个人版和家庭版两个套餐），也是国际版账户，互联版 <strong>只提供商业版</strong> ；</li><li>互联版的版本功能有所缺失，同时互联版是国际版的移植汉化版本，因此功能更新极其滞后，只能保证常用的功能是正常的，最新或者极少数比较冷门的功能更新都不是很理想。</li></ul><h3 id="网络情况"><a href="#网络情况" class="headerlink" title="网络情况"></a>网络情况</h3><ul><li>国际版：微软在全球布置了多个数据中心和非常多的加速节点，大部分地区的微软服务通过加速节点连接到相应的数据中心完成。受国内相关政策影响，微软在大陆没有数据中心和加速节点，大陆用户使用是连接就近的节点：香港、新加坡等，因此访问速度收到的影响因素非常多，网络不稳定。大部分区域上传速度大于下载速度；</li><li>互联版：微软和国内的世纪互联合作，推出了国内专用的 Microsoft 365 版本，数据中心位于上海、北京，通过国内的骨干网络提供服务，网络稳定，速度快（该版本最大的优点）。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> OneDrive </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
