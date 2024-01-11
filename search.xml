@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>昆明西山：传说中的爱情守护者</title>
+      <link href="/2024/01/01/kunmingxishan/"/>
+      <url>/2024/01/01/kunmingxishan/</url>
+      
+        <content type="html"><![CDATA[<p>在昆明生活多年，去过很多次的西山，也听说在昆明西山，湍急的溪水和葱郁的树林掩映着两个引人入胜的神话传说，分别是“分手树”与“龙门的门神”。</p><span id="more"></span><h2 id="分手树：感情能量的守护者"><a href="#分手树：感情能量的守护者" class="headerlink" title="分手树：感情能量的守护者"></a>分手树：感情能量的守护者</h2><p>传说在西山脚下生长着一棵古老的树，被当地人誉为“分手树”。这棵树据说有着神奇的能量，能够洞悉情侣间的感情纽带。传闻，树会感应并捕捉到情侣们之间情感的强度和稳定性，预示着他们的爱情是否能够经受时间的考验。</p><p>情侣们前往西山，渴望寻找这颗传说中的树。他们会紧握着对方的手，轻触树干，试图感受那神奇的能量，寻求对感情的预示。有人轻声祈祷，有人默默许愿，但所有人都怀着一颗希望的心，渴望知晓感情的彼岸。</p><h2 id="龙门的门神：爱情的守护者"><a href="#龙门的门神：爱情的守护者" class="headerlink" title="龙门的门神：爱情的守护者"></a>龙门的门神：爱情的守护者</h2><p>另一段传说涉及到龙门，曾有一对情侣在此殉情，他们的纯真爱情打动了天界。于是，他们被托起成为龙门的门神。</p><p>传说这对神仙眷侣注定了特殊的职责：守护爱情，监视着人间爱情的真诚。传说中，他们会巡视人间，发现不忠之人，通过神秘的方式，促使这些不忠实的心分道扬镳，让真正相爱的人获得保护和祝福。</p><h2 id="传说的魅力与意义"><a href="#传说的魅力与意义" class="headerlink" title="传说的魅力与意义"></a>传说的魅力与意义</h2><p>这些神话或许只是虚构，但它们蕴含着对真爱的信仰和对纯洁情感的珍视。这些故事渗透着人们对永恒爱情的向往与期盼。或许它们仅是一种心灵的慰藉，给予寻找爱情的人们一份安慰与指引。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 故事 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一个开源的 CMS 系统</title>
+      <link href="/2022/11/26/yzncms/"/>
+      <url>/2022/11/26/yzncms/</url>
+      
+        <content type="html"><![CDATA[<p>织梦去年割羊毛的操作之后，大批的人涌离织梦，除了老牌的帝国 CMS，还有很多以前相对小众的框架系统被大家看到，今天推荐一个开源可商用的 YznCMS。</p><span id="more"></span><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>该系统后端基于 ThinkPHP5.1 框架，前端基于 Layui2.7.x，项目创立于 2017 年，完全开源。</p><p>遵循<strong>Apache2.0</strong>开源协议，开发者声明<strong>永久免费，可商用</strong>，使用时需要注意，那就是<strong>可去除前台版权</strong>，因此后台版权是不允许去除的。</p><h2 id="费用"><a href="#费用" class="headerlink" title="费用"></a>费用</h2><p>框架和自带插件完全免费，授权插件收费。</p><h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><ul><li>WEB 服务器：IIS&#x2F;Apache&#x2F;Nginx</li><li>PHP 版本：php &gt;&#x3D; 7.0（支持 8.0,推荐 7.1）</li><li>数据库：MySQL &gt;&#x3D; 5.6</li></ul><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="https://gitee.com/ken678/YZNCMS">码云开源地址</a></p><h3 id="手册"><a href="#手册" class="headerlink" title="手册"></a>手册</h3><p><a href="https://www.kancloud.cn/ken678/yzncms">yzncms1.1.X 使用手册</a></p><h3 id="开发者博客"><a href="#开发者博客" class="headerlink" title="开发者博客"></a>开发者博客</h3><p><a href="https://blog.yzncms.com/">御宅男の博客</a></p><h3 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h3><p><a href="https://www.bilibili.com/video/av417106995/">哔哩哔哩</a></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>老牌的帝国 CMS 其实是不错的系统，但原作者已经不打算支持新的 PHP 版本了，PHP7.4 已有不少报错情况，8.0 更严格的要求对于绝大多数使用者是致命的。而御宅男这个系统目前更新还比较勤快，对新版本 PHP 的支持也比较友好。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CMS </tag>
+            
+            <tag> 开源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>减肥的心得</title>
+      <link href="/2021/07/26/lose_weight/"/>
+      <url>/2021/07/26/lose_weight/</url>
+      
+        <content type="html"><![CDATA[<p>写篇文章说说我是怎么瘦下来 20 公斤的吧。</p><p>这些经验只属于我个人的情况，建议大家参考就好。</p><span id="more"></span><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>减肥之前，需要先认识到一点，身体状态是自己生活习惯的<strong>外在呈现</strong>。</p><p>过胖或者过瘦，无论是身体疾病还是生活习惯的原因，都在一定程度上说明了身体的健康状况不好。</p><p>如果体检后，医生没有特别嘱咐，就可以开始尝试改变自己的生活习惯了。</p><p>在我看来，减肥的过程就是在一个长周期里面改善自己生活习惯的过程。很多人减肥都会担心一个问题：反弹，减肥的时候节食+运动，不减了就开始暴饮暴食，天天躺着不动，那自然是会反弹了。</p><h2 id="概况"><a href="#概况" class="headerlink" title="概况"></a>概况</h2><p><strong>2020 年 10 月 8 日：</strong>体重 70.7kg，BMI 值 24.5，体脂 21.2%。</p><p><img src="https://i2.100024.xyz/2024/01/08/pakero.webp" alt="减肥前体脂称数据"></p><p><strong>2021 年 09 月 06 号（后面体重又下降了一些，更新一下）：</strong>体重 52.85kg，BMI 值 18.3，体脂 7.5%。</p><p><img src="https://i2.100024.xyz/2024/01/08/pakjq4.webp" alt="减肥后体脂称数据"></p><p><strong>总结：</strong>现在已经是从胖的状态调整到了瘦的状态上，本质上还是不算很健康的，和我原本的计划有一定的偏离。目前唯一可以确定的是减肥是成功的，后面需要找时间锻炼增加一些体重了。</p><h1 id="理论"><a href="#理论" class="headerlink" title="理论"></a>理论</h1><h2 id="减肥的原理"><a href="#减肥的原理" class="headerlink" title="减肥的原理"></a>减肥的原理</h2><p>把人比做一个气球，如果我们想把气球维持在一个合适的大小，需要定期的补气，因为气球总是因为各种原因导致有漏气的情况。</p><p>人体和气球的状态是一样的。每个人每天在不运动的情况下，都有一个基础代谢在消耗着身体的能量。我们每天饮食摄入的能量，优先是在补充代谢消耗的能量，然后有盈余给人活动提供能量，再有盈余会转化成其余的状态（比如脂肪）储存在身体里，在需要的时候转化成能量给身体使用。</p><p>除了基础代谢，我们每个人会去运动、思考，这些活动都会消耗我们身体的能量。在身体健康的情况下，当我们的体重维持比较稳定的时候，往往是我们每天的饮食摄入和我们的综合代谢这两个值平衡的状态。</p><p>这样就不难理解人是怎么胖起来和瘦下去的了，就是摄入能量和综合代谢的问题。</p><p>这里我们还需要了解一些情况。</p><ul><li>如果胖的原因是病理，一定要听医嘱，不能盲目减肥。</li><li>人的基础代谢是会变的，年龄、肌肉量、日常的运动量都会有影响。</li><li>人体的表现是长期的习惯积累之后才会有表现，短时间的调整，求效果对身体健康是有害的。</li><li>奥利司他是国家批准的唯一的减肥药，市面上其它的产品都是保健品。但是奥利司他的使用也要遵医嘱。</li><li>国家对保健品的标准是食品，只有药品才是有效果要求的。也就是说几块钱的 vc 药片是必须能补充 vc 的，但是几百块的 vc 补充保健品并不需要保证能补充 vc。</li><li>各种断碳、纯素食、断糖、生酮等等方案，还有减肥中心每天提供食谱，我认为是有问题的，因为这些方案不能成为你以后的生活习惯，脱离了这些方案，很容易出现反弹的情况。</li></ul><h2 id="如何减肥"><a href="#如何减肥" class="headerlink" title="如何减肥"></a>如何减肥</h2><p>减肥的方法核心就是控制每天的热量差值。想要让体重下降，我们每天控制摄入能量低于总消耗能量 200-500 大卡左右是比较合适的，这里的核心就是控制自己的饮食和运动了。</p><p>以我为例，前期近四个月的时间其实只是减少了热量的摄入，并没有着重去扩大这个能量差，所以效果慢一点。五月份发现效果之后，根据自己的状态，我开始严格控制了自己的饮食摄入，五月到六月份，我的体重在两个星期的瓶颈期之后，又开始下降，达到我计划的 55 公斤。</p><p>其实到了 55 公斤之后，体重还在止不住的往下掉，掉到了 52 公斤（习惯减肥真的是止不住），但是减肥的目的已经达到之后，我开始平衡摄入和消耗的情况，体重慢慢回到了 55 公斤，并且目前体重是非常稳定的。</p><p>所有操作的目的是为了健康，减肥的目的也是为了健康。我不是一个挑食的人，所以减肥期间摄入量稍微少一点，但是我吃的非常杂，保证了米面油肉蛋奶果蔬等各类食物的摄入，在我看来保证营养是非常重要的。</p><p>另外，不要执着于体重的数据，部分人运动量比较大，脂肪减少了，但是肌肉增长也很快。（我自己是有氧比较多，所以肌肉可以忽略不计）这个时候体重不大可能会降低，甚至是增高。这样的情况，更多的应该是关注自己身体的维度变化和体脂肌肉的数据变化。</p><h2 id="辅助的-APP"><a href="#辅助的-APP" class="headerlink" title="辅助的 APP"></a>辅助的 APP</h2><h3 id="薄荷健康"><a href="#薄荷健康" class="headerlink" title="薄荷健康"></a>薄荷健康</h3><p>这个软件可以用来记录自己的饮食和运动情况，让我们对自己的情况有个基础的认识。</p><h3 id="KEEP"><a href="#KEEP" class="headerlink" title="KEEP"></a>KEEP</h3><p>这个软件我是用来记录自己运动情况的，大家自己看情况使用。</p><h3 id="体脂称（必须）"><a href="#体脂称（必须）" class="headerlink" title="体脂称（必须）"></a>体脂称（必须）</h3><p>没有具体的推荐，目前市场上很多体脂称，小米华为薄荷 keep 家都有，各家的体脂称通常都有配套的 APP 分析身体情况。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 减肥 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>点击还是被发现？探索竞价与信息流广告</title>
+      <link href="/2021/01/09/semvssa/"/>
+      <url>/2021/01/09/semvssa/</url>
+      
+        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><h3 id="引入：数字营销中的广告多样性与挑战"><a href="#引入：数字营销中的广告多样性与挑战" class="headerlink" title="引入：数字营销中的广告多样性与挑战"></a>引入：数字营销中的广告多样性与挑战</h3><p>在当今数字化的市场环境中，广告形式多种多样，从搜索引擎到社交媒体，从网页广告到视频推广。这些不同类型的广告让品牌和营销者面临着挑战：如何在信息过载的环境中，吸引用户的注意力？搜索引擎竞价和信息流广告作为两种主要的数字广告形式，引发了人们对于广告投放策略的思考。</p><span id="more"></span><h3 id="概述：搜索引擎竞价与信息流广告的不同营销模式"><a href="#概述：搜索引擎竞价与信息流广告的不同营销模式" class="headerlink" title="概述：搜索引擎竞价与信息流广告的不同营销模式"></a>概述：搜索引擎竞价与信息流广告的不同营销模式</h3><p>数字化时代，品牌和营销者面临着“点击”和“被发现”的双重挑战。搜索引擎竞价注重的是用户搜索时的精准匹配，通过关键词触发点击；而信息流广告更注重于原生展示，通过深度的用户了解和兴趣匹配来实现被动的曝光。本文将深入探讨这两种不同营销模式的特点与优劣，了解其背后的运作机制及适用场景。</p><hr><h2 id="搜索引擎竞价：点击的魅力"><a href="#搜索引擎竞价：点击的魅力" class="headerlink" title="搜索引擎竞价：点击的魅力"></a>搜索引擎竞价：点击的魅力</h2><h3 id="定义与原理"><a href="#定义与原理" class="headerlink" title="定义与原理"></a>定义与原理</h3><p>搜索引擎竞价是一种数字营销方式，广告主通过竞价购买关键词的展示位置。当用户在搜索引擎中输入与广告主购买的关键词相匹配的搜索词时，广告就会在搜索结果中显示，广告主需为每次点击付费。</p><h3 id="优势与特点：精准定位和搜索词匹配"><a href="#优势与特点：精准定位和搜索词匹配" class="headerlink" title="优势与特点：精准定位和搜索词匹配"></a>优势与特点：精准定位和搜索词匹配</h3><ol><li><strong>精准定位：</strong> 广告可根据特定关键词精准呈现给有意愿的用户，提高广告触达目标受众的精准性。</li><li><strong>搜索词匹配：</strong> 通过与用户搜索词的匹配，使得广告更符合用户意图，提升点击率和转化率。</li></ol><h3 id="成功案例分析"><a href="#成功案例分析" class="headerlink" title="成功案例分析"></a>成功案例分析</h3><p>通过展示成功的搜索引擎竞价广告案例，可以说明其优势在于：</p><ul><li>如何有效利用精准关键词，吸引目标用户点击；</li><li>如何提高投放效果，实现广告投入的良好回报。</li></ul><h2 id="信息流广告：被发现的魔力"><a href="#信息流广告：被发现的魔力" class="headerlink" title="信息流广告：被发现的魔力"></a>信息流广告：被发现的魔力</h2><h3 id="定义与工作机制"><a href="#定义与工作机制" class="headerlink" title="定义与工作机制"></a>定义与工作机制</h3><p>信息流广告是以原生方式融入网页或应用程序的广告形式，与内容融为一体，以一种更自然的形式呈现给用户。这种广告形式不像传统广告那样刻意突出，而是更注重与用户体验的融合。</p><h3 id="特点与优势：原生展示和潜在曝光"><a href="#特点与优势：原生展示和潜在曝光" class="headerlink" title="特点与优势：原生展示和潜在曝光"></a>特点与优势：原生展示和潜在曝光</h3><ol><li><strong>原生展示：</strong> 广告以与内容相似的形式呈现，更符合用户浏览体验，降低了用户的广告识别度，提升了广告的接受度。</li><li><strong>潜在曝光：</strong> 用户可能在无意识中接触到广告，即使没有点击广告，也能提升品牌曝光和认知度。</li></ol><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ul><li>利用原生展示方式获得用户的关注；</li><li>在用户潜意识中留下品牌印记，提高品牌曝光和认知。</li></ul><h2 id="比较与对比"><a href="#比较与对比" class="headerlink" title="比较与对比"></a>比较与对比</h2><h3 id="用户体验对比：点击式广告-VS-原生展示"><a href="#用户体验对比：点击式广告-VS-原生展示" class="headerlink" title="用户体验对比：点击式广告 VS 原生展示"></a>用户体验对比：点击式广告 VS 原生展示</h3><ol><li><strong>精准匹配与浏览体验：</strong> 搜索引擎竞价广告通过关键词匹配精准展现，但可能被用户视为干扰；信息流广告以原生展示方式呈现，更符合用户浏览习惯，提升了广告接受度。</li><li><strong>用户点击意愿：</strong> 搜索引擎广告因为用户主动搜索而产生，可能有更高的点击意愿；信息流广告则在用户无意识中曝光，建立品牌认知。</li></ol><h3 id="广告效果评估：转化率-VS-品牌曝光"><a href="#广告效果评估：转化率-VS-品牌曝光" class="headerlink" title="广告效果评估：转化率 VS 品牌曝光"></a>广告效果评估：转化率 VS 品牌曝光</h3><ol><li><strong>转化率比较：</strong> 搜索引擎广告由于用户搜索意图强烈，通常有更高的转化率；信息流广告则更注重品牌曝光和广告影响力的长期积累。</li><li><strong>品牌曝光比较：</strong> 信息流广告更适合提升品牌知名度和潜在用户认知，但转化率相对搜索引擎广告可能较低。</li></ol><h3 id="适用场景分析：不同业务需求下的选择"><a href="#适用场景分析：不同业务需求下的选择" class="headerlink" title="适用场景分析：不同业务需求下的选择"></a>适用场景分析：不同业务需求下的选择</h3><ol><li><strong>目标策略区分：</strong> 搜索引擎竞价广告适用于具体搜索需求和短期营销目标；信息流广告适用于品牌建设和长期影响力积累。</li><li><strong>资源投放策略：</strong> 根据企业目标和资源分配，灵活选择广告形式以达成不同营销目标。</li></ol><h2 id="未来发展展望"><a href="#未来发展展望" class="headerlink" title="未来发展展望"></a>未来发展展望</h2><h3 id="行业趋势：搜索广告与信息流广告的演进"><a href="#行业趋势：搜索广告与信息流广告的演进" class="headerlink" title="行业趋势：搜索广告与信息流广告的演进"></a>行业趋势：搜索广告与信息流广告的演进</h3><ol><li><strong>技术创新与智能化：</strong> 随着人工智能技术的发展，搜索广告和信息流广告可能会更加智能化，更具个性化定制能力。</li><li><strong>跨平台整合：</strong> 未来广告形式可能更倾向于跨平台整合，将搜索引擎竞价和信息流广告有机融合，以提升广告效果和用户体验。</li></ol><h3 id="营销策略：整合使用的可能性与挑战"><a href="#营销策略：整合使用的可能性与挑战" class="headerlink" title="营销策略：整合使用的可能性与挑战"></a>营销策略：整合使用的可能性与挑战</h3><ol><li><strong>混合营销策略：</strong> 企业可能更倾向于采用综合广告策略，结合搜索引擎竞价和信息流广告，实现全方位营销覆盖。</li><li><strong>个性化内容和互动：</strong> 针对个性化内容和互动性更强的广告形式可能成为未来的发展趋势，提升用户参与度和品牌关注度。</li></ol><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h3 id="搜索引擎竞价-VS-信息流广告：各有所长"><a href="#搜索引擎竞价-VS-信息流广告：各有所长" class="headerlink" title="搜索引擎竞价 VS 信息流广告：各有所长"></a>搜索引擎竞价 VS 信息流广告：各有所长</h3><ol><li><strong>精准触达 VS 自然融合：</strong> 搜索引擎竞价广告适合精准触达有明确需求的用户，而信息流广告更注重自然融合与长期品牌积累。</li><li><strong>点击转化 VS 品牌曝光：</strong> 搜索引擎广告注重点击转化率，信息流广告更关注品牌曝光和影响力的建立。</li></ol><h3 id="选择广告形式：因需而变"><a href="#选择广告形式：因需而变" class="headerlink" title="选择广告形式：因需而变"></a>选择广告形式：因需而变</h3><ol><li><strong>营销目标与策略：</strong> 根据不同营销目标和策略，合理选择广告形式以达成最佳营销效果。</li><li><strong>综合运用的前景：</strong> 未来趋势或将更倾向于综合运用不同广告形式，以更好地满足多样化的营销需求。</li></ol><h3 id="为未来做准备：持续学习与创新"><a href="#为未来做准备：持续学习与创新" class="headerlink" title="为未来做准备：持续学习与创新"></a>为未来做准备：持续学习与创新</h3><ol><li><strong>持续学习更新技能：</strong> 不断关注行业发展，学习和适应新技术和新趋势，为未来的数字营销做好准备。</li><li><strong>勇于创新尝试：</strong> 在数字营销中，不断创新并勇于尝试新的广告形式和策略，才能保持竞争优势。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 运营 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 营销 </tag>
+            
+            <tag> 广告 </tag>
+            
+            <tag> 信息流 </tag>
+            
+            <tag> 竞价 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo 常用的命令</title>
+      <link href="/2021/01/07/hexocommand/"/>
+      <url>/2021/01/07/hexocommand/</url>
+      
+        <content type="html"><![CDATA[<p>用 Hexo 的时间不是很长，但是用了一段时间真的非常喜欢。不过由于 Github 使用不是很熟练，所以经常过一段时间不用就忘了命令和一些常需要修改的参数，所以在这篇文章里面记录下来。</p><span id="more"></span><h2 id="问题解决渠道"><a href="#问题解决渠道" class="headerlink" title="问题解决渠道"></a>问题解决渠道</h2><p><a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe">hexo 皮肤Github</a></p><p><a href="https://docs.nexmoe.com/">hexo 主题使用说明</a></p><p><a href="https://r9.cm/">hexo 皮肤预览</a></p><p><a href="https://hexo.io/zh-cn/docs/commands.html">hexo 官网使用说明</a></p><h2 id="最常用"><a href="#最常用" class="headerlink" title="最常用"></a>最常用</h2><ul><li>生成网站</li></ul><p><code>hexo g</code> # 生成全站静态文件</p><blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo generate <span class="comment"># 完整写法</span></span><br></pre></td></tr></table></figure><p>生成或者更新 <code>public</code> 文件夹</p></blockquote><ul><li>本地预览</li></ul><p><code>hexo s</code> # 启动本地预览服务</p><blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server <span class="comment"># 完整写法</span></span><br></pre></td></tr></table></figure><p>启动服务器，访问网址： <a href="http://localhost:4000/">http://localhost:4000/</a> 进行本地预览。</p></blockquote><ul><li>部署</li></ul><p><code>hexo d</code> # 部署网站到 <code>Github</code> 。</p><blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy <span class="comment"># 完整写法</span></span><br></pre></td></tr></table></figure><p>把本地的网站推送到 <code>Github</code> ，完成推送后，需要重新到项目设置处绑定域名。</p></blockquote><ul><li>清理缓存</li></ul><p><code>hexo clean</code> # 清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)</p><blockquote><p>部分情况（比如更换主题后），发现站点的更改不生效，可以试试运行该命令。</p></blockquote><ul><li>创建文章</li></ul><p><code>hexo n &quot;我的博客&quot;</code> # 新建文章</p><blockquote><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;我的博客&quot;</span> <span class="comment"># 完整写法</span></span><br></pre></td></tr></table></figure><p>新建一篇名字为我的博客的文章。我一般是用 <strong>Typora</strong> 写文章，所以这个命令使用的不多。</p></blockquote><ul><li>检查版本</li></ul><p><code>hexo version</code> # 显示 hexo 版本</p><h2 id="文章格式"><a href="#文章格式" class="headerlink" title="文章格式"></a>文章格式</h2><h3 id="头部"><a href="#头部" class="headerlink" title="头部"></a>头部</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: # 文章标题</span><br><span class="line">date: # 发表日期</span><br><span class="line">updated: # 更新日期</span><br><span class="line">cover: # 封面图片</span><br><span class="line">categories: # 分类</span><br><span class="line">tags:</span><br><span class="line">    - # 标签</span><br><span class="line">---</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><p>下列代码前面的内容会被渲染成摘要。</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>jsDelivr 的使用方法</title>
+      <link href="/2020/11/27/jsDelivr/"/>
+      <url>/2020/11/27/jsDelivr/</url>
+      
+        <content type="html"><![CDATA[<p><strong>jsDelivr</strong> 是一款免费开源的公共 CDN 服务，很多站长会把网站的静态文件通过 <strong>jsDelivr</strong> 加速来访问，这样既实现了对网站的加速，又能节约不少网站 CDN 的流量，可谓是神器。</p><span id="more"></span><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p><strong>jsDelivr</strong> 官网：<a href="https://www.jsdelivr.com/">jsDelivr - A free, fast, and reliable CDN for open source</a></p><p>进入 <strong>jsDelivr</strong> 的官网，我们能看到首页有三个网站，可以使用 jsDelivr 加速资源访问，分别是：nmp、github、wordpress，这里我们逐一做下说明。</p><h3 id="nmp"><a href="#nmp" class="headerlink" title="nmp"></a>nmp</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 加载npm上托管的项目</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/npm/package@version/file</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/npm/包名@版本号/目录</span><br><span class="line"></span><br><span class="line">// 例如，加载jQuery v3.2.1版本</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js</span><br><span class="line"></span><br><span class="line">// 或者加载jquery目录</span><br><span class="line"></span><br><span class="line">// 提示：目录后面的&quot;/&quot;不能省略，否则无法访问</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/npm/jquery/</span><br></pre></td></tr></table></figure><h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><p>很多人的资源托管在 github 上，其中不乏大量通过 hexo 搭建的静态博客。但是国内访问 github 速度终究不是很理想，而国产的 gitee 虽然能替代大部分的使用场景，却总是在细节上不尽人意。</p><p>这个时候 jsDelivr 的加速就十分的有用。</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 加载 github 上的项目分支</span><br><span class="line"></span><br><span class="line">// 提示：建议支持 npm 的项目使用npm</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/gh/user/repo@version/file</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/gh/用户名/仓库名称@版本号/目录</span><br><span class="line"></span><br><span class="line">// 例如，加载 jQuery v3.2.1 版本</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js</span><br><span class="line"></span><br><span class="line">// 或者加载 jquery 目录</span><br><span class="line"></span><br><span class="line">// 提示：目录后面的&quot;/&quot;不能省略，否则无法访问</span><br><span class="line"></span><br><span class="line">https://cdn.jsdelivr.net/gh/jquery/jquery/</span><br><span class="line"></span><br></pre></td></tr></table></figure><h1 id="wordpress"><a href="#wordpress" class="headerlink" title="wordpress"></a>wordpress</h1><p>建站没折腾过 wordpress，那绝对是当站长的一大遗憾。不过因为一直不擅长优化 wordpress，后来我选择了 Typecho，与其水平不够反复折腾，不如安安静静静下心来记录下自己的成长。</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 从中加载任何插件WordPress.org网站插件SVN repo</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/plugins/project/tags/version/file</span><br><span class="line"></span><br><span class="line">// 加载精确版本</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/plugins/wp-slimstat/tags/4.6.5/wp-slimstat.js</span><br><span class="line"></span><br><span class="line">//加载最新版本</span><br><span class="line"></span><br><span class="line">//你不应该在生产中使用这个</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/plugins/wp-slimstat/trunk/wp-slimstat.js</span><br><span class="line"></span><br><span class="line">//从中加载任何主题WordPress.org网站主题SVN回购</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/themes/project/version/file</span><br><span class="line"></span><br><span class="line">//加载精确版本</span><br><span class="line"></span><br><span class="line">https://cdn.jsdeliver.net/wp/themes/tight-eightteen/1.7/assets/js/html5.js</span><br><span class="line"></span><br><span class="line">//将“.min”添加到任何JS/CSS文件以获得缩小版本</span><br><span class="line"></span><br><span class="line">//如果不存在，我们将为您生成它</span><br></pre></td></tr></table></figure><blockquote><p>wordpress 部分的汉字解释用的百度翻译，所以可能奇奇怪怪，不过配合官网的例子，熟悉的大佬应该很快能看明白。不过，都是大佬了，应该不会看到我这种小白文章吧。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在电脑上多开微信的方法</title>
+      <link href="/2020/11/18/wzxn/"/>
+      <url>/2020/11/18/wzxn/</url>
+      
+        <content type="html"><![CDATA[<p>平时微信用得少，一直没有很好地把微信上的好友做分类，使用的时候也没有针对分组和标签的习惯，为了把生活和工作分开，我就有了两个同时在使用的微信。</p><p>大部分时候，在公司都是使用工作微信，但是还是避免不了同时使用两个微信的情况。但是用的时候发现微信不能像 QQ 一样，可以同时启动多个。今天给大家提供一个比较简单的解决方案。</p><span id="more"></span><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>在桌面找到微信的图标，鼠标右键选择<strong>属性</strong>，在<strong>属性-快捷方式</strong>的页面，我们可以看到微信的安装路径。这时候我们就可以开始下一步了。</p><p><img src="https://i2.100024.xyz/2024/01/07/10nhmei.webp" alt="微信安装路径"></p><h2 id="写双开文件"><a href="#写双开文件" class="headerlink" title="写双开文件"></a>写双开文件</h2><p>在桌面新建一个<strong>txt</strong>文本，打开之后，把下面这段内容复制粘贴进去：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">start /d &quot;C:\Program Files (x86)\Tencent\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;C:\Program Files (x86)\Tencent\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">exit</span><br></pre></td></tr></table></figure><p>下面我们修改上面的内容。</p><p>其中<code>&quot;C:\Program Files (x86)\Tencent\WeChat\&quot;</code>这个部分是微信的默认安装路径，如果你安装的时候做过修改，就需要把这段内容改成你现在的安装路径。</p><p>安装路径可以在准备里面的<strong>起始位置</strong>找到。</p><p>比如我的做过修改，所以内容就改成了下面的这段：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">exit</span><br></pre></td></tr></table></figure><p>上面的代码是启动两个微信，如果我们需要启动三个乃至更多的微信，我们就需要把<code>start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</code>这段代码多复制几行。</p><p>没错，有几行就是同时启动几个微信。</p><p>比如想同时启动 4 个微信，代码如下：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">start /d &quot;D:\Program Files\WeChat\&quot; WeChat.exe</span><br><span class="line"></span><br><span class="line">exit</span><br></pre></td></tr></table></figure><p>完成上面的步骤之后，我们在 txt 编辑器的菜单找到<strong>文件</strong>，选择<strong>另存为</strong>,也可以用快捷键<code>Ctrl+Shift+s</code>组合打开另存为窗口。</p><p>文件位置选择<strong>桌面</strong>,保存类型选择<strong>所有文件</strong>，文件名改为：<code>wechat.bat</code>。</p><p><img src="https://i2.100024.xyz/2024/01/07/10nhn2f.webp" alt="保存wechat.bat"></p><p>这时候桌面就出现一个名字为<code>wechat.bat</code>的可执行文件。</p><p><img src="https://i2.100024.xyz/2024/01/07/10nhph5.webp" alt="执行文件"></p><h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h2><p>现在我们直接通过鼠标双击<code>wechat.bat</code>这个文件，就可以按照我们的想法多开微信了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技巧 </tag>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel 快捷键</title>
+      <link href="/2020/10/02/excel/"/>
+      <url>/2020/10/02/excel/</url>
+      
+        <content type="html"><![CDATA[<p>很多人在学校都学习过 Excel 这个神器的基本操作，但是学完之后，因为缺乏具体的应用场景，渐渐就忘的差不多。能勉强用起来的无非是做个简单的表格，能用到求和公式就已经算是十分的优秀，其实真正的 Excel 功能远不止这么简单。</p><p>在日常工作中，用好 Excel 其实是能提升很大的工作效率的。</p><span id="more"></span><p>有些人总以为厉害的 Excel 就是使用复杂的公式和 VBA，毕竟涉及编程，不会也没什么问题，反正工作能用到的地方也不多。其实很多 Excel 的快捷键掌握好了，就能很大程度上提升自己的工作效率。</p><p>这里就记一些 Excel 的快捷键。</p><p><strong>注意：</strong>我自己使用的是购买的最新微软 365 套餐，所以 Excel 版本应该是 2016 或者 2019，其他版本的 Excel 大家自己尝试吧。</p><p><strong>更新记录：</strong></p><ul><li>2020 10 02 增加 9 个常用快捷键组合和一个使用场景。</li></ul><h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><blockquote><p>关于操作的快捷键。</p></blockquote><p>1、按 Ctrl+N 新建一个 excel 文件。</p><p>2、按 Ctrl+W 关闭 excel 文件。</p><p>3、按 Shift 不松点击关闭按钮，可以关闭所有打开 excel 文件。</p><p>4、插入一个工作表，按下 F4 键可以插入一个新的工作表。</p><p>5、按 Ctrl+PageDown 或 PageUp 可以快速查看工作表。按 Ctrl+9 隐藏行。</p><p>6、按 Ctrl+0 隐藏列。</p><p>7、按 Ctrl+-(减号) 删除行。</p><p>8、按 Ctrl+上下左右箭头，可以快速跳转到当前数据区域的边界。</p><p>9、按 ctrl+shift+end 键，可以选取非连续的区域。</p><h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><blockquote><p>涉及用的比较多的公式快捷键。</p></blockquote><p>1、下次更新。</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote><p>整理内容时，常用的操作。</p></blockquote><ul><li><strong>场景：</strong>Excel 支持多种格式，直接复制粘贴会将所有格式一同粘贴，比如我们在别处写出来的公式、注释等等。这时候如果我们只需要复制数值或者保留公式格式等等就需要用快捷键。</li></ul><p><strong>方案一：</strong>直接<code>Ctrl+v</code>粘贴所有的数据，在数据的右下角会出现一个<code>Ctrl+小三角</code>的标志，这个就是<strong>粘贴选项</strong>。</p><p>通过粘贴选项我们可以选择多种粘贴方式，值、公式、保留格式、转图片等等。</p><p><img src="https://i2.100024.xyz/2024/01/08/qv6ml0.webp" alt="粘贴选项"></p><p><strong>方案二：</strong>使用快捷键组合<code>Ctrl+Alt+v</code>粘贴，这时候会直接跳出<strong>选择性粘贴</strong>的对话窗口：</p><p><img src="https://i2.100024.xyz/2024/01/08/qv6k8w.webp" alt="选择性粘贴"></p><p>这里我们可以选择我们要粘贴的内容，选择我们需要的结果。</p><p><strong>方案三：</strong>通过快捷键组合<code>Alt+E</code>或者鼠标右键（右键点击需要粘贴内容的第一个单元格），然后<code>S</code>可以跳出<strong>选择性粘贴</strong>的对话窗口，这时候可以选择自己要的粘贴内容。</p><p>选择性粘贴可以通过上面括号内快捷键+回车键进行快捷操作，避免使用鼠标选取操作，提升效率。</p><p><strong>方案四：</strong>当然，如果对于一些重复度需求很大的人来说，上面的几种方式都不是很好，相对比较麻烦，这时候，自定义功能区是非常有用的方式，这个等我抽时间整理下。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>目前我自己对于 Excel 的使用也不是很深入，上面的内容是自己学习使用的记录，有高手也可以多多指导，一起学习进步。</p><p>这里主要是更新快捷键的内容，然后<strong>使用技巧</strong>等有空另外开一篇文章吧。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Excel </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Excel：何时选择绝对引用，何时选择相对引用</title>
+      <link href="/2020/06/10/excelabsoluterelative/"/>
+      <url>/2020/06/10/excelabsoluterelative/</url>
+      
+        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>Excel 作为一款功能强大的电子表格软件，其公式的编写和应用是用户处理数据的关键。在公式中，引用类型的选择直接影响着公式的灵活性和稳定性。在 Excel 中，相对引用和绝对引用是两种主要的引用类型，它们决定了公式中单元格引用的行为方式。</p><span id="more"></span><p><strong>相对引用</strong>让单元格引用相对于公式的位置而变化，当公式被拖动或复制到新的位置时，引用会相应地调整。这种灵活性使得公式能够自动适应不同位置的数据，但有时也可能造成意想不到的结果。</p><p><strong>绝对引用</strong>则固定了单元格引用的行或列，在公式被拖动或复制时不会发生变化。这种稳定性确保了公式在特定单元格上的准确性，但也可能限制公式在不同位置的适应性。</p><p>因此，在选择引用类型时，理解公式的预期行为、数据处理的需求以及公式在不同位置下所需的稳定性与灵活性至关重要。</p><h2 id="相对引用的应用场景"><a href="#相对引用的应用场景" class="headerlink" title="相对引用的应用场景"></a>相对引用的应用场景</h2><ol><li><h3 id="公式填充和复制："><a href="#公式填充和复制：" class="headerlink" title="公式填充和复制："></a><strong>公式填充和复制</strong>：</h3><ul><li>当需要将公式应用到一列或一行的数据集合中时，相对引用是十分方便的。公式会根据所在单元格的位置自动调整，适用于不同的数据行或列。</li></ul></li><li><h3 id="计算相邻单元格的数据："><a href="#计算相邻单元格的数据：" class="headerlink" title="计算相邻单元格的数据："></a><strong>计算相邻单元格的数据</strong>：</h3><ul><li>在计算与相邻单元格相关的数值时，相对引用非常有用。例如，使用 SUM 函数计算一个区域内的数值总和，公式可以随着拖动填充而自动调整到相应的区域。</li></ul></li><li><h3 id="创建动态数据逻辑："><a href="#创建动态数据逻辑：" class="headerlink" title="创建动态数据逻辑："></a><strong>创建动态数据逻辑</strong>：</h3><ul><li>对于数据表格中的公式逻辑，相对引用允许公式随着数据位置的变化而自动调整。例如，利用 IF 函数在不同数据行中执行不同的逻辑操作。</li></ul></li><li><h3 id="建立数据表格："><a href="#建立数据表格：" class="headerlink" title="建立数据表格："></a><strong>建立数据表格</strong>：</h3><ul><li>在创建 Excel 表格时，使用相对引用可以快速填充公式，使得表格中的计算自动适应不同行和列的数据。</li></ul></li><li><h3 id="逐步计算数据集合："><a href="#逐步计算数据集合：" class="headerlink" title="逐步计算数据集合："></a><strong>逐步计算数据集合</strong>：</h3><ul><li>当需要逐步计算数据集合的各个部分时，相对引用能够自动调整公式以反映每一步的计算过程。</li></ul></li></ol><p>相对引用的灵活性和自适应性使得在处理动态数据集合时更为便捷。公式随着单元格位置的变化而相对调整，无需手动更改，极大地提高了工作效率和数据处理的准确性。</p><h2 id="绝对引用的优势及适用情况"><a href="#绝对引用的优势及适用情况" class="headerlink" title="绝对引用的优势及适用情况"></a>绝对引用的优势及适用情况</h2><ol><li><h3 id="锁定特定单元格或范围："><a href="#锁定特定单元格或范围：" class="headerlink" title="锁定特定单元格或范围："></a><strong>锁定特定单元格或范围</strong>：</h3><ul><li>在公式中需要锁定某个特定的单元格或单元格范围时，绝对引用是非常有用的。例如，当公式在拖动填充时需要保持某个常量值不变，就可以通过绝对引用来实现。</li></ul></li><li><h3 id="固定公式中的特定部分："><a href="#固定公式中的特定部分：" class="headerlink" title="固定公式中的特定部分："></a><strong>固定公式中的特定部分</strong>：</h3><ul><li>当需要在公式中固定某个行或列时，绝对引用可以确保在拖动填充时相应的部分保持不变。这对于处理表格中的数据表头或固定的常量很有用。</li></ul></li><li><h3 id="保持公式稳定性："><a href="#保持公式稳定性：" class="headerlink" title="保持公式稳定性："></a><strong>保持公式稳定性</strong>：</h3><ul><li>绝对引用确保了公式在复制或拖动时不会随着位置的改变而产生意外的结果，保持了公式的稳定性和准确性。</li></ul></li><li><h3 id="适用于复杂计算或数据表格："><a href="#适用于复杂计算或数据表格：" class="headerlink" title="适用于复杂计算或数据表格："></a><strong>适用于复杂计算或数据表格</strong>：</h3><ul><li>在复杂的数据计算中或者在需要建立稳定的数据表格时，绝对引用有助于保持公式的准确性和一致性。</li></ul></li><li><h3 id="适用于特定行或列的数据处理："><a href="#适用于特定行或列的数据处理：" class="headerlink" title="适用于特定行或列的数据处理："></a><strong>适用于特定行或列的数据处理</strong>：</h3><ul><li>当需要在特定的行或列上执行公式运算时，绝对引用可以确保公式在拖动填充时保持针对指定行或列的计算。</li></ul></li></ol><p>绝对引用在需要固定特定部分或确保公式稳定性的场景中发挥着关键作用。通过锁定特定单元格或范围，它能够确保在公式复制或填充时所需的稳定性和准确性，有助于提高数据处理的可靠性和效率。</p><h2 id="选择绝对引用还是相对引用的决策依据"><a href="#选择绝对引用还是相对引用的决策依据" class="headerlink" title="选择绝对引用还是相对引用的决策依据"></a>选择绝对引用还是相对引用的决策依据</h2><ol><li><h3 id="公式的预期行为："><a href="#公式的预期行为：" class="headerlink" title="公式的预期行为："></a><strong>公式的预期行为</strong>：</h3><ul><li><strong>相对引用</strong>：当希望公式根据所在位置自动调整引用的单元格时，适用相对引用。这对于拖动填充公式到不同位置且需要公式相对适应的情况非常有用。</li><li><strong>绝对引用</strong>：如果公式的某个部分在填充或复制时需要保持不变，选择绝对引用可以确保该部分的稳定性。</li></ul></li><li><h3 id="数据处理的需求："><a href="#数据处理的需求：" class="headerlink" title="数据处理的需求："></a><strong>数据处理的需求</strong>：</h3><ul><li><strong>动态数据集合</strong>：在处理动态数据集合时，相对引用能够自动调整公式以适应不同行或列的数据变化，提高处理的灵活性。</li><li><strong>固定数值或常量</strong>：对于在公式中需要保持不变的特定数值或常量，选择绝对引用能够确保在拖动填充时保持稳定性。</li></ul></li><li><h3 id="公式在不同位置下所需的稳定性与灵活性："><a href="#公式在不同位置下所需的稳定性与灵活性：" class="headerlink" title="公式在不同位置下所需的稳定性与灵活性："></a><strong>公式在不同位置下所需的稳定性与灵活性</strong>：</h3><ul><li><strong>相对引用</strong>：在公式需要适应不同位置并随着拖动填充而自动调整时，相对引用提供了更大的灵活性。</li><li><strong>绝对引用</strong>：在需要保持特定部分稳定性的公式中，选择绝对引用能够确保公式在复制或填充时不发生意外变化。</li></ul></li></ol><p>综合考虑公式的预期行为、数据处理的需求以及在不同位置下公式所需的稳定性和灵活性，能够更明智地选择使用相对引用或绝对引用。在实际应用中，根据具体的数据处理情况和公式的需求来灵活运用这两种引用类型，以确保公式的准确性和有效性。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol><li><h3 id="相对引用："><a href="#相对引用：" class="headerlink" title="相对引用："></a><strong>相对引用</strong>：</h3><ul><li>适用于需要公式根据所在位置自动调整引用的单元格的情况。</li><li>在处理动态数据集合、拖动填充公式到不同位置且需要公式相对适应的情况下非常有用。</li><li>提供了灵活性，能够自动调整公式以适应不同行或列的数据变化。</li></ul></li><li><h3 id="绝对引用："><a href="#绝对引用：" class="headerlink" title="绝对引用："></a><strong>绝对引用</strong>：</h3><ul><li>适用于需要在填充或复制时保持某些部分稳定的情况。</li><li>对于需要固定特定数值或常量、保持特定部分在填充时不变的情况下非常有用。</li><li>提供了稳定性，能够确保公式在复制或填充时特定部分不发生意外变化。</li></ul></li><li><h3 id="决策依据："><a href="#决策依据：" class="headerlink" title="决策依据："></a><strong>决策依据</strong>：</h3><ul><li>根据公式的预期行为和数据处理需求进行选择，考虑公式在不同位置下所需的稳定性和灵活性。</li><li>相对引用提供了灵活性，能够自动调整，而绝对引用提供了稳定性，保持特定部分不变。</li></ul></li></ol><p>在实际应用中，理解相对引用和绝对引用的特性，并根据具体情况灵活选择使用，可以有效提高公式的准确性和效率，以满足不同数据处理场景的需求。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Excel </tag>
+            
+            <tag> 运营 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Typecho 不用插件实现文章阅读次数统计</title>
+      <link href="/2020/04/16/typechonub/"/>
+      <url>/2020/04/16/typechonub/</url>
+      
+        <content type="html"><![CDATA[<p>Typecho 是国人开发的一款轻量的 Blog 系统，非常的受技术党的欢迎，我自己也用 Typecho 搭建了一个自认为不错的基于 Typecho 的 Blog。<br>在 Typecho 中，很多功能可以用过插件实现，不过有些功能依赖插件总会导致 Blog 逐渐臃肿，所以简单的改改代码是不错的选择，比如实现文章阅读次数统计的功能。</p><span id="more"></span><h2 id="方案说明"><a href="#方案说明" class="headerlink" title="方案说明"></a>方案说明</h2><p>目前代码有两种类型，分为不包含 cookie 验证和包含 cookie 验证的两段。</p><h2 id="不包含-cookie-验证"><a href="#不包含-cookie-验证" class="headerlink" title="不包含 cookie 验证"></a>不包含 cookie 验证</h2><p>一般修改这种代码，我们选择修改 Typecho 的主题文件中的<code>function.php</code>文件，而实现这一功能，我们需要在<code>function.php</code>文件中加入下面这段代码：</p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">//get_post_view($this)</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">get_post_view</span>(<span class="params"><span class="variable">$archive</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="variable">$cid</span>    = <span class="variable">$archive</span>-&gt;cid;</span><br><span class="line">    <span class="variable">$db</span>     = <span class="title class_">Typecho_Db</span>::<span class="title function_ invoke__">get</span>();</span><br><span class="line">    <span class="variable">$prefix</span> = <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">getPrefix</span>();</span><br><span class="line">    <span class="keyword">if</span> (!<span class="title function_ invoke__">array_key_exists</span>(<span class="string">&#x27;views&#x27;</span>, <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>()-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)))) &#123;</span><br><span class="line">        <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="string">&#x27;ALTER TABLE `&#x27;</span> . <span class="variable">$prefix</span> . <span class="string">&#x27;contents` ADD `views` INT(10) DEFAULT 0;&#x27;</span>);</span><br><span class="line">        <span class="keyword">echo</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable">$row</span> = <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>(<span class="string">&#x27;views&#x27;</span>)-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)-&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>));</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable">$archive</span>-&gt;<span class="title function_ invoke__">is</span>(<span class="string">&#x27;single&#x27;</span>)) &#123;</span><br><span class="line">       <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">update</span>(<span class="string">&#x27;table.contents&#x27;</span>)-&gt;<span class="title function_ invoke__">rows</span>(<span class="keyword">array</span>(<span class="string">&#x27;views&#x27;</span> =&gt; (<span class="keyword">int</span>) <span class="variable">$row</span>[<span class="string">&#x27;views&#x27;</span>] + <span class="number">1</span>))-&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">echo</span> <span class="variable">$row</span>[<span class="string">&#x27;views&#x27;</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>加入上述的代码文件之后，我们再在想要显示浏览次数的位置加入下面这段代码即可：</p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> <span class="title function_ invoke__">get_post_view</span>(<span class="variable">$this</span>) <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure><h2 id="包含-cookie-验证"><a href="#包含-cookie-验证" class="headerlink" title="包含 cookie 验证"></a>包含 cookie 验证</h2><p>上面的统计代码只是机械的统计点击次数，如果一个人反复点击多次都会被算上，队友有些要求比较高的博主体验不会很好，所以下面给一段加了 cookie 验证的代码，同样是放在<code>function.php</code>文件就可以了：</p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">get_post_view</span>(<span class="params"><span class="variable">$archive</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="variable">$cid</span>    = <span class="variable">$archive</span>-&gt;cid;</span><br><span class="line">    <span class="variable">$db</span>     = <span class="title class_">Typecho_Db</span>::<span class="title function_ invoke__">get</span>();</span><br><span class="line">    <span class="variable">$prefix</span> = <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">getPrefix</span>();</span><br><span class="line">    <span class="keyword">if</span> (!<span class="title function_ invoke__">array_key_exists</span>(<span class="string">&#x27;views&#x27;</span>, <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>()-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)))) &#123;</span><br><span class="line">        <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="string">&#x27;ALTER TABLE `&#x27;</span> . <span class="variable">$prefix</span> . <span class="string">&#x27;contents` ADD `views` INT(10) DEFAULT 0;&#x27;</span>);</span><br><span class="line">        <span class="keyword">echo</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable">$row</span> = <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>(<span class="string">&#x27;views&#x27;</span>)-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)-&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>));</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable">$archive</span>-&gt;<span class="title function_ invoke__">is</span>(<span class="string">&#x27;single&#x27;</span>)) &#123;</span><br><span class="line"> <span class="variable">$views</span> = <span class="title class_">Typecho_Cookie</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;extend_contents_views&#x27;</span>);</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">empty</span>(<span class="variable">$views</span>))&#123;</span><br><span class="line">            <span class="variable">$views</span> = <span class="keyword">array</span>();</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="variable">$views</span> = <span class="title function_ invoke__">explode</span>(<span class="string">&#x27;,&#x27;</span>, <span class="variable">$views</span>);</span><br><span class="line">        &#125;</span><br><span class="line"><span class="keyword">if</span>(!<span class="title function_ invoke__">in_array</span>(<span class="variable">$cid</span>,<span class="variable">$views</span>))&#123;</span><br><span class="line">       <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">update</span>(<span class="string">&#x27;table.contents&#x27;</span>)-&gt;<span class="title function_ invoke__">rows</span>(<span class="keyword">array</span>(<span class="string">&#x27;views&#x27;</span> =&gt; (<span class="keyword">int</span>) <span class="variable">$row</span>[<span class="string">&#x27;views&#x27;</span>] + <span class="number">1</span>))-&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>));</span><br><span class="line"><span class="title function_ invoke__">array_push</span>(<span class="variable">$views</span>, <span class="variable">$cid</span>);</span><br><span class="line">            <span class="variable">$views</span> = <span class="title function_ invoke__">implode</span>(<span class="string">&#x27;,&#x27;</span>, <span class="variable">$views</span>);</span><br><span class="line">            <span class="title class_">Typecho_Cookie</span>::<span class="title function_ invoke__">set</span>(<span class="string">&#x27;extend_contents_views&#x27;</span>, <span class="variable">$views</span>); <span class="comment">//记录查看cookie</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">echo</span> <span class="variable">$row</span>[<span class="string">&#x27;views&#x27;</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>展示同样只用把下面的代码放在你想要在 Blog 展示的位置即可：</p><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> <span class="title function_ invoke__">get_post_view</span>(<span class="variable">$this</span>) <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure><p><strong>注：</strong><br>本文代码来自<a href="https://qqdie.com/archives/typecho-read-statistics.html">Typecho 爱好者博客</a>，本博客重新整理排版发布。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>OneDrive 测速</title>
+      <link href="/2020/01/17/onedrive/"/>
+      <url>/2020/01/17/onedrive/</url>
+      
+        <content type="html"><![CDATA[<h2 id="速度测试方法"><a href="#速度测试方法" class="headerlink" title="速度测试方法"></a>速度测试方法</h2><ul><li>注册一个 Microsoft 365 账户：<a href="www.office.com">Microsoft 365</a> <strong>有账户的话，可以直接登陆</strong> ；</li><li>OneDrive 存储空间为 5gb-15gb 大小的，全部是微软官方运营的国际版，数据中心(或者说加速节点，后面会详细解释)不在国内，网页版 OneDrive 完全受到长城影响，OneDrive 客户端可以登陆使用；<span id="more"></span></li><li>登陆客户端使用账户同步功能同步文件，所能得到的速度就是你使用 Microsoft 365 的速度；</li><li>微软的高级版本主要是功能上的升级，而非对网络服务进行阉割和限制，所以普通账户的速度就是你购买高级版之后的速度；</li><li>影响速度的因素：个人网络问题带来的影响，各地运营上对微软服务的支持影响（同样是电信网络，全国各省的电信对该服务的支持程度不一样的，所以速度不一样；同一个省市，电信、移动、联通等网络对该服务的支持也是不一样的。因此别人测试出来的速度不能给你作为参考）。</li></ul><h2 id="版本区别"><a href="#版本区别" class="headerlink" title="版本区别"></a>版本区别</h2><p>目前 Microsoft 365 有<strong>商业版</strong>和<strong>个人版</strong>，从运营商区别还有 <strong>国际版</strong> 和 <strong>互联版</strong> 。</p><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><strong>商业版：</strong> 商业或者组织使用的版本，这里不仅是指一般企业购买的版本，也包括学校公益组织使用的免费资源版本；<br><strong>个人版：</strong> 个人自行注册的版本，OneDrive 存储空间默认为 5gb，可以通过完成邀请注册的任务达到 15gb，一般 OneDrive 空间为 5gb-15gb 大小的都是个人版；<br><strong>国际版：</strong> 微软官方自己运营的版本；<br><strong>互联版：</strong> 微软指定的中国服务商运营的专供国内用户使用的版本。</p><h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><ul><li>个人版的 OneDrive 网页端功能受长城影响，是没办法正常登陆的，客户端可以使用；商业版的 OneDrive 网页端功能没有受到限制，可以正常登录使用；</li><li>国际版登录的顶级域名为 .com（部分账户贩子会用自己的域名跳转到官方的域名，所以如果感觉登录域名很奇怪，在浏览器输入域名回车一下，再看看域名是什么）；互联版登录的顶级域名为 .cn；</li><li>个人注册的 Microsoft 365 账户全部是国际版，而非互联版，即便购买了官方的高级账户套餐（个人版和家庭版两个套餐），也是国际版账户，互联版 <strong>只提供商业版</strong> ；</li><li>互联版的版本功能有所缺失，同时互联版是国际版的移植汉化版本，因此功能更新极其滞后，只能保证常用的功能是正常的，最新或者极少数比较冷门的功能更新都不是很理想。</li></ul><h3 id="网络情况"><a href="#网络情况" class="headerlink" title="网络情况"></a>网络情况</h3><p><strong>国际版：</strong> 微软在全球布置了多个数据中心和非常多的加速节点，大部分地区的微软服务通过加速节点连接到相应的数据中心完成。受国内相关政策影响，微软在大陆没有数据中心和加速节点，大陆用户使用是连接就近的节点：香港、新加坡等，因此访问速度收到的影响因素非常多，网络不稳定。大部分区域上传速度大于下载速度；<br><strong>互联版：</strong> 微软和国内的世纪互联合作，推出了国内专用的 Microsoft 365 版本，数据中心位于上海、北京，通过国内的骨干网络提供服务，网络稳定，速度快（该版本最大的优点）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> OneDrive </tag>
+            
+            <tag> 技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>手把手教你学习使用 VLOOKUP</title>
+      <link href="/2020/01/10/learnvlookup/"/>
+      <url>/2020/01/10/learnvlookup/</url>
+      
+        <content type="html"><![CDATA[<p>在当今信息爆炸的时代，数据是商业决策的驱动力。无论是市场营销、财务分析还是业务策略，准确、快速地获取所需数据至关重要。然而，处理大量数据并从中获取有用信息并非易事。</p><span id="more"></span><p>正因如此，Excel 的 VLOOKUP 函数成为了数据分析中不可或缺的利器。这个简单却强大的函数能够让你轻松地在海量数据中快速定位所需信息，就如同找到大海中的一粒珍珠。</p><p>无论是分析销售数据、管理客户信息还是解决实际的业务问题，VLOOKUP 都能成为一把好手。</p><p>但很多人可能对这个函数感到陌生或者觉得它难以理解。别担心，接下来，我将手把手地教你学习使用 VLOOKUP 函数。通过本文的指导和示范，帮你掌握这个强大工具，让数据查找变得简单高效。</p><h2 id="1-VLOOKUP-函数的基础知识"><a href="#1-VLOOKUP-函数的基础知识" class="headerlink" title="1. VLOOKUP 函数的基础知识"></a>1. VLOOKUP 函数的基础知识</h2><p>VLOOKUP 函数是 Excel 中非常强大的一种函数，它允许用户在表格中进行快速的垂直查找，并返回匹配项的相关数据。让我们来深入了解这个函数。</p><ul><li><strong>VLOOKUP 的概述</strong></li></ul><p>VLOOKUP（垂直查找）函数的作用是在一个指定范围内查找某个值，并返回与此值相关联的另一列中的数据。这个函数通常用于从表格中获取数据，通过指定某个唯一标识（例如产品 ID 或客户姓名）来查找和提取相关信息（如价格、地址等）。</p><ul><li><strong>VLOOKUP 函数的语法</strong></li></ul><p>VLOOKUP 函数的语法如下：</p><p><code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></p><p>其中：</p><ul><li><p><code>lookup_value</code>：要查找的值，即你想在表格中匹配的内容。</p></li><li><p><code>table_array</code>：要在其中进行查找的表格区域，包括要从中提取数据的列。</p></li><li><p><code>col_index_num</code>：要返回数据所在的列数，从表格区域的第一列开始计数。</p></li><li><p><code>range_lookup</code>：一个可选参数，用于指定是否进行近似匹配。一般设置为 TRUE（近似匹配）或 FALSE（精确匹配）。</p></li><li><p><strong>VLOOKUP 函数的使用步骤</strong></p></li></ul><ol><li><p>_准备数据表格_： 确保数据表格具有清晰的结构，包括要查找的值和相关数据所在的列，以及数据的一致性和格式化。</p></li><li><p>_输入 VLOOKUP 函数_： 在 Excel 中选择要输入公式的单元格，键入<code>=VLOOKUP(</code>开始函数，然后按照上述语法填写参数。</p></li><li><p>_查找值和返回值_： 指定要查找的值和要返回数据的位置，确保它们与你的数据表格匹配。</p></li><li><p>_确认并拖动_： 输入完 VLOOKUP 函数后，确认公式无误，然后可以用鼠标拖动来填充其他单元格，以应用该函数到其他数据行。</p></li></ol><p>这些是 VLOOKUP 函数的基础知识，了解这些内容是掌握使用 VLOOKUP 的第一步。在接下来的部分，我们将通过实例来演示 VLOOKUP 函数的实际应用，帮助你更好地理解和掌握这个强大的函数。</p><h2 id="2-准备使用-VLOOKUP-的数据表格"><a href="#2-准备使用-VLOOKUP-的数据表格" class="headerlink" title="2. 准备使用 VLOOKUP 的数据表格"></a>2. 准备使用 VLOOKUP 的数据表格</h2><p>在使用 VLOOKUP 函数之前，必须确保数据表格的结构和内容符合函数的要求，这样才能有效地进行数据查找和匹配。</p><ul><li><strong>数据表格的结构和要求</strong></li></ul><ol><li>_共同字段_： 数据表格中必须有至少一个共同字段，通常是 ID、名称或者其他唯一标识符。这个字段是 VLOOKUP 函数进行匹配的依据。</li><li>_数据的一致性_： 确保数据表格中的共同字段在所有数据行中都是唯一且一致的。重复或不一致的数据可能导致 VLOOKUP 函数匹配出错。</li><li>_数据格式_： 确保数据的格式是一致的，例如日期、货币或文本格式。这有助于确保函数能够正确解析和比较数据。</li><li>_表格区域_： 数据表格应该包括所有需要的数据，并且确保表格的范围包含了要进行查找和返回的数据列。</li></ol><ul><li><strong>如何正确准备数据表格</strong></li></ul><ol><li>_数据的清洗和整理_： 在使用 VLOOKUP 函数之前，对数据进行清洗和整理非常重要。删除重复项、处理空白数据或错误数据，确保数据的完整性和准确性。</li><li>_数据表格的构建_： 确保数据表格按照一定的逻辑结构构建，例如表头包括清晰的列标签，数据排列清晰、易读。</li><li>_数据验证_： 在准备数据表格时，对数据进行验证和检查，确保没有数据错误或不一致性。</li><li>_备份数据_： 在进行数据整理和使用 VLOOKUP 函数之前，最好备份原始数据，以防意外修改或操作造成数据丢失或错误。</li></ol><p>准备完整、准确的数据表格是使用 VLOOKUP 函数的先决条件。确保数据的完整性和准确性将有助于避免错误和提高函数的准确性。</p><h2 id="3-VLOOKUP-函数的步骤解释"><a href="#3-VLOOKUP-函数的步骤解释" class="headerlink" title="3. VLOOKUP 函数的步骤解释"></a>3. VLOOKUP 函数的步骤解释</h2><p>使用 VLOOKUP 函数需要按照一定的步骤来填写函数参数，以便正确地进行数据查找和匹配。</p><ul><li><strong>详细步骤说明</strong></li></ul><ol><li>_准备运行 VLOOKUP 函数的位置_： 在 Excel 表格中选择一个空白单元格，这将是 VLOOKUP 函数的输出位置。</li><li>_输入 VLOOKUP 函数_： 键入等号（&#x3D;），然后输入 VLOOKUP 函数的开始标志。通常，输入<code>=VLOOKUP(</code>开始函数。</li><li>_填写函数参数_：<ul><li><strong>lookup_value 参数</strong>：这是你要在表格中查找的值。点击或手动输入这个值。</li><li><strong>table_array 参数</strong>：选择包含你要进行查找的数据表格区域，确保包含需要查找和返回的数据列。</li><li><strong>col_index_num 参数</strong>：输入要返回数据的列号，从 table_array 的第一列开始计数。</li><li><strong>range_lookup 参数</strong>（可选）：一般情况下，设置为 FALSE 以进行精确匹配，或者设置为 TRUE 进行近似匹配。</li></ul></li><li>_确认并输入公式_： 输入完 VLOOKUP 函数的参数后，按下回车键确认公式。Excel 会根据输入的参数在选定位置显示匹配项的结果。</li><li>_拖动填充其他单元格_： 如果需要在其他单元格中应用相同的 VLOOKUP 函数，可以使用鼠标拖动填充工具来自动调整函数的参数，确保适用于其他数据行。</li></ol><ul><li><strong>示例说明</strong></li></ul><p>让我们以一个实际的案例来演示 VLOOKUP 函数的使用。我们有一个销售数据表格，其中包括产品名称、产品 ID 和销售额。</p><table><thead><tr><th>产品名称（括号里面是 Excel 的坐标，实际表格中没有）</th><th>产品 ID</th><th>销售额（单位：元）</th></tr></thead><tbody><tr><td>产品 A（A2）</td><td>P001（B2）</td><td>5000（C2）</td></tr><tr><td>产品 B（A3）</td><td>P002（B3）</td><td>7500（C3）</td></tr><tr><td>产品 C（A4）</td><td>P003（B4）</td><td>3000（C4）</td></tr><tr><td>产品 D（A5）</td><td>P004（B5）</td><td>6000（C5）</td></tr><tr><td>产品 E（A6）</td><td>P005（B6）</td><td>9000（C6）</td></tr><tr><td>产品 F（A7）</td><td>P006（B7）</td><td>4500（C7）</td></tr></tbody></table><p>我们想要通过产品 ID 查找对应的产品名称。</p><ol><li>选择一个空白单元格。</li><li>输入<code>=VLOOKUP(</code>。</li><li>选定要查找的产品名称作为 lookup_value。</li><li>选择包含产品名称、ID 和产品名称的表格区域作为 table_array。</li><li>输入产品销售额所在的列号作为 col_index_num。</li><li>设置 range_lookup 为 FALSE 以进行精确匹配。</li><li>确认公式并按下回车键，即可得到对应的产品销售额。</li></ol><table><thead><tr><th>产品名称</th><th>产品 ID</th><th>函数</th><th>函数结果显示</th></tr></thead><tbody><tr><td>产品 E（D2）</td><td>P002（E2）</td><td>&#x3D;vlookup(D2,A:C,2,FALSE)</td><td>7500</td></tr><tr><td>产品 D（D3）</td><td>P001（E3）</td><td>&#x3D;vlookup(D3,A:C,3,FALSE)</td><td>5000</td></tr><tr><td>产品 D（D4）</td><td>P004（E4）</td><td>&#x3D;vlookup(D4,A:C,4,FALSE)</td><td>6000</td></tr><tr><td>产品 F（D5）</td><td>P006（E5）</td><td>&#x3D;vlookup(D5,A:C,5,FALSE)</td><td>4500</td></tr><tr><td>产品 C（D6）</td><td>P003（E6）</td><td>&#x3D;vlookup(D6,A:C,6,FALSE)</td><td>3000</td></tr><tr><td>产品 E（D7）</td><td>P005（E7）</td><td>&#x3D;vlookup(D7,A:C,7,FALSE)</td><td>9000</td></tr></tbody></table><h2 id="4-VLOOKUP-函数的高级用法"><a href="#4-VLOOKUP-函数的高级用法" class="headerlink" title="4. VLOOKUP 函数的高级用法"></a>4. VLOOKUP 函数的高级用法</h2><p>除了基本的用法外，VLOOKUP 函数还可以在一些更复杂的情况下发挥作用，让我们来了解一些高级应用场景。</p><ul><li><strong>使用 VLOOKUP 进行区域或范围的查找</strong></li></ul><p>有时候，我们需要根据数值范围进行查找，而不是精确的数值匹配。在这种情况下，可以结合 VLOOKUP 和其他函数（如 IF 函数）来实现区域查找。比如，根据销售额范围来确定销售等级。</p><ul><li><strong>结合其他函数实现更复杂的数据处理</strong></li></ul><p>VLOOKUP 函数可以与其他函数结合使用，例如，结合 IF 函数或者 INDEX&#x2F;MATCH 函数，实现更复杂的数据处理需求。比如，根据不同条件进行数据筛选或多条件匹配。</p><ul><li><strong>处理缺失值</strong></li></ul><p>有时候数据表格中可能存在缺失值，VLOOKUP 函数也可以帮助识别和处理这些缺失值。可以结合 IFERROR 函数，使得当 VLOOKUP 函数找不到匹配项时返回自定义的错误提示或者特定数值。</p><ul><li><strong>在多个工作表中进行查找</strong></li></ul><p>除了在单个工作表中进行查找外，VLOOKUP 函数还可以跨多个工作表进行查找。通过结合工作表引用和函数，可以在不同的工作表中进行数据匹配。</p><p>这些高级应用场景展示了 VLOOKUP 函数在更复杂、多变的情况下的灵活性和实用性。通过掌握这些高级用法，你可以更加灵活地处理不同的数据需求，并更高效地进行数据查找和处理。</p><h2 id="5-示例演练"><a href="#5-示例演练" class="headerlink" title="5. 示例演练"></a>5. 示例演练</h2><p>让我们通过一个实际的案例来演示 VLOOKUP 函数的使用，以便更好地理解和掌握它的应用。</p><p><strong>案例：销售数据分析</strong></p><p>假设你是一家小型企业的销售经理，有一份包含产品 ID、产品名称和销售额的数据表格。你需要根据产品 ID 查找对应的产品名称，并计算各产品的销售额总和。</p><p><strong>步骤：</strong></p><ol><li>打开包含销售数据的 Excel 表格。</li><li>准备一个新的工作表，用于进行 VLOOKUP 函数演示。</li><li>在新的工作表中选择一个空白单元格，输入<code>=VLOOKUP(</code>。</li><li>选择需要查找的第一个产品 ID 作为<code>lookup_value</code>。</li><li>选择包含产品 ID 和产品名称的数据表格区域作为<code>table_array</code>。</li><li>输入产品名称所在的列号作为<code>col_index_num</code>。</li><li>设置<code>range_lookup</code>为 FALSE 以进行精确匹配。</li><li>按下回车键，观察 VLOOKUP 函数返回的产品名称。</li><li>使用拖动填充功能，将 VLOOKUP 函数应用到其他产品 ID，并观察结果的变化。</li><li>使用 SUM 函数结合 VLOOKUP 函数，计算各产品的销售额总和。</li></ol><p>通过这个案例，你可以逐步了解 VLOOKUP 函数的使用步骤和实际应用场景。这个例子能够帮助你更直观地理解如何在实际工作中使用 VLOOKUP 函数进行数据查找和分析。</p><h2 id="6-常见错误和解决方法"><a href="#6-常见错误和解决方法" class="headerlink" title="6. 常见错误和解决方法"></a>6. 常见错误和解决方法</h2><p>即使是经验丰富的用户在使用 VLOOKUP 函数时也可能会遇到一些常见的错误。以下是一些常见问题和相应的解决方法：</p><ol><li><strong>#N&#x2F;A 错误</strong>：<ul><li><strong>原因</strong>：VLOOKUP 函数未找到匹配项，或者查找的值不存在。</li><li><strong>解决方法</strong>：检查数据是否存在，确保查找值在数据表中存在。使用 IFERROR 函数包裹 VLOOKUP 函数，当 VLOOKUP 未找到匹配项时返回自定义的错误信息。</li></ul></li><li><strong>错误的返回值</strong>：<ul><li><strong>原因</strong>：返回的数值不正确，可能是由于 col_index_num 参数设置错误。</li><li><strong>解决方法</strong>：确认 col_index_num 参数指向了正确的返回值列，如果不确定，可以手动检查数据表格以确保正确选择了返回列。</li></ul></li><li><strong>区分近似匹配和精确匹配</strong>：<ul><li><strong>原因</strong>：在设置 range_lookup 参数时，选择了错误的匹配方式。</li><li><strong>解决方法</strong>：确保根据需要选择 range_lookup 参数，精确匹配应设为 FALSE，近似匹配设为 TRUE。</li></ul></li><li><strong>数据格式不一致</strong>：<ul><li><strong>原因</strong>：数据表格中的格式不一致，例如，一个列包含文本，另一个列包含数字。</li><li><strong>解决方法</strong>：对数据进行一致性的格式化处理，确保 VLOOKUP 函数可以正确比较和匹配数据。</li></ul></li><li><strong>未使用绝对引用</strong>：<ul><li><strong>原因</strong>：在拖动填充时，未使用绝对引用可能导致函数应用到其他单元格时参数错误。</li><li><strong>解决方法</strong>：使用绝对引用（$符号）来锁定参数，以确保在拖动填充时参数不会改变。</li></ul></li></ol><p>了解这些常见错误及其解决方法可以帮助用户更有效地使用 VLOOKUP 函数，并在出现问题时快速定位和解决。通过避免这些错误，可以提高函数应用的准确性和效率。</p><h2 id="7-总结"><a href="#7-总结" class="headerlink" title="7. 总结"></a>7. 总结</h2><p>我通过整篇文章的介绍和演示，展示了 VLOOKUP 函数作为 Excel 中强大的数据查找工具的重要性以及其在数据分析中的应用。</p><p>在本文中，覆盖了以下内容：</p><ul><li>VLOOKUP 函数的基础知识，包括其语法、参数和基本用法。</li><li>准备使用 VLOOKUP 函数的数据表格所需的结构和要求。</li><li>VLOOKUP 函数的步骤解释，包括如何在 Excel 中应用该函数。</li><li>VLOOKUP 函数的高级用法，展示了在复杂情境下的灵活应用。</li><li>示例演练，通过实际案例展示了 VLOOKUP 函数在数据分析中的应用。</li><li>常见错误和解决方法，帮助读者避免在使用 VLOOKUP 函数时可能出现的问题。</li></ul><p><strong>VLOOKUP 函数是一个强大而实用的工具。</strong> 它可以帮助我们在海量数据中迅速定位所需信息，为商业决策提供支持，提高工作效率。然而，要充分发挥其作用，我们需要掌握其基础知识并了解常见错误以及解决方法。</p><p><strong>最后，鼓励大家在实际工作中多加练习和应用 VLOOKUP 函数，通过不断地实践和探索，提升自己的数据分析能力，让数据成为您工作的得力助手。</strong></p><p>希望本文能够帮助你更好地理解和应用 VLOOKUP 函数，并在数据分析的道路上取得更多成就。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Excel </tag>
+            
+            <tag> 运营 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>隐匿营销：信息流广告的传播</title>
+      <link href="/2020/01/09/aboutsa/"/>
+      <url>/2020/01/09/aboutsa/</url>
+      
+        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在当今数字化时代，随着信息量的爆炸式增长和用户需求的不断变化，传统广告形式逐渐失去了往日的效果。用户对传统广告的免疫性增强，对强制性、打扰式广告产生了抵触情绪。在这种背景下，信息流广告作为一种全新的数字营销形式，正在迅速崭露头角。</p><span id="more"></span><p>信息流广告并非以往常见的强制性插播广告，而是以一种更为自然、无干扰的方式融入用户正在浏览的内容中。其本质是将广告以一种更具原生性的形式，与周围的内容无缝融合，旨在提供与用户兴趣相契合、有价值的信息。这种渐进式、非干扰式的广告形式，使得用户更愿意接受，也更可能引发积极的互动和反馈。</p><p>随着数字营销的不断发展，信息流广告成为了数字营销的一大亮点。它不再只是一种传统广告的替代形式，更是一种有着深层次影响力的营销工具。信息流广告的本质并非仅仅推销产品或服务，更是在传达品牌信息的同时，与用户建立联系、增进信任，并最终引导用户行为的重要途径。</p><p>我们探究信息流广告并非仅仅是出于对一种新兴广告形式的好奇，更是为了理解它在数字营销中的核心作用。这种广告形式不同于传统直接推销的模式，更像是一种品牌与用户之间建立沟通、分享有价值信息的渠道。</p><p>在数字化营销的大潮中，信息流广告给品牌推广和用户体验带来了新的思路和机遇。通过深入了解信息流广告，我们不仅可以更好地理解用户体验的重要性，也能够发现一种更为有效的品牌推广方式。这个全新的广告形式不仅仅是一种宣传手段，更是数字营销中赋予品牌与用户互动的新可能性。</p><h2 id="信息流广告的本质和定义"><a href="#信息流广告的本质和定义" class="headerlink" title="信息流广告的本质和定义"></a>信息流广告的本质和定义</h2><p>信息流广告的本质在于其与传统广告形式的根本区别。它不再像传统广告那样以打扰和强制的方式出现在用户面前，而是以一种更为自然和原生的方式融入到用户正在浏览的内容中。理解信息流广告的本质需要深入探讨其定义和特点。</p><p>首先，信息流广告的基本概念是指以一种无缝、流畅的方式将广告融入到用户所关注的内容流中。它不再像传统广告一样显眼，而是以与周围内容相似的方式呈现。这种广告形式通常出现在社交媒体、新闻网站或应用程序中，与原始内容相似，难以被用户明确识别为广告。</p><p>其次，信息流广告与传统广告的区别主要体现在其呈现方式和用户体验上。信息流广告更注重自然流畅的呈现，不打扰用户的浏览体验，而是在用户感兴趣的内容中提供相关的信息或产品推广。这种自然的融合让用户更容易接受，提高了用户与广告内容之间的互动性。</p><p>信息流广告不同于传统广告的强推销，更像是一种与用户分享有价值信息的渠道。它的本质是为了满足用户的需求，提供与他们兴趣相关、有用的信息，而非单纯推销产品或服务。这种以用户为中心的广告模式让品牌更容易与用户建立连接，并在用户心中建立起品牌的信任度。</p><p>因此，信息流广告的本质在于其更为自然、无干扰的呈现方式，以及对用户需求的关注和满足。它不再强调产品的销售，而是强调品牌与用户之间的沟通和互动，为数字营销注入了全新的思路和方式。</p><h2 id="信息流广告的工作原理与实现方式"><a href="#信息流广告的工作原理与实现方式" class="headerlink" title="信息流广告的工作原理与实现方式"></a>信息流广告的工作原理与实现方式</h2><p>信息流广告的工作原理和实现方式是其能够有效传达品牌信息并吸引用户注意力的关键所在。了解它们有助于深入理解这种广告形式的运作方式。</p><ol><li><strong>融合与呈现方式</strong>：<ul><li><strong>自然融合</strong>：信息流广告以与周围内容相似的形式呈现，不破坏用户的浏览体验，融入内容流中。</li><li><strong>原生广告</strong>：以原生的方式呈现，与平台的风格和布局高度契合，难以被用户明确识别为广告。</li></ul></li><li><strong>平台和应用场景</strong>：<ul><li><strong>社交媒体</strong>：在社交平台上以推广帖子、推荐内容等形式出现，融入用户的社交圈子。</li><li><strong>新闻网站</strong>：作为与新闻内容相似的推广文章或信息块，自然地出现在新闻流中。</li></ul></li><li><strong>个性化和定位</strong>：<ul><li><strong>基于用户兴趣</strong>：通过用户的历史行为和兴趣爱好，精准地将相关内容推送给用户。</li><li><strong>定向投放</strong>：根据用户所在位置、设备等信息，对广告进行定向投放，提高触达目标受众的几率。</li></ul></li><li><strong>用户互动和反馈</strong>：<ul><li><strong>增进互动性</strong>：通过与内容融合的方式，激发用户兴趣，增加用户与广告内容的互动性。</li><li><strong>提供价值</strong>：以提供有用信息或解决用户问题的方式，吸引用户点击和进一步了解产品或服务。</li></ul></li><li><strong>效果和分析</strong>：<ul><li><strong>点击率和转化率</strong>：监测广告点击率以及转化为实际行动（购买、注册等）的比例。</li><li><strong>数据分析</strong>：通过分析用户的反馈和行为数据，优化广告内容和投放策略，提高广告效果。</li></ul></li></ol><p>信息流广告的工作原理在于巧妙地利用了内容的自然融合和针对用户的个性化推送，让品牌信息以更具吸引力的方式呈现给用户。它并不强调推销，而是以满足用户需求和提供有价值信息为导向，为用户提供更好的浏览体验。通过对用户行为和反馈的监测和分析，信息流广告能够不断优化自身，提高品牌与用户之间的互动和认知。</p><h2 id="信息流广告的优势与价值"><a href="#信息流广告的优势与价值" class="headerlink" title="信息流广告的优势与价值"></a>信息流广告的优势与价值</h2><p>信息流广告作为数字营销中的一种新兴形式，带来了诸多优势和价值，这些特点使其在品牌推广和用户互动中具有重要作用。</p><ol><li><strong>用户体验和接受度提高</strong>：<ul><li><strong>自然融合性</strong>：与周围内容无缝融合，不打扰用户浏览体验，提高广告接受度。</li><li><strong>无干扰性</strong>：不像传统广告那样显眼，以更自然的方式出现，用户更愿意接受。</li></ul></li><li><strong>提高品牌认知和信任度</strong>：<ul><li><strong>更好的用户关系</strong>：通过提供有价值的信息，建立起品牌和用户之间的信任和情感连接。</li><li><strong>品牌互动</strong>：促进用户与品牌之间的互动，增加用户对品牌的认知和了解。</li></ul></li><li><strong>精准定向和个性化推送</strong>：<ul><li><strong>基于兴趣定位</strong>：通过对用户兴趣和行为的分析，更准确地将相关内容推送给目标用户。</li><li><strong>定向广告</strong>：针对特定用户群体进行定向投放，提高广告的精准触达度。</li></ul></li><li><strong>提高转化率和投资回报率（ROI）</strong>：<ul><li><strong>更高的点击率</strong>：由于其自然融合性，用户更愿意与信息流广告互动，提高点击率。</li><li><strong>转化为实际行动</strong>：通过增进用户互动，提高了用户将兴趣转化为实际行动的概率。</li></ul></li><li><strong>数据支持和优化</strong>：<ul><li><strong>实时数据分析</strong>：监测用户行为和反馈数据，为广告内容和投放策略的优化提供支持。</li><li><strong>持续优化</strong>：根据数据分析结果，不断调整广告内容和投放策略，提高广告效果。</li></ul></li></ol><p>信息流广告的优势在于其能够更好地满足用户需求、提升用户体验，同时为品牌营销提供更有效的渠道。它强调与用户的自然互动，为品牌建立起更良好的形象和关系。通过数据支持和持续优化，信息流广告不断提升自身效果，成为数字营销中不可或缺的一环。</p><h2 id="信息流广告的应用与实践"><a href="#信息流广告的应用与实践" class="headerlink" title="信息流广告的应用与实践"></a>信息流广告的应用与实践</h2><p>信息流广告的应用和实践是其在实际营销中发挥作用的关键。了解其在不同场景下的应用方式和成功实践，有助于更好地把握这种广告形式的运作方式。</p><ol><li><strong>社交媒体平台上的应用</strong>：<ul><li><strong>推广帖子</strong>：在社交平台上以与用户关注内容类似的方式呈现，不打扰用户浏览体验。</li><li><strong>粉丝互动</strong>：通过社交媒体平台与用户互动，引导用户进一步了解品牌或产品。</li></ul></li><li><strong>新闻网站和应用的实践</strong>：<ul><li><strong>推广内容</strong>：与新闻内容相似的推广文章或信息块，自然地出现在新闻流中。</li><li><strong>提供价值</strong>：以解决用户问题或提供有用信息的方式，吸引用户点击和互动。</li></ul></li><li><strong>个性化和定向投放的策略</strong>：<ul><li><strong>基于用户行为</strong>：根据用户历史浏览行为，推送相关内容，增加用户点击率和互动性。</li><li><strong>地理定向</strong>：根据用户所在地区进行定向投放，提高广告内容的相关性和有效性。</li></ul></li><li><strong>数据驱动的优化</strong>：<ul><li><strong>实时监测和分析</strong>：对广告效果进行实时监测和数据分析，了解用户反馈和行为。</li><li><strong>持续优化</strong>：根据数据分析结果，调整广告内容和投放策略，不断提升广告效果。</li></ul></li><li><strong>成功案例解析</strong>：<ul><li><strong>案例研究</strong>：分析成功的信息流广告案例，探讨其成功的关键因素和策略。</li><li><strong>效果评估</strong>：通过分析成功案例的数据和效果，总结成功的营销策略和经验。</li></ul></li></ol><p>信息流广告的应用和实践涉及到在不同平台和场景下的运用方式，以及通过数据分析和优化不断提升广告效果的策略。成功案例的分析可以为营销者提供借鉴和启发，帮助他们更好地制定信息流广告的营销策略。</p><h2 id="未来趋势与发展展望"><a href="#未来趋势与发展展望" class="headerlink" title="未来趋势与发展展望"></a>未来趋势与发展展望</h2><p>未来信息流广告的发展趋势将在许多方面影响数字营销和品牌推广。这些趋势是根据技术创新、用户行为和市场需求的变化而不断演进的。</p><ol><li><strong>技术创新和人工智能驱动</strong>：<ul><li><strong>智能化推荐</strong>：利用机器学习和人工智能，更精准地预测用户兴趣，提供个性化的信息流广告。</li><li><strong>创新形式</strong>：引入AR&#x2F;VR技术，将信息流广告体验更加沉浸式和互动性。</li></ul></li><li><strong>移动化和社交化</strong>：<ul><li><strong>移动端优先</strong>：信息流广告在移动端的呈现方式和优化将更为重要，因为移动设备的使用日益普及。</li><li><strong>社交媒体整合</strong>：更多信息流广告将在社交媒体平台上出现，并与用户社交互动更紧密。</li></ul></li><li><strong>数据隐私和透明度</strong>：<ul><li><strong>用户数据隐私保护</strong>：更严格的数据隐私法规将促使品牌更加谨慎地处理用户数据，可能影响广告的定向性。</li><li><strong>透明度和信任</strong>：品牌需要通过透明的广告形式和真实的内容，赢得用户的信任和认可。</li></ul></li><li><strong>跨平台和跨设备体验</strong>：<ul><li><strong>一致体验</strong>：信息流广告将更多地跨越不同平台和设备，提供一致的品牌体验和信息呈现。</li><li><strong>多渠道互动</strong>：用户将在多种渠道中接触到信息流广告，品牌需要构建更多元化的互动策略。</li></ul></li><li><strong>声音和视频的崛起</strong>：<ul><li><strong>视频和音频广告</strong>：随着视频和音频内容在社交媒体和网络上的增加，相应的信息流广告形式也会得到加强和创新。</li></ul></li><li><strong>社会责任和可持续性</strong>：<ul><li><strong>品牌社会价值</strong>：品牌将更加强调社会责任，信息流广告也会更多地体现品牌的社会价值观。</li></ul></li></ol><p>信息流广告的未来趋势将在技术、用户体验、数据隐私、跨平台等多个方面有所变化和发展。品牌需要不断地关注这些变化，灵活应对并调整营销策略，以适应不断变化的市场环境。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在信息流广告不断演变和发展的今天，它已经成为数字营销中不可或缺的一部分。通过对信息流广告的全面了解和认识，可以得出以下总结：</p><ol><li><strong>用户体验至上</strong>：信息流广告强调用户体验，以自然、无干扰的方式融入内容流中，提高用户接受度和互动性。</li><li><strong>品牌互动和认知</strong>：通过与用户建立互动，信息流广告不仅传递品牌信息，还提高了品牌在用户心中的认知和信任度。</li><li><strong>个性化和精准投放</strong>：基于用户行为和兴趣的定向投放，提供个性化内容，增加用户点击和互动的概率。</li><li><strong>数据驱动和优化</strong>：实时监测和分析用户数据，持续优化广告内容和投放策略，提升广告效果和投资回报率。</li><li><strong>未来趋势展望</strong>：技术创新、移动化、数据隐私、跨平台体验等将影响信息流广告的发展，品牌需要紧跟趋势进行调整。</li></ol><p>信息流广告作为数字营销的新趋势，强调与用户的自然互动和提供有价值的内容。它的成功不仅在于广告形式的创新，更在于品牌与用户之间建立的信任和关系。未来，随着技术和用户需求的变化，信息流广告将不断演进，为品牌推广和用户体验带来更多可能性。品牌需要不断学习和适应新的挑战，才能在竞争激烈的市场中脱颖而出。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 运营 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 营销 </tag>
+            
+            <tag> 广告 </tag>
+            
+            <tag> 信息流 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>什么是 SEM</title>
+      <link href="/2019/01/07/aboutsem/"/>
+      <url>/2019/01/07/aboutsem/</url>
+      
+        <content type="html"><![CDATA[<h2 id="了解-SEM"><a href="#了解-SEM" class="headerlink" title="了解 SEM"></a>了解 SEM</h2><p>SEM 是搜索引擎营销的缩写，它是一种利用搜索引擎的技术和服务来提高网站的流量和曝光度的网络营销方式。SEM 的主要形式有两种：搜索引擎优化（SEO）和搜索广告（SA）。SEO 是通过优化网站的内容、结构、代码和链接等，使其更符合搜索引擎的排名规则，从而提高网站在自然搜索结果中的排名和点击率。SA 是通过在搜索引擎的付费广告区域投放关键词相关的广告，根据用户的搜索意图和点击行为，向用户展示网站的信息和服务，从而吸引用户访问网站。</p><span id="more"></span><h2 id="SEM-的优势"><a href="#SEM-的优势" class="headerlink" title="SEM 的优势"></a>SEM 的优势</h2><p>SEM 有以下几个优势：</p><ul><li>SEM 可以根据用户的搜索意图，精准地向目标用户展示网站的信息和服务，提高网站的转化率和效益。</li><li>SEM 可以快速地提高网站的流量和曝光度，增加网站的知名度和品牌影响力。</li><li>SEM 可以灵活地调整投放策略和预算，根据市场变化和竞争情况，实时优化网站的营销效果。</li><li>SEM 可以与其他网络营销方式相结合，形成互补和协同效应，提升网站的整体营销水平。</li></ul><h2 id="SEM-的注意事项"><a href="#SEM-的注意事项" class="headerlink" title="SEM 的注意事项"></a>SEM 的注意事项</h2><p>SEM 虽然有很多优势，但也有一些需要注意的事项：</p><ul><li>SEM 需要有专业的知识和技能，才能有效地进行 SEO 和 SA 的操作和管理。</li><li>SEM 需要有一定的投入成本，尤其是 SA，需要支付给搜索引擎一定的广告费用。</li><li>SEM 需要有一定的耐心和持续性，不能期望一蹴而就地达到理想的效果。</li><li>SEM 需要有一定的风险意识，避免触犯搜索引擎的规则和政策，造成网站被惩罚或封禁。</li></ul><p>SEM 是一种非常有效的网络营销方式，如果能够正确地理解和运用它，就能为网站带来巨大的收益。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 运营 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SEM </tag>
+            
+            <tag> 营销 </tag>
+            
+            <tag> 广告 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

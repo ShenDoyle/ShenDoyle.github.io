@@ -1,0 +1,782 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>手把手教你学习使用 VLOOKUP | 南城</title><meta name="keywords" content="Excel,运营"><meta name="author" content="南城,a@cbm.im"><meta name="copyright" content="南城"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="手把手教你学习使用 VLOOKUP"><meta name="application-name" content="手把手教你学习使用 VLOOKUP"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="手把手教你学习使用 VLOOKUP"><meta property="og:url" content="https://cbm.im/2020/01/10/learnvlookup/index.html"><meta property="og:site_name" content="南城"><meta property="og:description" content="在当今信息爆炸的时代，数据是商业决策的驱动力。无论是市场营销、财务分析还是业务策略，准确、快速地获取所需数据至关重要。然而，处理大量数据并从中获取有用信息并非易事。   正因如此，Excel 的 VLOOKUP 函数成为了数据分析中不可或缺的利器。这个简单却强大的函数能够让你轻松地在海量数据中快速定"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/20241101704879279920.webp"><meta property="article:author" content="南城"><meta property="article:tag" content="博客,笔记,学习,分享"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/20241101704879279920.webp"><meta name="description" content="在当今信息爆炸的时代，数据是商业决策的驱动力。无论是市场营销、财务分析还是业务策略，准确、快速地获取所需数据至关重要。然而，处理大量数据并从中获取有用信息并非易事。   正因如此，Excel 的 VLOOKUP 函数成为了数据分析中不可或缺的利器。这个简单却强大的函数能够让你轻松地在海量数据中快速定"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="https://cbm.im/2020/01/10/learnvlookup/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"南城","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"👉 南城","backTitle":"✨"},
+  LA51: {"enable":true,"ck":"KJ3EZA6rfBMKxUcQ","LingQueMonitorID":"KJ3FEbxyPhUmhK4x"},
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: 'https://pmoore-twikoocbm.hf.space',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: {"skills":["🤖️ 数码科技迷","🏠 智能家居派","💻 运营专业户","🏃 扎实行动派","🧱 团队发动机"]},
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":100,"position":"top","messagePrev":"本文更新于","messageNext":"天前，部分内容可能存在时效性，请自行鉴别。"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    simplehomepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: 南城","link":"链接: ","source":"来源: 南城","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '南城',
+  title: '手把手教你学习使用 VLOOKUP',
+  postAI: '在信息爆炸时代，数据是商业决策的动力。Excel的VLOOKUP函数成为数据分析的必备利器，快速定位信息如同找到大海中的一颗珍珠。无论是销售分析、客户管理还是业务问题解决，VLOOKUP都能成为得力工具。虽然它可能让人感到陌生，但通过本文，我将手把手地教你学习使用VLOOKUP函数，帮助你轻松掌握这个强大工具，让数据查找变得简单高效。,在信息爆炸的时代，数据是商业决策的关键。Excel的VLOOKUP函数在处理海量数据中迅速定位所需信息方面发挥着不可或缺的作用。通过基础知识学习，你可以轻松在销售数据、客户信息等方面应用VLOOKUP，成为数据分析的得力工具。在掌握VLOOKUP函数的基础后，你还能通过高级用法处理更复杂的数据需求，如区域查找、多条件匹配等。在实际案例中，我们演示了如何通过VLOOKUP进行销售数据分析，进一步巩固了学习。最后，我们介绍了常见错误和解决方法，帮助你更有效地运用VLOOKUP函数，提高准确性和效率。通过不断实践和探索，期望你能在数据分析中取得更多成就。',
+  pageFillDescription: '1. VLOOKUP 函数的基础知识, 2. 准备使用 VLOOKUP 的数据表格, 3. VLOOKUP 函数的步骤解释, 4. VLOOKUP 函数的高级用法, 5. 示例演练, 6. 常见错误和解决方法, 7. 总结在当今信息爆炸的时代数据是商业决策的驱动力无论是市场营销财务分析还是业务策略准确快速地获取所需数据至关重要然而处理大量数据并从中获取有用信息并非易事正因如此的函数成为了数据分析中不可或缺的利器这个简单却强大的函数能够让你轻松地在海量数据中快速定位所需信息就如同找到大海中的一粒珍珠无论是分析销售数据管理客户信息还是解决实际的业务问题都能成为一把好手但很多人可能对这个函数感到陌生或者觉得它难以理解别担心接下来我将手把手地教你学习使用函数通过本文的指导和示范帮你掌握这个强大工具让数据查找变得简单高效函数的基础知识函数是中非常强大的一种函数它允许用户在表格中进行快速的垂直查找并返回匹配项的相关数据让我们来深入了解这个函数的概述垂直查找函数的作用是在一个指定范围内查找某个值并返回与此值相关联的另一列中的数据这个函数通常用于从表格中获取数据通过指定某个唯一标识例如产品或客户姓名来查找和提取相关信息如价格地址等函数的语法函数的语法如下其中要查找的值即你想在表格中匹配的内容要在其中进行查找的表格区域包括要从中提取数据的列要返回数据所在的列数从表格区域的第一列开始计数一个可选参数用于指定是否进行近似匹配一般设置为近似匹配或精确匹配函数的使用步骤准备数据表格确保数据表格具有清晰的结构包括要查找的值和相关数据所在的列以及数据的一致性和格式化输入函数在中选择要输入公式的单元格键入开始函数然后按照上述语法填写参数查找值和返回值指定要查找的值和要返回数据的位置确保它们与你的数据表格匹配确认并拖动输入完函数后确认公式无误然后可以用鼠标拖动来填充其他单元格以应用该函数到其他数据行这些是函数的基础知识了解这些内容是掌握使用的第一步在接下来的部分我们将通过实例来演示函数的实际应用帮助你更好地理解和掌握这个强大的函数准备使用的数据表格在使用函数之前必须确保数据表格的结构和内容符合函数的要求这样才能有效地进行数据查找和匹配数据表格的结构和要求共同字段数据表格中必须有至少一个共同字段通常是名称或者其他唯一标识符这个字段是函数进行匹配的依据数据的一致性确保数据表格中的共同字段在所有数据行中都是唯一且一致的重复或不一致的数据可能导致函数匹配出错数据格式确保数据的格式是一致的例如日期货币或文本格式这有助于确保函数能够正确解析和比较数据表格区域数据表格应该包括所有需要的数据并且确保表格的范围包含了要进行查找和返回的数据列如何正确准备数据表格数据的清洗和整理在使用函数之前对数据进行清洗和整理非常重要删除重复项处理空白数据或错误数据确保数据的完整性和准确性数据表格的构建确保数据表格按照一定的逻辑结构构建例如表头包括清晰的列标签数据排列清晰易读数据验证在准备数据表格时对数据进行验证和检查确保没有数据错误或不一致性备份数据在进行数据整理和使用函数之前最好备份原始数据以防意外修改或操作造成数据丢失或错误准备完整准确的数据表格是使用函数的先决条件确保数据的完整性和准确性将有助于避免错误和提高函数的准确性函数的步骤解释使用函数需要按照一定的步骤来填写函数参数以便正确地进行数据查找和匹配详细步骤说明准备运行函数的位置在表格中选择一个空白单元格这将是函数的输出位置输入函数键入等号然后输入函数的开始标志通常输入开始函数填写函数参数参数这是你要在表格中查找的值点击或手动输入这个值参数选择包含你要进行查找的数据表格区域确保包含需要查找和返回的数据列参数输入要返回数据的列号从的第一列开始计数参数可选一般情况下设置为以进行精确匹配或者设置为进行近似匹配确认并输入公式输入完函数的参数后按下回车键确认公式会根据输入的参数在选定位置显示匹配项的结果拖动填充其他单元格如果需要在其他单元格中应用相同的函数可以使用鼠标拖动填充工具来自动调整函数的参数确保适用于其他数据行示例说明让我们以一个实际的案例来演示函数的使用我们有一个销售数据表格其中包括产品名称产品和销售额产品名称括号里面是的坐标实际表格中没有产品销售额单位元产品产品产品产品产品产品我们想要通过产品查找对应的产品名称选择一个空白单元格输入选定要查找的产品名称作为选择包含产品名称和产品名称的表格区域作为输入产品销售额所在的列号作为设置为以进行精确匹配确认公式并按下回车键即可得到对应的产品销售额产品名称产品函数函数结果显示产品产品产品产品产品产品函数的高级用法除了基本的用法外函数还可以在一些更复杂的情况下发挥作用让我们来了解一些高级应用场景使用进行区域或范围的查找有时候我们需要根据数值范围进行查找而不是精确的数值匹配在这种情况下可以结合和其他函数如函数来实现区域查找比如根据销售额范围来确定销售等级结合其他函数实现更复杂的数据处理函数可以与其他函数结合使用例如结合函数或者函数实现更复杂的数据处理需求比如根据不同条件进行数据筛选或多条件匹配处理缺失值有时候数据表格中可能存在缺失值函数也可以帮助识别和处理这些缺失值可以结合函数使得当函数找不到匹配项时返回自定义的错误提示或者特定数值在多个工作表中进行查找除了在单个工作表中进行查找外函数还可以跨多个工作表进行查找通过结合工作表引用和函数可以在不同的工作表中进行数据匹配这些高级应用场景展示了函数在更复杂多变的情况下的灵活性和实用性通过掌握这些高级用法你可以更加灵活地处理不同的数据需求并更高效地进行数据查找和处理示例演练让我们通过一个实际的案例来演示函数的使用以便更好地理解和掌握它的应用案例销售数据分析假设你是一家小型企业的销售经理有一份包含产品产品名称和销售额的数据表格你需要根据产品查找对应的产品名称并计算各产品的销售额总和步骤打开包含销售数据的表格准备一个新的工作表用于进行函数演示在新的工作表中选择一个空白单元格输入选择需要查找的第一个产品作为选择包含产品和产品名称的数据表格区域作为输入产品名称所在的列号作为设置为以进行精确匹配按下回车键观察函数返回的产品名称使用拖动填充功能将函数应用到其他产品并观察结果的变化使用函数结合函数计算各产品的销售额总和通过这个案例你可以逐步了解函数的使用步骤和实际应用场景这个例子能够帮助你更直观地理解如何在实际工作中使用函数进行数据查找和分析常见错误和解决方法即使是经验丰富的用户在使用函数时也可能会遇到一些常见的错误以下是一些常见问题和相应的解决方法错误原因函数未找到匹配项或者查找的值不存在解决方法检查数据是否存在确保查找值在数据表中存在使用函数包裹函数当未找到匹配项时返回自定义的错误信息错误的返回值原因返回的数值不正确可能是由于参数设置错误解决方法确认参数指向了正确的返回值列如果不确定可以手动检查数据表格以确保正确选择了返回列区分近似匹配和精确匹配原因在设置参数时选择了错误的匹配方式解决方法确保根据需要选择参数精确匹配应设为近似匹配设为数据格式不一致原因数据表格中的格式不一致例如一个列包含文本另一个列包含数字解决方法对数据进行一致性的格式化处理确保函数可以正确比较和匹配数据未使用绝对引用原因在拖动填充时未使用绝对引用可能导致函数应用到其他单元格时参数错误解决方法使用绝对引用符号来锁定参数以确保在拖动填充时参数不会改变了解这些常见错误及其解决方法可以帮助用户更有效地使用函数并在出现问题时快速定位和解决通过避免这些错误可以提高函数应用的准确性和效率总结我通过整篇文章的介绍和演示展示了函数作为中强大的数据查找工具的重要性以及其在数据分析中的应用在本文中覆盖了以下内容函数的基础知识包括其语法参数和基本用法准备使用函数的数据表格所需的结构和要求函数的步骤解释包括如何在中应用该函数函数的高级用法展示了在复杂情境下的灵活应用示例演练通过实际案例展示了函数在数据分析中的应用常见错误和解决方法帮助读者避免在使用函数时可能出现的问题函数是一个强大而实用的工具它可以帮助我们在海量数据中迅速定位所需信息为商业决策提供支持提高工作效率然而要充分发挥其作用我们需要掌握其基础知识并了解常见错误以及解决方法最后鼓励大家在实际工作中多加练习和应用函数通过不断地实践和探索提升自己的数据分析能力让数据成为您工作的得力助手希望本文能够帮助你更好地理解和应用函数并在数据分析的道路上取得更多成就',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-01-10 14:37:38',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 8 || hour >= 22
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="南城" type="application/atom+xml">
+</head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="/img/avatar.webp"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">协议</div><div class="back-menu-list"><a class="back-menu-item" href="/cc/" title="Copyright"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/favicon.ico" alt="Copyright"/><span class="back-menu-item-text">Copyright</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" href="/sitemap.xml" title="Google sitemap"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/favicon.ico" alt="Google sitemap"/><span class="back-menu-item-text">Google sitemap</span></a><a class="back-menu-item" href="/baidusitemap.xml" title="Baidu sitemap"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/favicon.ico" alt="Baidu sitemap"/><span class="back-menu-item-text">Baidu sitemap</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">南城</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 爱好</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumis/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-bolt faa-tada" style="font-size: 0.9em;"></i><span> 好物</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 我</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友链</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="/img/wechat.webp" target="_blank"><img class="post-qr-code-img" alt="wechat" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/wechat.webp"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/alipay.webp" target="_blank"><img class="post-qr-code-img" alt="alipay" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/alipay.webp"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/CMS/" style="font-size: 1.05rem;">CMS<sup>1</sup></a><a href="/tags/Excel/" style="font-size: 1.05rem;">Excel<sup>3</sup></a><a href="/tags/OneDrive/" style="font-size: 1.05rem;">OneDrive<sup>1</sup></a><a href="/tags/SEM/" style="font-size: 1.05rem;">SEM<sup>1</sup></a><a href="/tags/%E4%BF%A1%E6%81%AF%E6%B5%81/" style="font-size: 1.05rem;">信息流<sup>2</sup></a><a href="/tags/%E5%87%8F%E8%82%A5/" style="font-size: 1.05rem;">减肥<sup>1</sup></a><a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 1.05rem;">前端<sup>2</sup></a><a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 1.05rem;">博客<sup>1</sup></a><a href="/tags/%E5%B9%BF%E5%91%8A/" style="font-size: 1.05rem;">广告<sup>3</sup></a><a href="/tags/%E5%BC%80%E6%BA%90/" style="font-size: 1.05rem;">开源<sup>1</sup></a><a href="/tags/%E6%8A%80%E5%B7%A7/" style="font-size: 1.05rem;">技巧<sup>2</sup></a><a href="/tags/%E6%95%85%E4%BA%8B/" style="font-size: 1.05rem;">故事<sup>1</sup></a><a href="/tags/%E7%94%B5%E8%84%91/" style="font-size: 1.05rem;">电脑<sup>1</sup></a><a href="/tags/%E7%AB%9E%E4%BB%B7/" style="font-size: 1.05rem;">竞价<sup>1</sup></a><a href="/tags/%E8%90%A5%E9%94%80/" style="font-size: 1.05rem;">营销<sup>3</sup></a><a href="/tags/%E8%BF%90%E8%90%A5/" style="font-size: 1.05rem;">运营<sup>2</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/01/"><span class="card-archive-list-date">一月 2021</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/11/"><span class="card-archive-list-date">十一月 2020</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/10/"><span class="card-archive-list-date">十月 2020</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/06/"><span class="card-archive-list-date">六月 2020</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/04/"><span class="card-archive-list-date">四月 2020</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="article-meta tags"><a class="article-meta__tags" href="/tags/Excel/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>Excel</span></a><a class="article-meta__tags" href="/tags/%E8%BF%90%E8%90%A5/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>运营</span></a></span></div></div><h1 class="post-title" itemprop="name headline">手把手教你学习使用 VLOOKUP</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2020-01-10T06:37:38.000Z" title="发表于 2020-01-10 14:37:38">2020-01-10</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2021-01-10T06:37:38.000Z" title="更新于 2021-01-10 14:37:38">2021-01-10</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">3.6k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>11分钟</span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为昆明"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>昆明</span><span class="post-meta-separator"></span><span class="post-meta-commentcount"><i class="anzhiyufont anzhiyu-icon-comments post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2020/01/10/learnvlookup/#post-comment" tabindex="-1"><span id="twikoo-count"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></a></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/20241101704879279920.webp"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><div class="post-ai-description"><div class="ai-title"><i class="anzhiyufont anzhiyu-icon-bilibili"></i><div class="ai-title-text">AI-摘要</div><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right"></i><i class="anzhiyufont anzhiyu-icon-circle-dot" title="朗读摘要"></i><div id="ai-tag">南城 GPT</div></div><div class="ai-explanation">AI初始化中...</div><div class="ai-btn-box"><div class="ai-btn-item">介绍自己 🙈</div><div class="ai-btn-item">生成本文简介 👋</div><div class="ai-btn-item">推荐相关文章 📖</div><div class="ai-btn-item">前往主页 🏠</div><div class="ai-btn-item" id="go-tianli-blog">前往爱发电购买</div></div><script data-pjax src="/js/anzhiyu/ai_abstract.js"></script></div><article class="post-content" id="article-container" itemscope itemtype="https://cbm.im/2020/01/10/learnvlookup/"><header><a href="/tags/Excel/" tabindex="-1" itemprop="url">Excel</a><a href="/tags/%E8%BF%90%E8%90%A5/" tabindex="-1" itemprop="url">运营</a><h1 id="CrawlerTitle" itemprop="name headline">手把手教你学习使用 VLOOKUP</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">南城</span><time itemprop="dateCreated datePublished" datetime="2020-01-10T06:37:38.000Z" title="发表于 2020-01-10 14:37:38">2020-01-10</time><time itemprop="dateCreated datePublished" datetime="2021-01-10T06:37:38.000Z" title="更新于 2021-01-10 14:37:38">2021-01-10</time></header><p>在当今信息爆炸的时代，数据是商业决策的驱动力。无论是市场营销、财务分析还是业务策略，准确、快速地获取所需数据至关重要。然而，处理大量数据并从中获取有用信息并非易事。</p>
+<span id="more"></span>
+
+<p>正因如此，Excel 的 VLOOKUP 函数成为了数据分析中不可或缺的利器。这个简单却强大的函数能够让你轻松地在海量数据中快速定位所需信息，就如同找到大海中的一粒珍珠。</p>
+<p>无论是分析销售数据、管理客户信息还是解决实际的业务问题，VLOOKUP 都能成为一把好手。</p>
+<p>但很多人可能对这个函数感到陌生或者觉得它难以理解。别担心，接下来，我将手把手地教你学习使用 VLOOKUP 函数。通过本文的指导和示范，帮你掌握这个强大工具，让数据查找变得简单高效。</p>
+<h2 id="1-VLOOKUP-函数的基础知识"><a href="#1-VLOOKUP-函数的基础知识" class="headerlink" title="1. VLOOKUP 函数的基础知识"></a>1. VLOOKUP 函数的基础知识</h2><p>VLOOKUP 函数是 Excel 中非常强大的一种函数，它允许用户在表格中进行快速的垂直查找，并返回匹配项的相关数据。让我们来深入了解这个函数。</p>
+<ul>
+<li><strong>VLOOKUP 的概述</strong></li>
+</ul>
+<p>VLOOKUP（垂直查找）函数的作用是在一个指定范围内查找某个值，并返回与此值相关联的另一列中的数据。这个函数通常用于从表格中获取数据，通过指定某个唯一标识（例如产品 ID 或客户姓名）来查找和提取相关信息（如价格、地址等）。</p>
+<ul>
+<li><strong>VLOOKUP 函数的语法</strong></li>
+</ul>
+<p>VLOOKUP 函数的语法如下：</p>
+<p><code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></p>
+<p>其中：</p>
+<ul>
+<li><p><code>lookup_value</code>：要查找的值，即你想在表格中匹配的内容。</p>
+</li>
+<li><p><code>table_array</code>：要在其中进行查找的表格区域，包括要从中提取数据的列。</p>
+</li>
+<li><p><code>col_index_num</code>：要返回数据所在的列数，从表格区域的第一列开始计数。</p>
+</li>
+<li><p><code>range_lookup</code>：一个可选参数，用于指定是否进行近似匹配。一般设置为 TRUE（近似匹配）或 FALSE（精确匹配）。</p>
+</li>
+<li><p><strong>VLOOKUP 函数的使用步骤</strong></p>
+</li>
+</ul>
+<ol>
+<li><p>_准备数据表格_： 确保数据表格具有清晰的结构，包括要查找的值和相关数据所在的列，以及数据的一致性和格式化。</p>
+</li>
+<li><p>_输入 VLOOKUP 函数_： 在 Excel 中选择要输入公式的单元格，键入<code>=VLOOKUP(</code>开始函数，然后按照上述语法填写参数。</p>
+</li>
+<li><p>_查找值和返回值_： 指定要查找的值和要返回数据的位置，确保它们与你的数据表格匹配。</p>
+</li>
+<li><p>_确认并拖动_： 输入完 VLOOKUP 函数后，确认公式无误，然后可以用鼠标拖动来填充其他单元格，以应用该函数到其他数据行。</p>
+</li>
+</ol>
+<p>这些是 VLOOKUP 函数的基础知识，了解这些内容是掌握使用 VLOOKUP 的第一步。在接下来的部分，我们将通过实例来演示 VLOOKUP 函数的实际应用，帮助你更好地理解和掌握这个强大的函数。</p>
+<h2 id="2-准备使用-VLOOKUP-的数据表格"><a href="#2-准备使用-VLOOKUP-的数据表格" class="headerlink" title="2. 准备使用 VLOOKUP 的数据表格"></a>2. 准备使用 VLOOKUP 的数据表格</h2><p>在使用 VLOOKUP 函数之前，必须确保数据表格的结构和内容符合函数的要求，这样才能有效地进行数据查找和匹配。</p>
+<ul>
+<li><strong>数据表格的结构和要求</strong></li>
+</ul>
+<ol>
+<li>_共同字段_： 数据表格中必须有至少一个共同字段，通常是 ID、名称或者其他唯一标识符。这个字段是 VLOOKUP 函数进行匹配的依据。</li>
+<li>_数据的一致性_： 确保数据表格中的共同字段在所有数据行中都是唯一且一致的。重复或不一致的数据可能导致 VLOOKUP 函数匹配出错。</li>
+<li>_数据格式_： 确保数据的格式是一致的，例如日期、货币或文本格式。这有助于确保函数能够正确解析和比较数据。</li>
+<li>_表格区域_： 数据表格应该包括所有需要的数据，并且确保表格的范围包含了要进行查找和返回的数据列。</li>
+</ol>
+<ul>
+<li><strong>如何正确准备数据表格</strong></li>
+</ul>
+<ol>
+<li>_数据的清洗和整理_： 在使用 VLOOKUP 函数之前，对数据进行清洗和整理非常重要。删除重复项、处理空白数据或错误数据，确保数据的完整性和准确性。</li>
+<li>_数据表格的构建_： 确保数据表格按照一定的逻辑结构构建，例如表头包括清晰的列标签，数据排列清晰、易读。</li>
+<li>_数据验证_： 在准备数据表格时，对数据进行验证和检查，确保没有数据错误或不一致性。</li>
+<li>_备份数据_： 在进行数据整理和使用 VLOOKUP 函数之前，最好备份原始数据，以防意外修改或操作造成数据丢失或错误。</li>
+</ol>
+<p>准备完整、准确的数据表格是使用 VLOOKUP 函数的先决条件。确保数据的完整性和准确性将有助于避免错误和提高函数的准确性。</p>
+<h2 id="3-VLOOKUP-函数的步骤解释"><a href="#3-VLOOKUP-函数的步骤解释" class="headerlink" title="3. VLOOKUP 函数的步骤解释"></a>3. VLOOKUP 函数的步骤解释</h2><p>使用 VLOOKUP 函数需要按照一定的步骤来填写函数参数，以便正确地进行数据查找和匹配。</p>
+<ul>
+<li><strong>详细步骤说明</strong></li>
+</ul>
+<ol>
+<li>_准备运行 VLOOKUP 函数的位置_： 在 Excel 表格中选择一个空白单元格，这将是 VLOOKUP 函数的输出位置。</li>
+<li>_输入 VLOOKUP 函数_： 键入等号（&#x3D;），然后输入 VLOOKUP 函数的开始标志。通常，输入<code>=VLOOKUP(</code>开始函数。</li>
+<li>_填写函数参数_：<ul>
+<li><strong>lookup_value 参数</strong>：这是你要在表格中查找的值。点击或手动输入这个值。</li>
+<li><strong>table_array 参数</strong>：选择包含你要进行查找的数据表格区域，确保包含需要查找和返回的数据列。</li>
+<li><strong>col_index_num 参数</strong>：输入要返回数据的列号，从 table_array 的第一列开始计数。</li>
+<li><strong>range_lookup 参数</strong>（可选）：一般情况下，设置为 FALSE 以进行精确匹配，或者设置为 TRUE 进行近似匹配。</li>
+</ul>
+</li>
+<li>_确认并输入公式_： 输入完 VLOOKUP 函数的参数后，按下回车键确认公式。Excel 会根据输入的参数在选定位置显示匹配项的结果。</li>
+<li>_拖动填充其他单元格_： 如果需要在其他单元格中应用相同的 VLOOKUP 函数，可以使用鼠标拖动填充工具来自动调整函数的参数，确保适用于其他数据行。</li>
+</ol>
+<ul>
+<li><strong>示例说明</strong></li>
+</ul>
+<p>让我们以一个实际的案例来演示 VLOOKUP 函数的使用。我们有一个销售数据表格，其中包括产品名称、产品 ID 和销售额。</p>
+<table>
+<thead>
+<tr>
+<th>产品名称（括号里面是 Excel 的坐标，实际表格中没有）</th>
+<th>产品 ID</th>
+<th>销售额（单位：元）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>产品 A（A2）</td>
+<td>P001（B2）</td>
+<td>5000（C2）</td>
+</tr>
+<tr>
+<td>产品 B（A3）</td>
+<td>P002（B3）</td>
+<td>7500（C3）</td>
+</tr>
+<tr>
+<td>产品 C（A4）</td>
+<td>P003（B4）</td>
+<td>3000（C4）</td>
+</tr>
+<tr>
+<td>产品 D（A5）</td>
+<td>P004（B5）</td>
+<td>6000（C5）</td>
+</tr>
+<tr>
+<td>产品 E（A6）</td>
+<td>P005（B6）</td>
+<td>9000（C6）</td>
+</tr>
+<tr>
+<td>产品 F（A7）</td>
+<td>P006（B7）</td>
+<td>4500（C7）</td>
+</tr>
+</tbody></table>
+<p>我们想要通过产品 ID 查找对应的产品名称。</p>
+<ol>
+<li>选择一个空白单元格。</li>
+<li>输入<code>=VLOOKUP(</code>。</li>
+<li>选定要查找的产品名称作为 lookup_value。</li>
+<li>选择包含产品名称、ID 和产品名称的表格区域作为 table_array。</li>
+<li>输入产品销售额所在的列号作为 col_index_num。</li>
+<li>设置 range_lookup 为 FALSE 以进行精确匹配。</li>
+<li>确认公式并按下回车键，即可得到对应的产品销售额。</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>产品名称</th>
+<th>产品 ID</th>
+<th>函数</th>
+<th>函数结果显示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>产品 E（D2）</td>
+<td>P002（E2）</td>
+<td>&#x3D;vlookup(D2,A:C,2,FALSE)</td>
+<td>7500</td>
+</tr>
+<tr>
+<td>产品 D（D3）</td>
+<td>P001（E3）</td>
+<td>&#x3D;vlookup(D3,A:C,3,FALSE)</td>
+<td>5000</td>
+</tr>
+<tr>
+<td>产品 D（D4）</td>
+<td>P004（E4）</td>
+<td>&#x3D;vlookup(D4,A:C,4,FALSE)</td>
+<td>6000</td>
+</tr>
+<tr>
+<td>产品 F（D5）</td>
+<td>P006（E5）</td>
+<td>&#x3D;vlookup(D5,A:C,5,FALSE)</td>
+<td>4500</td>
+</tr>
+<tr>
+<td>产品 C（D6）</td>
+<td>P003（E6）</td>
+<td>&#x3D;vlookup(D6,A:C,6,FALSE)</td>
+<td>3000</td>
+</tr>
+<tr>
+<td>产品 E（D7）</td>
+<td>P005（E7）</td>
+<td>&#x3D;vlookup(D7,A:C,7,FALSE)</td>
+<td>9000</td>
+</tr>
+</tbody></table>
+<h2 id="4-VLOOKUP-函数的高级用法"><a href="#4-VLOOKUP-函数的高级用法" class="headerlink" title="4. VLOOKUP 函数的高级用法"></a>4. VLOOKUP 函数的高级用法</h2><p>除了基本的用法外，VLOOKUP 函数还可以在一些更复杂的情况下发挥作用，让我们来了解一些高级应用场景。</p>
+<ul>
+<li><strong>使用 VLOOKUP 进行区域或范围的查找</strong></li>
+</ul>
+<p>有时候，我们需要根据数值范围进行查找，而不是精确的数值匹配。在这种情况下，可以结合 VLOOKUP 和其他函数（如 IF 函数）来实现区域查找。比如，根据销售额范围来确定销售等级。</p>
+<ul>
+<li><strong>结合其他函数实现更复杂的数据处理</strong></li>
+</ul>
+<p>VLOOKUP 函数可以与其他函数结合使用，例如，结合 IF 函数或者 INDEX&#x2F;MATCH 函数，实现更复杂的数据处理需求。比如，根据不同条件进行数据筛选或多条件匹配。</p>
+<ul>
+<li><strong>处理缺失值</strong></li>
+</ul>
+<p>有时候数据表格中可能存在缺失值，VLOOKUP 函数也可以帮助识别和处理这些缺失值。可以结合 IFERROR 函数，使得当 VLOOKUP 函数找不到匹配项时返回自定义的错误提示或者特定数值。</p>
+<ul>
+<li><strong>在多个工作表中进行查找</strong></li>
+</ul>
+<p>除了在单个工作表中进行查找外，VLOOKUP 函数还可以跨多个工作表进行查找。通过结合工作表引用和函数，可以在不同的工作表中进行数据匹配。</p>
+<p>这些高级应用场景展示了 VLOOKUP 函数在更复杂、多变的情况下的灵活性和实用性。通过掌握这些高级用法，你可以更加灵活地处理不同的数据需求，并更高效地进行数据查找和处理。</p>
+<h2 id="5-示例演练"><a href="#5-示例演练" class="headerlink" title="5. 示例演练"></a>5. 示例演练</h2><p>让我们通过一个实际的案例来演示 VLOOKUP 函数的使用，以便更好地理解和掌握它的应用。</p>
+<p><strong>案例：销售数据分析</strong></p>
+<p>假设你是一家小型企业的销售经理，有一份包含产品 ID、产品名称和销售额的数据表格。你需要根据产品 ID 查找对应的产品名称，并计算各产品的销售额总和。</p>
+<p><strong>步骤：</strong></p>
+<ol>
+<li>打开包含销售数据的 Excel 表格。</li>
+<li>准备一个新的工作表，用于进行 VLOOKUP 函数演示。</li>
+<li>在新的工作表中选择一个空白单元格，输入<code>=VLOOKUP(</code>。</li>
+<li>选择需要查找的第一个产品 ID 作为<code>lookup_value</code>。</li>
+<li>选择包含产品 ID 和产品名称的数据表格区域作为<code>table_array</code>。</li>
+<li>输入产品名称所在的列号作为<code>col_index_num</code>。</li>
+<li>设置<code>range_lookup</code>为 FALSE 以进行精确匹配。</li>
+<li>按下回车键，观察 VLOOKUP 函数返回的产品名称。</li>
+<li>使用拖动填充功能，将 VLOOKUP 函数应用到其他产品 ID，并观察结果的变化。</li>
+<li>使用 SUM 函数结合 VLOOKUP 函数，计算各产品的销售额总和。</li>
+</ol>
+<p>通过这个案例，你可以逐步了解 VLOOKUP 函数的使用步骤和实际应用场景。这个例子能够帮助你更直观地理解如何在实际工作中使用 VLOOKUP 函数进行数据查找和分析。</p>
+<h2 id="6-常见错误和解决方法"><a href="#6-常见错误和解决方法" class="headerlink" title="6. 常见错误和解决方法"></a>6. 常见错误和解决方法</h2><p>即使是经验丰富的用户在使用 VLOOKUP 函数时也可能会遇到一些常见的错误。以下是一些常见问题和相应的解决方法：</p>
+<ol>
+<li><strong>#N&#x2F;A 错误</strong>：<ul>
+<li><strong>原因</strong>：VLOOKUP 函数未找到匹配项，或者查找的值不存在。</li>
+<li><strong>解决方法</strong>：检查数据是否存在，确保查找值在数据表中存在。使用 IFERROR 函数包裹 VLOOKUP 函数，当 VLOOKUP 未找到匹配项时返回自定义的错误信息。</li>
+</ul>
+</li>
+<li><strong>错误的返回值</strong>：<ul>
+<li><strong>原因</strong>：返回的数值不正确，可能是由于 col_index_num 参数设置错误。</li>
+<li><strong>解决方法</strong>：确认 col_index_num 参数指向了正确的返回值列，如果不确定，可以手动检查数据表格以确保正确选择了返回列。</li>
+</ul>
+</li>
+<li><strong>区分近似匹配和精确匹配</strong>：<ul>
+<li><strong>原因</strong>：在设置 range_lookup 参数时，选择了错误的匹配方式。</li>
+<li><strong>解决方法</strong>：确保根据需要选择 range_lookup 参数，精确匹配应设为 FALSE，近似匹配设为 TRUE。</li>
+</ul>
+</li>
+<li><strong>数据格式不一致</strong>：<ul>
+<li><strong>原因</strong>：数据表格中的格式不一致，例如，一个列包含文本，另一个列包含数字。</li>
+<li><strong>解决方法</strong>：对数据进行一致性的格式化处理，确保 VLOOKUP 函数可以正确比较和匹配数据。</li>
+</ul>
+</li>
+<li><strong>未使用绝对引用</strong>：<ul>
+<li><strong>原因</strong>：在拖动填充时，未使用绝对引用可能导致函数应用到其他单元格时参数错误。</li>
+<li><strong>解决方法</strong>：使用绝对引用（$符号）来锁定参数，以确保在拖动填充时参数不会改变。</li>
+</ul>
+</li>
+</ol>
+<p>了解这些常见错误及其解决方法可以帮助用户更有效地使用 VLOOKUP 函数，并在出现问题时快速定位和解决。通过避免这些错误，可以提高函数应用的准确性和效率。</p>
+<h2 id="7-总结"><a href="#7-总结" class="headerlink" title="7. 总结"></a>7. 总结</h2><p>我通过整篇文章的介绍和演示，展示了 VLOOKUP 函数作为 Excel 中强大的数据查找工具的重要性以及其在数据分析中的应用。</p>
+<p>在本文中，覆盖了以下内容：</p>
+<ul>
+<li>VLOOKUP 函数的基础知识，包括其语法、参数和基本用法。</li>
+<li>准备使用 VLOOKUP 函数的数据表格所需的结构和要求。</li>
+<li>VLOOKUP 函数的步骤解释，包括如何在 Excel 中应用该函数。</li>
+<li>VLOOKUP 函数的高级用法，展示了在复杂情境下的灵活应用。</li>
+<li>示例演练，通过实际案例展示了 VLOOKUP 函数在数据分析中的应用。</li>
+<li>常见错误和解决方法，帮助读者避免在使用 VLOOKUP 函数时可能出现的问题。</li>
+</ul>
+<p><strong>VLOOKUP 函数是一个强大而实用的工具。</strong> 它可以帮助我们在海量数据中迅速定位所需信息，为商业决策提供支持，提高工作效率。然而，要充分发挥其作用，我们需要掌握其基础知识并了解常见错误以及解决方法。</p>
+<p><strong>最后，鼓励大家在实际工作中多加练习和应用 VLOOKUP 函数，通过不断地实践和探索，提升自己的数据分析能力，让数据成为您工作的得力助手。</strong></p>
+<p>希望本文能够帮助你更好地理解和应用 VLOOKUP 函数，并在数据分析的道路上取得更多成就。</p>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/avatar.webp" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/avatar.webp" title="头像" alt="头像"></a><div class="post-copyright__author_name">南城</div><div class="post-copyright__author_desc">运营 &amp; 生活 - 笔记</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://cbm.im/2020/01/10/learnvlookup/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://cbm.im/2020/01/10/learnvlookup/')">手把手教你学习使用 VLOOKUP</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="/img/wechat.webp" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/wechat.webp" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/img/alipay.webp" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/alipay.webp" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div><div class="reward-link mode"><a class="reward-link-button" href="/cc/"><i class="anzhiyufont anzhiyu-icon-plant-fill"></i>运营模式与责任</a></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://cbm.im/2020/01/10/learnvlookup/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://cbm.im" target="_blank">南城</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__category-list"><a class="post-meta__box__categoryes" href="/categories/%E6%8A%80%E6%9C%AF/"><span class="categoryes-punctuation"> <i class="anzhiyufont anzhiyu-icon-inbox"></i></span>技术<span class="categoryesPageCount">6</span></a></div></div><div class="post_share"><div class="social-share" data-image="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/2024191704796881181.webp" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2020/01/09/aboutsa/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/2024191704791426186.webp" onerror="onerror=null;src='/img/loading.webp'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">隐匿营销：信息流广告的传播</div></div></a></div><div class="next-post pull-right"><a href="/2020/01/17/onedrive/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/2024191704788027103.webp" onerror="onerror=null;src='/img/loading.webp'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">OneDrive 测速</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/2020/06/10/excelabsoluterelative/" title="Excel：何时选择绝对引用，何时选择相对引用"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/20241101704881560924.webp" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2020-06-10</div><div class="title">Excel：何时选择绝对引用，何时选择相对引用</div></div></a></div><div><a href="/2020/10/02/excel/" title="Excel 快捷键"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/2024191704788023102.webp" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2020-10-02</div><div class="title">Excel 快捷键</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div><div class="comment-switch"><span class="first-comment">Twikoo</span><span id="switch-btn"></span><span class="second-comment">Waline</span></div><div class="comment-tips" id="comment-tips"><span>✅ 你无需删除空行，直接评论以获取最佳展示效果</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div><div><div id="waline-wrap"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/avatar.webp" onerror="this.onerror=null;this.src='/img/loading.webp'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/ico.webp" alt="status"/></div></div><div class="author-info__description"><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);"><b style="color:#fff">互联网运营经理</b>，分享一些<b style="color:#fff">网络运营</b>的知识。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">其他也有分享，比如<b style="color:#fff">Linux、一些生活经验、趣事、建站的小经验</b>等等。</div></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">南城</h1><div class="author-info__desc">运营 &amp; 生活 - 笔记</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://twitter.com/cbm_im" target="_blank" title="Twitter"><i class="anzhiyufont anzhiyu-icon-dove"></i></a><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/322919283" target="_blank" title="BiliBili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-VLOOKUP-%E5%87%BD%E6%95%B0%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="toc-number">1.</span> <span class="toc-text">1. VLOOKUP 函数的基础知识</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%87%86%E5%A4%87%E4%BD%BF%E7%94%A8-VLOOKUP-%E7%9A%84%E6%95%B0%E6%8D%AE%E8%A1%A8%E6%A0%BC"><span class="toc-number">2.</span> <span class="toc-text">2. 准备使用 VLOOKUP 的数据表格</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-VLOOKUP-%E5%87%BD%E6%95%B0%E7%9A%84%E6%AD%A5%E9%AA%A4%E8%A7%A3%E9%87%8A"><span class="toc-number">3.</span> <span class="toc-text">3. VLOOKUP 函数的步骤解释</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-VLOOKUP-%E5%87%BD%E6%95%B0%E7%9A%84%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">4. VLOOKUP 函数的高级用法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E7%A4%BA%E4%BE%8B%E6%BC%94%E7%BB%83"><span class="toc-number">5.</span> <span class="toc-text">5. 示例演练</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E5%92%8C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"><span class="toc-number">6.</span> <span class="toc-text">6. 常见错误和解决方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-%E6%80%BB%E7%BB%93"><span class="toc-number">7.</span> <span class="toc-text">7. 总结</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/01/01/kunmingxishan/" title="昆明西山：传说中的爱情守护者"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/2024191704796881181.webp" onerror="this.onerror=null;this.src='/img/loading.webp'" alt="昆明西山：传说中的爱情守护者"/></a><div class="content"><a class="title" href="/2024/01/01/kunmingxishan/" title="昆明西山：传说中的爱情守护者">昆明西山：传说中的爱情守护者</a><time datetime="2024-01-01T10:37:05.000Z" title="发表于 2024-01-01 18:37:05">2024-01-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/26/yzncms/" title="一个开源的 CMS 系统"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/2024191704788022102.webp" onerror="this.onerror=null;this.src='/img/loading.webp'" alt="一个开源的 CMS 系统"/></a><div class="content"><a class="title" href="/2022/11/26/yzncms/" title="一个开源的 CMS 系统">一个开源的 CMS 系统</a><time datetime="2022-11-26T10:36:52.000Z" title="发表于 2022-11-26 18:36:52">2022-11-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/07/26/lose_weight/" title="减肥的心得"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/2024191704788026102.webp" onerror="this.onerror=null;this.src='/img/loading.webp'" alt="减肥的心得"/></a><div class="content"><a class="title" href="/2021/07/26/lose_weight/" title="减肥的心得">减肥的心得</a><time datetime="2021-07-26T12:00:00.000Z" title="发表于 2021-07-26 20:00:00">2021-07-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/09/semvssa/" title="点击还是被发现？探索竞价与信息流广告"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/2024191704788029108.webp" onerror="this.onerror=null;this.src='/img/loading.webp'" alt="点击还是被发现？探索竞价与信息流广告"/></a><div class="content"><a class="title" href="/2021/01/09/semvssa/" title="点击还是被发现？探索竞价与信息流广告">点击还是被发现？探索竞价与信息流广告</a><time datetime="2021-01-09T03:25:56.000Z" title="发表于 2021-01-09 11:25:56">2021-01-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/01/07/hexocommand/" title="Hexo 常用的命令"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://gitee.com/kuncbm/pic-go/raw/master/hexo/cbmim/2024191704788024102.webp" onerror="this.onerror=null;this.src='/img/loading.webp'" alt="Hexo 常用的命令"/></a><div class="content"><a class="title" href="/2021/01/07/hexocommand/" title="Hexo 常用的命令">Hexo 常用的命令</a><time datetime="2021-01-07T12:00:00.000Z" title="发表于 2021-01-07 20:00:00">2021-01-07</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="footer_deal"><a class="deal_link" href="mailto:a@cbm.im" title="email"><i class="anzhiyufont anzhiyu-icon-envelope"></i></a><a class="deal_link" href="/atom.xml" title="RSS"><i class="anzhiyufont anzhiyu-icon-rss"></i></a><img class="footer_mini_logo" title="返回顶部" alt="返回顶部" onclick="anzhiyu.scrollToDest(0, 500)" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/avatar.webp" size="50px"/><a class="deal_link" target="_blank" rel="noopener" href="https://space.bilibili.com/322919283" title="Bilibili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a><a class="deal_link" href="/cc/" title="CC"><i class="anzhiyufont anzhiyu-icon-copyright-line"></i></a></div><div id="anzhiyu-footer"><div class="footer-group"><div class="footer-title">服务</div><div class="footer-links"><a class="footer-item" title="51la统计" target="_blank" rel="noopener" href="https://v6.51.la/">51la统计</a><a class="footer-item" title="图片托管" target="_blank" rel="noopener" href="https://gitee.com/">图片托管</a></div></div><div class="footer-group"><div class="footer-title">导航</div><div class="footer-links"><a class="footer-item" title="友链" href="/link/">友链</a><a class="footer-item" title="留言" href="/comments/">留言</a></div></div><div class="footer-group"><div class="footer-title">协议</div><div class="footer-links"><a class="footer-item" title="隐私" href="/privacy/">隐私</a><a class="footer-item" title="版权" href="/cc/">版权</a></div></div><div class="footer-group"><div class="footer-title-group"><div class="footer-title">友链</div><a class="random-friends-btn" id="footer-random-friends-btn" href="javascript:addFriendLinksInFooter();" title="换一批友情链接"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right"></i></a></div><div class="footer-links" id="friend-links-in-footer"></div></div></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为 Hexo_v7.0.0" title="博客框架为 Hexo_v7.0.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/Frame-Hexo.svg" alt="博客框架为 Hexo_v7.0.0"/></a><a class="github-badge" target="_blank" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" style="margin-inline:5px" data-title="本站使用 AnZhiYu 主题" title="本站使用 AnZhiYu 主题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/Theme-AnZhiYu-2E67D3.svg" alt="本站使用 AnZhiYu 主题"/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由 Github 托管" title="本站项目由 Github 托管"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/Source-Github.svg" alt="本站项目由 Github 托管"/></a><a class="github-badge" target="_blank" href="https://vercel.com/" style="margin-inline:5px" data-title="本站项目由 Vercel 分发" title="本站项目由 Vercel 分发"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/vercel.svg" alt="本站项目由 Vercel 分发"/></a><a class="github-badge" target="_blank" href="https://space.bilibili.com/22919283" style="margin-inline:5px" data-title="日渐增长的 bilibili" title="日渐增长的 bilibili"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fbilibili%2F22919283&amp;query=count&amp;color=282c34&amp;label=%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9&amp;labelColor=FE7398&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAD7ElEQVR4nO2dW9WrMBCFK6ESkFAJSKiESqgEHCABCZWAhEpAAhL2ecik5dDc%2FpXLBDLfWnlqy0xmJ5BMQnq5CIIgCIIgCIIgCIIgCEIBAHQAemYfrgCunD6wAKAHsEKxALgx+bCQD8%2FS9tmgVqeDr1lLigDgZvDhXso+K9TyTBQRwRJ8AHjntl0Flh5QRAQK%2FmKxPeayWx2OXpBNBKiHvi34b7T2MC4pAvW6twR%2FRwkRKPizBN8CgEcuESj4Lwm+BwBjahEk+H8EwJRKhOaCDzW8e1JLfkUUH1NgmR3XmHffHR1l+72BSs8d7w8U+JDAnZERQMcV+CtUi7dNqFqibB4J7vtrq7xKCuAasbTMXCL4T+5aVk6+2xHUrWdhruAR6HIJcOeu2UHI8zyAe2ytWfEdWz9PVvQ8YAmIQ5dDAB9LFsMVAv8oMO2zAGrC5WNIarRiAuKR9jYEd9pY08aa6uUzIHGRdkgKd8pY0yc1WjEBAqypDYoAG0QAZkQAZkQAZkQAZk4vANQenjsSzS3I%2FwcSbXU5jQBUkRtdf4Rar90v8kSv3+I3ffCCSpk8I%2Fw+lgDkdI%2Fv2rEp2CaiWm1AsDQLlDAD+dlFXLMeAaCSeLZdaSFE5VUQNot38cKuEeBgAsSuG0flVZBmEanbXfNQAsS0fgBYIn2fIu3%2FBBMHEyBmDXlFfA8IzeHb+Ems4WAChKykrVA9ZfsQTL57jXzRg4A5wC%2FA8N4ADiZAZwm2XjW75Qh2KOTfA0p4kygPw28OJcCVgn3nDnYo2EwEYRgGH0qAMyICMCMCMCMCMCMCMCMCMCMCfP3qwHDOQ4AAUekTk8FaBRihJnZdYbvtCGC7LvmkM63GjVDINPFrQgCq5ETXfmMzI90FXzPvfqt7x4rEu%2FZaEcCUxFvgz2zO+BUn6UkoaEEAsptiMSX5e8FoRYCN7cVgb4Vq7U%2FH50Pq4JNP7Qiw8UFnJwcK+tXy+Wj6PLEvPgHSHv5UgwA1IQIwwyFAyLJin9RoxYgAzAQIkPwNmf26busC+OIx5TDqo5nDT+F%2FSS%2F9CYzwb+No49zNy2evkYv0LywGGAXUvp6eSneycqOic0w20k7CNgKE7jJunSGLACTCxF27ylmQc98T5MQUH49swd+I0HPXslLKnT0N+wnkrTKi9JZL%2FL9i1SorMmdeQ4TQQ7OFMxIMzGD45w8nUL1im7efENZLJpgPSw0pfz0cdt4U3230Td%2FTvx2R6d2FrHhEWLkq5PELOMsRPHCPnAZGv1xJteL7jbJiaW3sB2nDvPC%2FosSYvjRQz4cJ6n7KO3rYQL7M+L6nVtfDVRAEQRAEQRAEQRAEIZ5%2FSAXmdfXaoQsAAAAASUVORK5CYII%3D&amp;suffix=+%E5%85%B3%E6%B3%A8&amp;cacheSeconds=3600" alt="日渐增长的 bilibili"/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" data-title="本站采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可" title="本站采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/Copyright-BY-NC-SA.svg" alt="本站采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可"/></a></p></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2019 - 2024 By <a class="footer-bar-link" href="/" title="南城" target="_blank">南城</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" href="/privacy/" title="隐私协议">隐私协议</a><a class="footer-bar-link cc" href="/cc/" title="cc协议"><i class="anzhiyufont anzhiyu-icon-copyright-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-by-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-nc-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-nd-line"></i></a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">14</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">4</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">协议</div><div class="back-menu-list"><a class="back-menu-item" href="/cc/" title="Copyright"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/favicon.ico" alt="Copyright"/><span class="back-menu-item-text">Copyright</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" href="/sitemap.xml" title="Google sitemap"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/favicon.ico" alt="Google sitemap"/><span class="back-menu-item-text">Google sitemap</span></a><a class="back-menu-item" href="/baidusitemap.xml" title="Baidu sitemap"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/loading.webp&quot;" data-lazy-src="/img/favicon.ico" alt="Baidu sitemap"/><span class="back-menu-item-text">Baidu sitemap</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 爱好</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumis/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-bolt faa-tada" style="font-size: 0.9em;"></i><span> 好物</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 我</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友链</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/CMS/" style="font-size: 0.88rem;">CMS<sup>1</sup></a><a href="/tags/Excel/" style="font-size: 0.88rem;">Excel<sup>3</sup></a><a href="/tags/OneDrive/" style="font-size: 0.88rem;">OneDrive<sup>1</sup></a><a href="/tags/SEM/" style="font-size: 0.88rem;">SEM<sup>1</sup></a><a href="/tags/%E4%BF%A1%E6%81%AF%E6%B5%81/" style="font-size: 0.88rem;">信息流<sup>2</sup></a><a href="/tags/%E5%87%8F%E8%82%A5/" style="font-size: 0.88rem;">减肥<sup>1</sup></a><a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 0.88rem;">前端<sup>2</sup></a><a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 0.88rem;">博客<sup>1</sup></a><a href="/tags/%E5%B9%BF%E5%91%8A/" style="font-size: 0.88rem;">广告<sup>3</sup></a><a href="/tags/%E5%BC%80%E6%BA%90/" style="font-size: 0.88rem;">开源<sup>1</sup></a><a href="/tags/%E6%8A%80%E5%B7%A7/" style="font-size: 0.88rem;">技巧<sup>2</sup></a><a href="/tags/%E6%95%85%E4%BA%8B/" style="font-size: 0.88rem;">故事<sup>1</sup></a><a href="/tags/%E7%94%B5%E8%84%91/" style="font-size: 0.88rem;">电脑<sup>1</sup></a><a href="/tags/%E7%AB%9E%E4%BB%B7/" style="font-size: 0.88rem;">竞价<sup>1</sup></a><a href="/tags/%E8%90%A5%E9%94%80/" style="font-size: 0.88rem;">营销<sup>3</sup></a><a href="/tags/%E8%BF%90%E8%90%A5/" style="font-size: 0.88rem;">运营<sup>2</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.cbd.int/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/01/2021 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2019 By 安知鱼 V1.6.12",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 南城 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>(() => {
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://pmoore-twikoocbm.hf.space',
+      region: '',
+      onCommentLoaded: () => {
+        anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(runFn,0)
+    else getScript('https://cdn.cbd.int/twikoo@1.6.25/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://pmoore-twikoocbm.hf.space',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const runFn = () => {
+    init();
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else {
+      loadTwikoo()
+    }
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script><script>(() => {
+  const initWaline = () => {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'comments.5311314.xyz',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: true,
+    }, null))
+  }
+
+  const loadWaline = async () => {
+    if (typeof Waline === 'object') initWaline()
+    else {
+      await getCSS('https://cdn.cbd.int/@waline/client@2.15.5/dist/waline.css')
+      await getScript('https://cdn.cbd.int/@waline/client@2.15.5/dist/waline.js')
+      initWaline()
+    }
+  }
+
+  if ('Twikoo' === 'Waline' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('waline-wrap'),loadWaline)
+    else setTimeout(loadWaline, 0)
+  } else {
+    window.loadOtherComment = loadWaline
+  }
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://pmoore-twikoocbm.hf.space',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.cbd.int/twikoo@1.6.25/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick} </span></div></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script>var visitorMail = "12345@qq.com";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
