@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>南城</title>
-  <icon>https://www.gravatar.com/avatar/b26c8ca5a4f9209919812137821f7d80</icon>
-  <subtitle>运营 &amp; 生活 - 笔记</subtitle>
+  <title>南城左立方</title>
+  <icon>https://www.gravatar.com/avatar/6854d1c1a70fff5a683c70a1aca75e6e</icon>
+  <subtitle>运营 - 笔记</subtitle>
   <link href="https://cbm.im/atom.xml" rel="self"/>
   
   <link href="https://cbm.im/"/>
@@ -10,8 +10,8 @@
   <id>https://cbm.im/</id>
   
   <author>
-    <name>南城</name>
-    <email>a@cbm.im</email>
+    <name>左立方</name>
+    <email>t3@outlook.ie</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
