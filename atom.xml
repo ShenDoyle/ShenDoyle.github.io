@@ -6,7 +6,7 @@
   <link href="https://cbm.im/atom.xml" rel="self"/>
   
   <link href="https://cbm.im/"/>
-  <updated>2025-08-28T06:32:58.000Z</updated>
+  <updated>2025-10-24T02:04:32.000Z</updated>
   <id>https://cbm.im/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GEO 近期变动的思考</title>
+    <link href="https://cbm.im/2025/10/24/aboutgeo20251024/"/>
+    <id>https://cbm.im/2025/10/24/aboutgeo20251024/</id>
+    <published>2025-10-24T02:04:32.000Z</published>
+    <updated>2025-10-24T02:04:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在平台的优化过程中，不出所料，AI大模型对于自媒体号的内容引用权重做了重大调整。</p><span id="more"></span><p>虽然不是完全的一刀切，但是GEO催化出来的自媒体软文大爆发问题非常的严重，一些权威的网络媒体甚至不得不暂停了收录相关稿件。</p><p>这种情况让很多投机人士的早期GEO（黑帽）效果打了骨折。</p><p>从一开始，我们就很确定这里面的底层逻辑，主营自己的官网，辅助新媒体的运营。通过大量优质的内容覆盖平台，持续的穿插自己的信息，提升关键词权重，和以前SEO差不多。优质的内容往往是当前AI和平台最需要的资料，是平台生存的基本，不存在被扳的可能。</p><p>但是相对于取巧的方案，现在的老板往往要的是上个月招到人，上个月你就要给我效果，这个月没效果我就要和你聊天，你干了什么，为什么不见效果，为什么他们有效果，老实去做效果和实际上的精力付出难以满足当前的老板需求。</p><p>而且当前最大的问题是GEO在获客的角度效果还无法做直接评定以及参考，更难以证明价值。</p><p>目前企业，GEO老实布局时有必要的。GEO成为基建是必然的趋势，等GEO成为主流的那天，再做GEO，成本和现在不会是一个量级。</p><p>现在的网络运营获客持续下滑，不断减缓的新用户增长红利已经慢慢消失。各平台觉醒开始疯狂投入的商家缺在增长，僧多肉少，还在期待和一几年时候同样的效果和量都是不大可能的事情。</p><p><strong>网络运营已经不是垂死挣扎的力气，而是企业长期布局需要下的一颗棋。</strong></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;最近在平台的优化过程中，不出所料，AI大模型对于自媒体号的内容引用权重做了重大调整。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="运营" scheme="https://cbm.im/categories/%E8%BF%90%E8%90%A5/"/>
+    
+    
+    <category term="运营" scheme="https://cbm.im/tags/%E8%BF%90%E8%90%A5/"/>
+    
+    <category term="GEO优化" scheme="https://cbm.im/tags/GEO%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
   
   <entry>
     <title>现阶段企业该不该做 GEO</title>
@@ -473,31 +496,6 @@
     
     
     <category term="前端" scheme="https://cbm.im/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OneDrive 测速</title>
-    <link href="https://cbm.im/2020/01/17/onedrive/"/>
-    <id>https://cbm.im/2020/01/17/onedrive/</id>
-    <published>2020-01-17T12:00:00.000Z</published>
-    <updated>2020-01-17T12:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="速度测试方法"><a href="#速度测试方法" class="headerlink" title="速度测试方法"></a>速度测试方法</h2><ul><li>注册一个 Microsoft 365 账户：<a href="www.office.com">Microsoft 365</a> <strong>有账户的话，可以直接登陆</strong> ；</li><li>OneDrive 存储空间为 5gb-15gb 大小的，全部是微软官方运营的国际版，数据中心(或者说加速节点，后面会详细解释)不在国内，网页版 OneDrive 完全受到长城影响，OneDrive 客户端可以登陆使用；<span id="more"></span></li><li>登陆客户端使用账户同步功能同步文件，所能得到的速度就是你使用 Microsoft 365 的速度；</li><li>微软的高级版本主要是功能上的升级，而非对网络服务进行阉割和限制，所以普通账户的速度就是你购买高级版之后的速度；</li><li>影响速度的因素：个人网络问题带来的影响，各地运营上对微软服务的支持影响（同样是电信网络，全国各省的电信对该服务的支持程度不一样的，所以速度不一样；同一个省市，电信、移动、联通等网络对该服务的支持也是不一样的。因此别人测试出来的速度不能给你作为参考）。</li></ul><h2 id="版本区别"><a href="#版本区别" class="headerlink" title="版本区别"></a>版本区别</h2><p>目前 Microsoft 365 有<strong>商业版</strong>和<strong>个人版</strong>，从运营商区别还有 <strong>国际版</strong> 和 <strong>互联版</strong> 。</p><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><strong>商业版：</strong> 商业或者组织使用的版本，这里不仅是指一般企业购买的版本，也包括学校公益组织使用的免费资源版本；<br><strong>个人版：</strong> 个人自行注册的版本，OneDrive 存储空间默认为 5gb，可以通过完成邀请注册的任务达到 15gb，一般 OneDrive 空间为 5gb-15gb 大小的都是个人版；<br><strong>国际版：</strong> 微软官方自己运营的版本；<br><strong>互联版：</strong> 微软指定的中国服务商运营的专供国内用户使用的版本。</p><h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><ul><li>个人版的 OneDrive 网页端功能受长城影响，是没办法正常登陆的，客户端可以使用；商业版的 OneDrive 网页端功能没有受到限制，可以正常登录使用；</li><li>国际版登录的顶级域名为 .com（部分账户贩子会用自己的域名跳转到官方的域名，所以如果感觉登录域名很奇怪，在浏览器输入域名回车一下，再看看域名是什么）；互联版登录的顶级域名为 .cn；</li><li>个人注册的 Microsoft 365 账户全部是国际版，而非互联版，即便购买了官方的高级账户套餐（个人版和家庭版两个套餐），也是国际版账户，互联版 <strong>只提供商业版</strong> ；</li><li>互联版的版本功能有所缺失，同时互联版是国际版的移植汉化版本，因此功能更新极其滞后，只能保证常用的功能是正常的，最新或者极少数比较冷门的功能更新都不是很理想。</li></ul><h3 id="网络情况"><a href="#网络情况" class="headerlink" title="网络情况"></a>网络情况</h3><p><strong>国际版：</strong> 微软在全球布置了多个数据中心和非常多的加速节点，大部分地区的微软服务通过加速节点连接到相应的数据中心完成。受国内相关政策影响，微软在大陆没有数据中心和加速节点，大陆用户使用是连接就近的节点：香港、新加坡等，因此访问速度收到的影响因素非常多，网络不稳定。大部分区域上传速度大于下载速度；<br><strong>互联版：</strong> 微软和国内的世纪互联合作，推出了国内专用的 Microsoft 365 版本，数据中心位于上海、北京，通过国内的骨干网络提供服务，网络稳定，速度快（该版本最大的优点）。</p>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;速度测试方法&quot;&gt;&lt;a href=&quot;#速度测试方法&quot; class=&quot;headerlink&quot; title=&quot;速度测试方法&quot;&gt;&lt;/a&gt;速度测试方法&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;注册一个 Microsoft 365 账户：&lt;a href=&quot;www.office.com&quot;&gt;Microsoft 365&lt;/a&gt; &lt;strong&gt;有账户的话，可以直接登陆&lt;/strong&gt; ；&lt;/li&gt;
-&lt;li&gt;OneDrive 存储空间为 5gb-15gb 大小的，全部是微软官方运营的国际版，数据中心(或者说加速节点，后面会详细解释)不在国内，网页版 OneDrive 完全受到长城影响，OneDrive 客户端可以登陆使用；</summary>
-    
-    
-    
-    <category term="分享" scheme="https://cbm.im/categories/%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="OneDrive" scheme="https://cbm.im/tags/OneDrive/"/>
-    
-    <category term="技巧" scheme="https://cbm.im/tags/%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
