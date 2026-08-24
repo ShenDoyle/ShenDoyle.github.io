@@ -1,0 +1,20 @@
+<svg width="109.5" height="20" viewBox="0 0 1095 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Hosting: Vercel">
+  <title>Hosting: Vercel</title>
+  <linearGradient id="oQhvl" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <mask id="QIGzz"><rect width="1095" height="200" rx="30" fill="#FFF"/></mask>
+  <g mask="url(#QIGzz)">
+    <rect width="621" height="200" fill="#2A2A2A"/>
+    <rect width="474" height="200" fill="#0070F3" x="621"/>
+    <rect width="1095" height="200" fill="url(#oQhvl)"/>
+  </g>
+  <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    <text x="240" y="148" textLength="341" fill="#000" opacity="0.25">Hosting</text>
+    <text x="230" y="138" textLength="341">Hosting</text>
+    <text x="676" y="148" textLength="374" fill="#000" opacity="0.25">Vercel</text>
+    <text x="666" y="138" textLength="374">Vercel</text>
+  </g>
+  <image x="40" y="35" width="150" height="130" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTMgMTAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgeDE9IjE5Ni41NzIlIiB5MT0iMjI4LjgxNSUiIHgyPSI1MCUiIHkyPSI1MCUiIGlkPSJhIj48c3RvcCBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZD0iTTM1MC41IDE1MEw0MDcgMjUwSDI5NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yOTQgLTE1MCkiIGZpbGw9InVybCgjYSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPgo="/>
+</svg>
