@@ -10820,6 +10820,17 @@ h1.page-title + .tag-cloud-list {
   background-attachment: fixed;
   border-radius: 0;
 }
+@media screen and (max-width: 768px) {
+  #page-header #center-console + label i {
+    background: var(--font-color);
+  }
+}
+#page-header #site-info {
+  position: absolute;
+  top: 300px;
+  padding: 0 10px;
+  width: 100%;
+}
 #page-header #site-title,
 #page-header #site-subtitle,
 #page-header #scroll-down .scroll-down-effects {
@@ -11936,6 +11947,9 @@ h1.page-title + .tag-cloud-list {
   margin-right: 4px;
 }
 #post #post-info #post-firstinfo .meta-firstline a.post-meta-original {
+  background: var(--anzhiyu-black);
+}
+#post #post-info #post-firstinfo .meta-firstline a.post-meta-categories {
   background: var(--anzhiyu-black);
 }
 #post #post-info #post-firstinfo .meta-firstline .article-meta__tags {
@@ -13572,6 +13586,32 @@ h1.page-title + .tag-cloud-list {
     transition: 0.3s;
     -webkit-box-shadow: var(--anzhiyu-shadow-main);
     box-shadow: var(--anzhiyu-shadow-main);
+  }
+}
+@media screen and (max-width: 768px) {
+  #nav {
+    background: var(--anzhiyu-card-bg) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #page-header #nav #site-name,
+  #page-header #nav #toggle-menu,
+  #page-header:not(.not-top-img) #nav .back-home-button {
+    color: var(--font-color) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #blog_name a,
+  .mask-name-container a,
+  #menus a,
+  #nav-right .nav-button a,
+  #nav-right #toggle-menu a {
+    color: var(--font-color) !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  div#bbTimeList {
+    margin: 20px 15px !important;
   }
 }
 #pagination .toPageGroup {
@@ -16317,7 +16357,7 @@ li.card-category-list-item {
   transform: rotate(360deg);
 }
 #vcomment textarea {
-  background: url("/img/comment_bg.webp") 100% 100% no-repeat;
+  background: url("https://cdn.jsdelivr.net/gh/ShenDoyle/ShenDoyle.github.io@main/source/img/site/comment_bg.webp") 100% 100% no-repeat;
 }
 #vcomment textarea:focus {
   background-image: none;
@@ -20340,7 +20380,7 @@ div#category {
   color: var(--anzhiyu-fontcolor);
   padding: 0 0.2em;
   text-decoration: none;
-  font-family: auto;
+  font-family: inherit;
 }
 #article-container
   a:not([data-fancybox="gallery"]):not(.headerlink):not(.cf-friends-link):not(.btn-anzhiyu):not(
@@ -20507,7 +20547,7 @@ html.hide-aside .layout > div:first-child {
   /* 分类/标签较少时，可以选择不设置 width，居中显示 catalog-list-item */
   display: flex;
   white-space: nowrap;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 #catalog-list::-webkit-scrollbar {
@@ -22137,6 +22177,7 @@ body[data-type="essay"] #web_bg {
   display: flex;
   flex-direction: column;
   text-align: justify;
+  word-break: break-all;
 }
 #bber p {
   margin: 0px;
@@ -22841,6 +22882,42 @@ svg.icon.faa-tada {
 }
 .bangumi-info-item em {
   color: #f2b94b;
+}
+
+/* 修复 bgm 数据源封面尺寸不一致问题 */
+.bangumi-picture {
+  width: 110px !important;
+  height: 155px !important;
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--anzhiyu-secondbg);
+}
+
+.bangumi-picture img {
+  width: 110px !important;
+  height: 155px !important;
+  object-fit: cover;
+  object-position: center top;
+  margin: 0 !important;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.bangumi-item:hover .bangumi-picture img {
+  transform: scale(1.05);
+}
+
+/* 优化番剧条目间距 */
+.bangumi-item {
+  min-height: 175px !important;
+  padding: 10px 0 !important;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.bangumi-item:hover {
+  background: var(--anzhiyu-card-bg);
+  box-shadow: var(--anzhiyu-shadow-border);
 }
 
 /*哔哩哔哩视频适配*/
@@ -27203,6 +27280,13 @@ div#runtime {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+#article-container .tag-Link .tag-link-bottom .tag-link-left .tag-link-favicon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 #article-container .tag-Link .tag-link-bottom .tag-link-left i {
   margin: 0;
