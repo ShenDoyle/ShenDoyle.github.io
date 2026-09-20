@@ -1,0 +1,126 @@
+/**
+ * cover-overlay.css — 封面文字层样式
+ * 参数来源：Cover.psd（760 x 332）原始图层数据
+ */
+
+/* 蒙版：铺满封面并压暗，对应 PSD 的 dim 层（#000 / 46%）
+   强度由 front-matter 的 coverdim 控制，JS 写入 --co-dim */
+.co-dim {
+  --co-dim: 0.46;
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, var(--co-dim));
+  pointer-events: none;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+/* 文字层容器：铺满封面，内部居中 */
+.co-wrap {
+  --co-card-w: 73%;
+  --co-gap: 0.18em;
+  --co-t-size: 44px;
+  --co-s-size: 15px;
+  --co-skew: -12deg;
+  --co-lines: 2;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4% 3%;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/* 半透明卡片：对应 PSD 的白 / 40%、圆角 20 */
+.co-card {
+  position: relative;
+  width: var(--co-card-w);
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--co-gap);
+  padding: 0.34em 0.62em;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: clamp(8px, 2.6vw, 20px);
+  box-shadow: 0 2px 14px rgba(6, 50, 138, 0.14);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.co-title,
+.co-sub {
+  display: block;
+  max-width: 100%;
+  color: #fff;
+  text-align: center;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* 副标题在上、主标题在下，与 PSD 版式一致 */
+.co-sub {
+  order: 1;
+  font-size: var(--co-s-size);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  opacity: 0.92;
+}
+
+.co-title {
+  order: 2;
+  font-family: 'YouSheBiaoTiHei', 'HarmonyOS Sans SC', 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+  font-size: var(--co-t-size);
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.06em;
+  transform: skewX(var(--co-skew));
+  /* 对应 PSD 投影：#06328a / 58% / 45° / 距离 9 / 模糊 13 */
+  text-shadow: 6px 6px 13px rgba(6, 50, 138, 0.58);
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--co-lines);
+  overflow: hidden;
+}
+
+/* 小尺寸档位：收紧留白、去掉斜切以保证可读性 */
+.co-wrap[data-tier='xs'] .co-card,
+.co-wrap[data-tier='sm'] .co-card {
+  padding: 0.24em 0.42em;
+  gap: 0;
+}
+
+.co-wrap[data-tier='xs'] .co-title {
+  letter-spacing: 0;
+  text-shadow: 3px 3px 8px rgba(6, 50, 138, 0.58);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.co-wrap[data-tier='sm'] .co-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 主题自带置顶/轮播卡片的字号过冲保护 */
+.top-group-item .co-title,
+.article-sort-item-img .co-title {
+  max-height: 2.4em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .co-card {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}

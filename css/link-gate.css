@@ -1,0 +1,54 @@
+/**
+ * link-gate.css — 友链页评论区锁定样式
+ *
+ * 未全部勾选时只做视觉锁定（压缩 + 模糊 + 禁交互），不在页面上插入任何提示卡片。
+ */
+
+/* checkbox 可点击性修复
+   anzhiyu 主题对 .checkbox input 设了 pointer-events: none 却没有接管点击，
+   这里用样式覆盖恢复交互 */
+.checkbox input[type="checkbox"] {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+/* 未全部勾选：评论区锁定。评论系统本身仍照常初始化，避免解锁后重复渲染 */
+#post-comment.link-gated {
+  position: relative;
+  max-height: 180px;
+  overflow: hidden;
+  filter: blur(4px) saturate(0.8);
+  opacity: 0.5;
+  user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+  transition: filter 0.4s ease, opacity 0.4s ease, max-height 0.4s ease;
+}
+
+#post-comment.link-gated * {
+  pointer-events: none !important;
+}
+
+/* 底部渐隐，暗示下方内容需解锁 */
+#post-comment.link-gated::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.9)
+  );
+  pointer-events: none;
+  z-index: 5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #post-comment.link-gated {
+    transition: none;
+  }
+}
