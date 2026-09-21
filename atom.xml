@@ -287,11 +287,11 @@
     <category term="运营" scheme="https://cbm.im/categories/%E8%BF%90%E8%90%A5/"/>
     
     
-    <category term="广告" scheme="https://cbm.im/tags/%E5%B9%BF%E5%91%8A/"/>
+    <category term="SEM" scheme="https://cbm.im/tags/SEM/"/>
     
     <category term="营销" scheme="https://cbm.im/tags/%E8%90%A5%E9%94%80/"/>
     
-    <category term="SEM" scheme="https://cbm.im/tags/SEM/"/>
+    <category term="广告" scheme="https://cbm.im/tags/%E5%B9%BF%E5%91%8A/"/>
     
   </entry>
   
@@ -357,9 +357,9 @@
     <category term="运营" scheme="https://cbm.im/categories/%E8%BF%90%E8%90%A5/"/>
     
     
-    <category term="广告" scheme="https://cbm.im/tags/%E5%B9%BF%E5%91%8A/"/>
-    
     <category term="营销" scheme="https://cbm.im/tags/%E8%90%A5%E9%94%80/"/>
+    
+    <category term="广告" scheme="https://cbm.im/tags/%E5%B9%BF%E5%91%8A/"/>
     
     <category term="信息流" scheme="https://cbm.im/tags/%E4%BF%A1%E6%81%AF%E6%B5%81/"/>
     
