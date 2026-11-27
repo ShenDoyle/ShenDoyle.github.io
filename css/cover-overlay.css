@@ -1,0 +1,109 @@
+/**
+ * cover-overlay.css — 封面文字层样式
+ * 参数来源：Cover.psd / cover-editor.html（画布 760，卡片 554 × 162，圆角 20）
+ *
+ * 层级约定：封面图(1) < 蒙版(2) < 文字层(3)
+ * 本脚本不生成任何图片兜底层：没配封面用主题默认图，破图是主题自己的事。
+ */
+
+.post_cover img.post_bg,
+.article-sort-item-img img,
+.aside-list-item img,
+.top-group-item img.post_bg,
+.blog-slider__img img {
+  position: relative;
+  z-index: 1;
+}
+
+/* 蒙版：铺满封面并压暗，对应 PSD 的 dim 层（#000 / 46%）
+   强度由 front-matter 的 coverdim 控制，JS 写入 --co-dim */
+.co-dim {
+  --co-dim: 0.46;
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, var(--co-dim));
+  pointer-events: none;
+  z-index: 2;
+  border-radius: inherit;
+}
+
+/* 文字层容器：铺满封面，内部居中 */
+.co-wrap {
+  /* 字体与 cover-editor.html 完全一致：两种文字共用同一个 fontFamily，
+     且都拿 YouSheBiaoTiHei（优设标题黑）打头 —— 生成器里 sub 与 title 是同一套字体，
+     这里用同一个变量保证永不跑偏（fallback 顺序也照抄 FONT_FALLBACK） */
+  --co-font: 'YouSheBiaoTiHei', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 3;
+  overflow: hidden;
+}
+
+/* 半透明卡片：宽高比硬锁 554:162 —— 宽、高、圆角、内边距、间距、字号
+   全部由 JS 按「卡片宽」等比算出（变量见 JS 里的 BOX 常量），
+   装不下时加宽卡片而不是改变比例 */
+.co-card {
+  position: relative;
+  width: var(--co-card-w, 100px);
+  height: var(--co-card-h, 29px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--co-gap, 4px);
+  padding: var(--co-pad, 4px);
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: var(--co-radius, 4px);
+  overflow: hidden;
+}
+
+/* 容器窄到连一行都放不下（侧栏缩略图一类）→ 只留蒙版，不显示文字 */
+.co-wrap[data-mini='1'] .co-card {
+  display: none;
+}
+
+.co-title,
+.co-sub {
+  display: block;
+  /* 必须是满宽：JS 要靠 clientWidth 得到"可用宽度"来算能否单行放下。
+     flex 列容器里若不写 width:100%，元素会被收缩成文字自身宽度，
+     测量就退化成"永远放不下"。 */
+  width: 100%;
+  max-width: 100%;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 小字在上、大字在下，与 PSD 版式一致。
+   参数逐项对齐 cover-editor.html：sSize 20 @554、sTrack 0.8 → 0.04em、
+   sColor #ffffff 满不透明、**无倾斜（skew 传 0）**、**无投影**、字重 normal */
+.co-sub {
+  order: 1;
+  font-family: var(--co-font);
+  font-size: var(--co-s-size, 4px);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.04em;   /* = sTrack 0.8px @ 20px */
+  color: #fff;
+}
+
+.co-title {
+  order: 2;
+  font-family: var(--co-font);
+  font-size: var(--co-t-size, 10px);
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.06em;   /* = tTrack 3.5px @ 58px */
+  transform: skewX(var(--co-skew, -12deg));
+  /* 对应 PSD 投影：#06328a / 58% / 45° / 距离 9 / 模糊 13（按字号等比）
+     6.36 = 9 × cos45°，13/9 为该投影的模糊/距离比 */
+  text-shadow: 0.1097em 0.1097em 0.2242em rgba(6, 50, 138, 0.58);
+}
